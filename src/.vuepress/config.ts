@@ -23,13 +23,13 @@ export default defineUserConfig({
 
   theme,
 
-  alias: {
-    // 将主题的主页组件别名指向自定义的 HomePage.vue
-    "@theme-hope/components/HomePage": path.resolve(
-      __dirname,
-      "./components/HomePage.vue"
-    ),
-  },
+  // alias: {
+  //   // 将主题的主页组件别名指向自定义的 HomePage.vue
+  //   "@theme-hope/components/HomePage": path.resolve(
+  //     __dirname,
+  //     "./components/HomePage.vue"
+  //   ),
+  // },
   // Enable it with pwa
   // shouldPrefetch: false,
 });
