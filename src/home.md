@@ -6,7 +6,7 @@ title: Blog Home
 # heroImage: https://theme-hope-assets.vuejs.press/logo.svg
 heroAlt: 👨‍💻
 heroText: blog of neverbiasu
-tagline: continual learning
+tagline: continues learning
 heroFullScreen: true
 bgImage: https://raw.githubusercontent.com/neverbiasu/blog/refs/heads/main/src/.vuepress/public/assets/images/cover-light.jpg
 bgImageDark: https://raw.githubusercontent.com/neverbiasu/blog/refs/heads/main/src/.vuepress/public/assets/images/cover-dark.jpg
