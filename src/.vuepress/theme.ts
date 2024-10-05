@@ -14,7 +14,7 @@ export default hopeTheme(
 
     iconAssets: "iconify",
 
-    logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+    logo: "logo.svg",
 
     repo: "vuepress-theme-hope/vuepress-theme-hope",
 
