@@ -1,8 +1,18 @@
 ---
+home: true
+portfolio: true
+navbar: false
+sidebar: false
 icon: circle-info
 cover: /assets/images/cover3.jpg
+titles:
+  - 热爱实践
+  - 追求创新
+  - 持续学习
+content: portfolio
+layout: Origin
 ---
 
-# 介绍页
+# Intro Page
 
-将你的个人介绍和档案放置在此处。
+Place your introduction and profile here.
