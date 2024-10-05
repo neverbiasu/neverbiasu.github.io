@@ -57,6 +57,10 @@ export default hopeTheme(
           icon: "https://raw.githubusercontent.com/neverbiasu/blog/refs/heads/main/src/.vuepress/public/assets/icon/codewithgpu.png",
           link: "https://www.codewithgpu.com/u/fayche",
         },
+        ModelScope: {
+          icon: "https://raw.githubusercontent.com/neverbiasu/neverbiasu.github.io/d958df931a64984dbbd4c1700330e666ce91c1e3/src/.vuepress/public/assets/icon/modelscope.svg",
+          link: "https://modelscope.cn/profile/ModelE",
+        },
         VuePressThemeHope: {
           icon: "https://theme-hope-assets.vuejs.press/logo.svg",
           link: "https://theme-hope.vuejs.press",
