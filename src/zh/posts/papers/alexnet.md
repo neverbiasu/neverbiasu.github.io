@@ -1,8 +1,10 @@
 # 【论文精读】AlexNet：ImageNet Classification with Deep Convolutional Neural Networks
 
+![teaser](https://faych.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F021ded55-a224-419c-939c-70c6888912f7%2F983b058d-48a2-4e90-8cf8-76d44a179591%2Fteaser.png?table=block&id=1845f3c4-a139-8098-b059-d2ef2d3cd9f9&spaceId=021ded55-a224-419c-939c-70c6888912f7&width=1420&userId=&cache=v2)
+
 ## 摘要
 
-AlexNet 是深度学习领域的奠基之作，其在 ImageNet 图像分类竞赛中取得突破性成果，凭借深度卷积神经网络和创新技术（如 ReLU 激活函数、Dropout 正则化、重叠池化、多 GPU 并行训练等）大幅降低了分类错误率。本文结合论文背景与方法剖析其关键技术的独特性和启发性，并通过图表分析解读其实验结果。
+AlexNet 是深度学习领域的奠基之作，在 ImageNet 分类竞赛中以创新技术（如 ReLU、Dropout、重叠池化、多 GPU 并行）显著降低分类错误率。本文剖析其深度卷积神经网络设计与实验结果，探讨对深度学习发展的启发与影响。
 
 ---
 
@@ -60,9 +62,10 @@ AlexNet 采用一个由 8 层神经网络（5 层卷积层和 3 层全连接层�
 ### Dropout 正则化与数据增强
 
 - **Dropout 正则化**：在全连接层随机屏蔽 50% 神经元的输出，防止特征协同适应现象，显著减少过拟合。  
+	- 这种方法在训练期间会动态生成不同的神经网络结构，而测试阶段则使用所有神经元，并将它们的输出乘以 0.5，以近似模拟大量网络的预测平均值。
 - **数据增强**：
-  - **随机裁剪**：从 256×256 的图像随机生成 224×224 的训练样本。  
-  - **PCA 颜色扰动**：通过改变 RGB 通道增强数据的多样性。  
+  - **随机裁剪**：从 256×256 的图像随机生成 224×224 的训练样本，同时生成水平翻转版本，从而增加训练数据的多样性。
+  - **PCA 颜色扰动**：基于主成分分析 (PCA)，对 RGB 通道添加随机扰动，使训练图像的颜色分布更加多样化。该方法有效提升了模型对光照和颜色变化的鲁棒性。
 
 ---
 
@@ -76,7 +79,6 @@ AlexNet 采用一个由 8 层神经网络（5 层卷积层和 3 层全连接层�
   - 数据分为训练集、验证集和测试集，保证了实验结果的科学性。
 
 ### 关键实验结果与图表解读
-
 
 ![在ILSVRC2010测试集上的结果对比。](https://fastly.jsdelivr.net/gh/bucketio/img16@main/2025/01/19/1737219232103-26f1d4cb-83e8-4157-8049-c83cab189cdd.png)
 
@@ -106,7 +108,7 @@ AlexNet 采用一个由 8 层神经网络（5 层卷积层和 3 层全连接层�
 
 ### 工程实践
 
-- **分布式训练**：AlexNet 的多 GPU 并行方法为后续大规模分布式深度学习提供了技术启发。  
+- **分布式训练**：AlexNet 的多 GPU 并行方法为后续大规模分布式训练提供了技术启发。  
 - **数据增强**：论文的随机裁剪与颜色扰动方法至今仍是深度学习领域的重要工具。  
 
 ---
@@ -127,6 +129,6 @@ AlexNet 在 ImageNet 数据集上的突破，标志着深度学习在计算机�
 1. [AlexNet 论文](https://papers.nips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf)  
 2. [AlexNet 代码](https://github.com/dansuh17/alexnet-pytorch)  
 3. [9年后重读深度学习奠基作之一：AlexNet【论文精读·2】](https://www.bilibili.com/video/BV1ih411J7Kz)  
-4. [9年后重读深度学习奠基作之一：AlexNet【论文精读·2】](https://www.bilibili.com/video/BV1hq4y157t1)  
+4. [AlexNet论文逐段精读【论文精读】](https://www.bilibili.com/video/BV1hq4y157t1)
 5. [Papers with Code - AlexNet](https://paperswithcode.com/method/alexnet)  
 6. [博客：AlexNet 结构解析](https://medium.com/@siddheshb008/alexnet-architecture-explained-b6240c528bd5)  
