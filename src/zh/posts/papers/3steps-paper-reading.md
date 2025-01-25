@@ -1,6 +1,6 @@
-#【高效科研】李沐与吴恩达推荐的论文三步精读法
+# 【高效科研】李沐与吴恩达推荐的论文三步精读法
 
-![](https://fastly.jsdelivr.net/gh/bucketio/img13@main/2025/01/15/1736921821494-d69f9ea8-0882-40c3-a3fa-70760d09dda5.png)
+![Teaser](https://fastly.jsdelivr.net/gh/bucketio/img13@main/2025/01/15/1736921821494-d69f9ea8-0882-40c3-a3fa-70760d09dda5.png)
 
 ## 摘要  
 
