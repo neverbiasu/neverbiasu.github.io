@@ -1,6 +1,6 @@
 import { navbar } from "vuepress-theme-hope";
 import { readdirSync, statSync } from "fs";
-import { join } from "path";
+import { join, resolve } from "path";
 
 function getMarkdownFiles(directory: string): string[] {
   return readdirSync(directory)
@@ -42,7 +42,7 @@ function getAllChildren(
   }));
 }
 
-const basePath = join(__dirname, "@/");
+const basePath = resolve(__dirname, "../../zh/posts");
 
 const subdirectories = getSubdirectories(basePath);
 
