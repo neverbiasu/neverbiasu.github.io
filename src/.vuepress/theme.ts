@@ -1,42 +1,42 @@
-import { hopeTheme } from "vuepress-theme-hope";
+import { hopeTheme } from 'vuepress-theme-hope'
 
-import { enNavbar, zhNavbar } from "./navbar/index.js";
-import { enSidebar, zhSidebar } from "./sidebar/index.js";
+import { enNavbar, zhNavbar } from './navbar/index.js'
+import { enSidebar, zhSidebar } from './sidebar/index.js'
 
 export default hopeTheme(
   {
-    hostname: "https://neverbiasu.github.io",
+    hostname: 'https://neverbiasu.github.io',
 
     author: {
-      name: "neverbiasu",
-      url: "https://mister-hope.com",
+      name: 'neverbiasu',
+      url: 'https://neverbiasu.github.io'
     },
 
-    iconAssets: "iconify",
+    iconAssets: 'iconify',
 
-    logo: "logo.svg",
+    logo: 'logo.svg',
 
-    repo: "vuepress-theme-hope/vuepress-theme-hope",
+    repo: 'vuepress-theme-hope/vuepress-theme-hope',
 
-    docsDir: "src",
+    docsDir: 'src',
 
     blog: {
       medias: {
         // Baidu: "https://example.com",
-        BiliBili: "https://space.bilibili.com/342773888",
+        BiliBili: 'https://space.bilibili.com/342773888',
         // Bitbucket: "https://example.com",
         // Dingding: "https://example.com",
         // Discord: "https://example.com",
         // Dribbble: "https://example.com",
-        Email: "neverbiasu@gmail.com",
+        Email: 'neverbiasu@gmail.com',
         // Evernote: "https://example.com",
         // Facebook: "https://example.com",
         // Flipboard: "https://example.com",
         // Gitee: "https://example.com",
-        GitHub: "https://github.com/neverbiasu",
+        GitHub: 'https://github.com/neverbiasu',
         // Gitlab: "https://example.com",
-        Gmail: "neverbiasu@gmail.com",
-        Instagram: "https://instagram.com",
+        Gmail: 'neverbiasu@gmail.com',
+        Instagram: 'https://instagram.com',
         // Lark: "https://example.com",
         // Lines: "https://example.com",
         // Linkedin: "https://example.com",
@@ -54,73 +54,73 @@ export default hopeTheme(
         // Youtube: "https://example.com",
         // Zhihu: "https://example.com",
         CodeWithGPU: {
-          icon: "https://raw.githubusercontent.com/neverbiasu/blog/refs/heads/main/src/.vuepress/public/assets/icon/codewithgpu.png",
-          link: "https://www.codewithgpu.com/u/fayche",
+          icon: 'https://raw.githubusercontent.com/neverbiasu/blog/refs/heads/main/src/.vuepress/public/assets/icon/codewithgpu.png',
+          link: 'https://www.codewithgpu.com/u/fayche'
         },
         ModelScope: {
-          icon: "https://raw.githubusercontent.com/neverbiasu/neverbiasu.github.io/d958df931a64984dbbd4c1700330e666ce91c1e3/src/.vuepress/public/assets/icon/modelscope.svg",
-          link: "https://modelscope.cn/profile/ModelE",
+          icon: 'https://raw.githubusercontent.com/neverbiasu/neverbiasu.github.io/d958df931a64984dbbd4c1700330e666ce91c1e3/src/.vuepress/public/assets/icon/modelscope.svg',
+          link: 'https://modelscope.cn/profile/ModelE'
         },
         VuePressThemeHope: {
-          icon: "https://theme-hope-assets.vuejs.press/logo.svg",
-          link: "https://theme-hope.vuejs.press",
-        },
-      },
+          icon: 'https://theme-hope-assets.vuejs.press/logo.svg',
+          link: 'https://theme-hope.vuejs.press'
+        }
+      }
     },
 
     locales: {
-      "/": {
+      '/': {
         // navbar
         navbar: enNavbar,
 
         // sidebar
         sidebar: enSidebar,
 
-        footer: "My own footer",
+        footer: 'My own footer',
 
         displayFooter: true,
 
         blog: {
-          description: "An AI student && A FrontEnd programmer",
-          intro: "/intro.html",
+          description: 'An AI student && A FrontEnd programmer',
+          intro: '/intro.html'
         },
 
         metaLocales: {
-          editLink: "Edit this page on GitHub",
-        },
+          editLink: 'Edit this page on GitHub'
+        }
       },
 
       /**
        * Chinese locale config
        */
-      "/zh/": {
+      '/zh/': {
         // navbar
         navbar: zhNavbar,
 
         // sidebar
         sidebar: zhSidebar,
 
-        footer: "我的页脚",
+        footer: '我的页脚',
 
         displayFooter: true,
 
         blog: {
-          description: "一个人工智能学习者，前端开发者",
-          intro: "/zh/intro.html",
+          description: '一个人工智能学习者，前端开发者',
+          intro: '/zh/intro.html'
         },
 
         // page meta
         metaLocales: {
-          editLink: "在 GitHub 上编辑此页",
-        },
-      },
+          editLink: '在 GitHub 上编辑此页'
+        }
+      }
     },
 
     encrypt: {
       config: {
-        "/demo/encrypt.html": ["1234"],
-        "/zh/demo/encrypt.html": ["1234"],
-      },
+        '/demo/encrypt.html': ['1234'],
+        '/zh/demo/encrypt.html': ['1234']
+      }
     },
 
     // enable it to preview all changes in time
@@ -138,14 +138,14 @@ export default hopeTheme(
       // },
 
       components: {
-        components: ["Badge", "VPCard"],
+        components: ['Badge', 'VPCard']
       },
 
       // These features are enabled for demo, only preserve features you need here
       markdownImage: {
         figure: true,
         lazyload: true,
-        size: true,
+        size: true
       },
 
       // markdownMath: {
@@ -170,21 +170,21 @@ export default hopeTheme(
         spoiler: true,
         stylize: [
           {
-            matcher: "Recommended",
+            matcher: 'Recommended',
             replacer: ({ tag }) => {
-              if (tag === "em")
+              if (tag === 'em')
                 return {
-                  tag: "Badge",
-                  attrs: { type: "tip" },
-                  content: "Recommended",
-                };
-            },
-          },
+                  tag: 'Badge',
+                  attrs: { type: 'tip' },
+                  content: 'Recommended'
+                }
+            }
+          }
         ],
         sub: true,
         sup: true,
         tasklist: true,
-        vPre: true,
+        vPre: true
 
         // install chart.js before enabling it
         // chart: true,
@@ -213,7 +213,7 @@ export default hopeTheme(
         // install sandpack-vue3 before enabling it
         // sandpack: true,
       },
-      seo: true,
+      seo: true
       // install @vuepress/plugin-pwa and uncomment these if you want a PWA
       // pwa: {
       //   favicon: "/favicon.ico",
@@ -275,7 +275,7 @@ export default hopeTheme(
       // revealjs: {
       //   plugins: ["highlight", "math", "search", "notes", "zoom"],
       // },
-    },
+    }
   },
   { custom: true }
-);
+)
