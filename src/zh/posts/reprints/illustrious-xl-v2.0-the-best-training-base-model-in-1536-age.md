@@ -1,5 +1,7 @@
 ---
 title: "Illustrious XL v2.0：1536分辨率时代最佳的训练基础模型"
+icon: mdi:paint-outline
+cover: /assets/images/reprints/illustrious/thumbnail.webp
 date: 2025-03-15
 category:
   - 模型研发

@@ -1,5 +1,7 @@
 ---
 title: "Illustrious XL v2.0—The best training base model in 1536 age"
+icon: mdi:paint-outline
+cover: /assets/images/reprints/illustrious/thumbnail.webp
 date: 2025-03-15
 category:
   - Model Development
