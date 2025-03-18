@@ -1,5 +1,5 @@
 ---
-title: MCP: Flash in the Pan or Future Standard?
+title: "MCP: Flash in the Pan or Future Standard?"
 icon: openmoji:code-editor
 cover: /assets/images/reprint/mcp-debate-cover.jpeg
 order: 1

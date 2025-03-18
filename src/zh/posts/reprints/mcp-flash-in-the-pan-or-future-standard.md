@@ -1,5 +1,5 @@
 ---
-title: MCP：昙花一现还是未来标准？
+title: "MCP：昙花一现还是未来标准？"
 icon: openmoji:code-editor
 cover: /assets/images/reprint/mcp-debate-cover.jpeg
 order: 1
