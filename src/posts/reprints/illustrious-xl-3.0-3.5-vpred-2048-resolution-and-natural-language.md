@@ -39,6 +39,8 @@ The Illustrious v3.0-v3.5 series was designed with two distinct training objecti
 Unfortunately, the v-parameterization variants have certain problems regard to finetuning / PEFT, which I consider as very critical feature for Illustrious series. The thoughtful tests are ongoing regard to the model to resolve the method for stable finetuning. I will include the current hypothesis regarding to the phenomenon.
 
 ![Single and 4-grid result from v3.0vpred model](/assets/images/reprints/illustrious/v3.0-3.5/0.png)
+
+![Single and 4-grid result from v3.0vpred model](/assets/images/reprints/illustrious/v3.0-3.5/1.png)
 *58.46% of the pixels are 'exactly white, #FFFFFF'. This is an abnormal result, which shows how v-parameterization objective models can collapse.*
 
 ## Technical Challenges in V-Parameterization
@@ -57,7 +59,8 @@ I showcase here the following three distinct setups:
 2. **Complex Prompt (424 tokens)**: The really long, complicated, and 'paraphrased' sentences are given to confuse the model.
 3. **FFT with simple prompts**: The model intermediate latents are decoded and analyzed with Fast Fourier Transform, to analyze low frequency signal changes.
 
-![v3.0-vpred's simple prompt inference result](/assets/images/reprints/illustrious/v3.0-3.5/1.png)
+![v3.0-vpred's simple prompt inference result](/assets/images/reprints/illustrious/v3.0-3.5/2.png)
+
 *The model is partially following the prompt, "There are two girls in the image. The girl in the left is red hair with sea-black eyes. The girl in the right is blue hair, and firey ruby eyes" with high success rate, however exposes oversaturation in colors.*
 
 The simple prompt based inference result, also shows the interesting results in v3.0 models.
@@ -67,14 +70,17 @@ v3.0 Epsilon also shows significant improvement, which is still not explained we
 > "Two girls are depicted in the image, the left side is red hair girl with yellow eyes, blue skirt. The right side is blue-toned silver hair girl with yellow earring, blue pupils and silver dress."
 > With , Sampler: Euler, Schedule type: Normal, CFG scale: 7.5.
 
-![v3.0-epsilon inference result](/assets/images/reprints/illustrious/v3.0-3.5/2.png)
-*Surprisingly, epsilon model sometimes works well, here 23/25 success.*
-
 ![v3.0-vpred's inference result](/assets/images/reprints/illustrious/v3.0-3.5/3.png)
-*The model shows oversaturated colors at default.*
 
-![v3.5-vpred's inference result](/assets/images/reprints/illustrious/v3.0-3.5/4.png)
-*The model shows mid-range colors with separation.*
+> v3.0-epsilon inference result. surprisingly, epsilon model sometimes works well, here 23/25 success.
+
+![v3.0-vpred's inference result](/assets/images/reprints/illustrious/v3.0-3.5/4.png)
+
+> v3.0-vpred’s inference result. The model shows oversaturated colors at default.
+
+![v3.5-vpred inference result](/assets/images/reprints/illustrious/v3.0-3.5/5.png)
+
+> v3.5-vpred’s inference result. The model shows mid-range colors with separation.
 
 ## Complex Prompt Inference Result
 
@@ -88,33 +94,46 @@ Here is the prompt used for inference:
 > 
 > The image captures the balance between them—opposites yet intertwined, like fire and water, night and day. Their expressions, their outfits, and the atmosphere all tell a story waiting to be unraveled. masterpiece
 
-![v3.0-vpred inference result](/assets/images/reprints/illustrious/v3.0-3.5/5.png)
-*The model was not able to generate stable outputs, and exposed oversaturation.*
+![inference result from v3.0-vpred](/assets/images/reprints/illustrious/v3.0-3.5/6.png)
 
-![Community-driven v-parameterization model result](/assets/images/reprints/illustrious/v3.0-3.5/6.png)
-*The model also exposed oversaturation, and was unable to follow the prompts.*
+> The inference result from v3.0-vpred. The model was not able to generate stable outputs, and exposed oversaturation.
 
-![Other popular epsilon prediction models results](/assets/images/reprints/illustrious/v3.0-3.5/7.png)
-*The prompt exposed certain problem on the models.*
+![inference result from community-driven v-parameterization model](/assets/images/reprints/illustrious/v3.0-3.5/7.png)
 
-![v3.0-epsilon generation result](/assets/images/reprints/illustrious/v3.0-3.5/8.png)
-*The model was able to generate somehow, the stylish result among all the results with more stability.*
+> The inference result from community-driven v-parameterization model. The model also exposed oversaturation, and was unable to follow the prompts.
 
-![Flux.1-Schnell generation result](/assets/images/reprints/illustrious/v3.0-3.5/9.png)
-*The model has followed the prompt distinctly well with lack of stylization.*
+![results from other popular epsilon prediction models](/assets/images/reprints/illustrious/v3.0-3.5/8.png)
 
-![Illustrious-v3.5-vpred generation result](/assets/images/reprints/illustrious/v3.0-3.5/10.png)
-*The model has shown significantly stable generation results similar to Flux somehow, however lost stylish generation unlike v3.0-epsilon. I note here that Flux's prompt following is "distinctly good and robust" whilst v3.5-vpred's prompt following "can be limited" - it highly depends on the given prompt format.*
+![results from other popular epsilon prediction models](/assets/images/reprints/illustrious/v3.0-3.5/9.png)
+
+> Generation results from other popular epsilon prediction models. The prompt exposed certain problem on the models.
+
+![result from v3.0-epsilon](/assets/images/reprints/illustrious/v3.0-3.5/10.png)
+> Generation result from v3.0-epsilon. The model was able to generate somehow, the stylish result among all the results with more stability.
+
+![result from Flux.1-Schnell](/assets/images/reprints/illustrious/v3.0-3.5/11.png)
+
+> Generation result from Flux.1-Schnell. The model has followed the prompt distinctly well with lack of stylization.
+
+![result from Illustrious-v3.5-vpred](/assets/images/reprints/illustrious/v3.0-3.5/12.png)
+
+> Generation result from Illustrious-v3.5-vpred. The model has shown significantly stable generation results similar to Flux somehow, **however lost stylish generation** unlike v3.0-epsilon. I note here that Flux’s prompt following is “distinctly good and robust” whilst v3.5-vpred’s prompt following “can be limited” - it highly depends on the given prompt format.
 
 ## Denoising Pattern Analysis
 
 All inference used `empty black background` prompt with DDIM 10 steps.
 
-![v3.0-epsilon](/assets/images/reprints/illustrious/v3.0-3.5/11.png)
+![v3.0-epsilon](/assets/images/reprints/illustrious/v3.0-3.5/13.png)
 
-![v3.0-vpred](/assets/images/reprints/illustrious/v3.0-3.5/12.png)
+> v3.0-epsilon
 
-![v3.5-vpred](/assets/images/reprints/illustrious/v3.0-3.5/13.png)
+![v3.0-vpred](/assets/images/reprints/illustrious/v3.0-3.5/14.png)
+
+> v3.0-vpred
+
+![v3.5-vpred](/assets/images/reprints/illustrious/v3.0-3.5/15.png)
+
+> v3.5-vpred
 
 ## Mathematical Insights and Adjustments
 
@@ -124,17 +143,25 @@ The "golden noise" phenomenon referenced from recent research underscored the im
 
 In easy words, epsilon model follows the low frequency features, and cannot overcome the color domain, which causes anatomy / bad initial conditioning afterwards.
 
+![epsilon model](/assets/images/reprints/illustrious/v3.0-3.5/13.png)
+
 Whileas, v-parameterization models can overcome this problem with high noise removal in initial steps.
+
+![v-parameterization model](/assets/images/reprints/illustrious/v3.0-3.5/16.png)
 
 In fact, the zero terminal SNR / or v-parameterization makes "first initial step very strong" but not for other steps. After the first step - the colors are mostly 'fixed', - low frequency features are 'fixed', so model does not expect to change main colors after that.
 
 However, the "snr estimation" -or variances are 'errored' - the colors are reverted one step.
+
+![without CFG](/assets/images/reprints/illustrious/v3.0-3.5/17.png)
 
 The phenomenon is complicated - this appears regardless of samplers, schedulers, or even with / without zero terminal SNR in inference.
 
 Without CFG, the model shows some better visualization - the "mid range steps" - they are actually trying to generate artificial high frequency features!
 
 Since model is NOT extensively trained with "empty images" - as a result, the model natively assumes that "some reasonable high frequency feature should be placed", same to epsilon objective. This is the bias.
+
+![img2img process](/assets/images/reprints/illustrious/v3.0-3.5/18.png)
 
 The img2img process, also shows notable behavior : the overshooting latents shows significantly 'inverted' latent colors after initial step. This means that "somehow model learnt to fix overshooting" - I might have some idea to validate & improve this phenomenon even further, currently planning some more setups. The initial thought, is to test samplers & schedulers, which would make sense to use the initial steps behavior and exponentially decrease- which would make sense.
 
@@ -152,7 +179,7 @@ Here is simple color analysis:
 
 We can call the image is "colorful" when its saturation is above 120, but with saturation stdev < 50 (variable colors saturation). In 4.4M image sample analysis, the result is not surprising - most of the images, are not "colorful" or 'saturated' - then how would model learn the "vibrant colors"?
 
-![The colorfulness metric](/assets/images/reprints/illustrious/v3.0-3.5/14.png)
+![colorfulness metric](/assets/images/reprints/illustrious/v3.0-3.5/18.png)
 *Very small portion of the dataset have 'vibrant or colorful' images.*
 
 How would we control colors if most of the image are not vibrant, without sacrificing muted color - not making model biased toward certain colors?
@@ -180,8 +207,11 @@ Unfortunately, I didn't have time to spend on finding which region contains thos
 
 Here is the result from v3.0-epsilon, and v3.5-vpred:
 
-![Comparison results](/assets/images/reprints/illustrious/v3.0-3.5/15.png)
-*With this 2 results, you might think "Oh the first one is v3.5-vpred and second one is v3.0-epsilon" — however its not! the first one is v3.0-epsilon, the second one is v3.5-vpred.*
+![result from v3.0-epsilon](/assets/images/reprints/illustrious/v3.0-3.5/19.png)
+
+![result from v3.5-vpred](/assets/images/reprints/illustrious/v3.0-3.5/20.png)
+
+With this 2 results, you might think "Oh the first one is v3.5-vpred and second one is v3.0-epsilon" — however its not! the first one is v3.0-epsilon, the second one is v3.5-vpred.
 
 The namings, are purely academical, especially the "3" means it is "3rd academical breakthrough".
 
@@ -200,6 +230,12 @@ One ongoing idea is to prevent this with sampling timesteps with weighting inste
 The Lumina-2.0-Illustrious (name can be changed), is currently being trained by OnomaAI's support, despite within limited budget.
 
 Here are some samples, I'd say the model is currently '20% toward v0.1 level' - We spent several thousand dollars again on the training with various trial and errors. The model is currently being carefully tested for estimating total compute budget, but after we cover the certain budget, the training can be accelerated. We promise the model to be open sourced right after being prepared, which would foster the new ecosystem.
+
+![example image 1](/assets/images/reprints/illustrious/v3.0-3.5/21.png)
+
+![example image 2](/assets/images/reprints/illustrious/v3.0-3.5/22.png)
+
+![example image 3](/assets/images/reprints/illustrious/v3.0-3.5/23.png)
 
 In theory, when the training is successfully done, it will be similar-sized natural language understanding DiT model.
 
