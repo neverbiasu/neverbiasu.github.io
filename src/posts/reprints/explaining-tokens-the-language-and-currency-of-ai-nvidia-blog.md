@@ -1,6 +1,7 @@
 ---
 title: "Explaining Tokens — the Language and Currency of AI"
-date: 2025-03-17T15:00:45+00:00
+cover: https://blogs.nvidia.com/wp-content/uploads/2025/03/llm-blog-data-curator-2847806-1280x680-1.png
+date: 2025-03-17
 author: Dave Salvator
 category:
     - Explainer
