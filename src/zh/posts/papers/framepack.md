@@ -4,22 +4,22 @@ icon: material-symbols:screenshot-frame-2
 cover: /assets/images/papers/framepack/teaser.png
 date: 2025-04-26
 category:
-    - 视频生成
-    - 论文精读
-    - 张吕敏
+  - 视频生成
+  - 论文精读
+  - 张吕敏
 tag:
-    - FramePack
-    - 视频生成
-    - 扩散模型
-    - 输入预处理
+  - FramePack
+  - 视频生成
+  - 扩散模型
+  - 输入预处理
 author: Lvmin Zhang, Maneesh Agrawala
 head:
-    - - meta
-        - name: keywords
-            content: FramePack, 视频生成, 输入预处理, 扩散模型, 论文精读, 张吕敏, Lvmin Zhang, Maneesh Agrawala
-    - - meta
-        - name: description
-            content: FramePack是一种创新的视频生成输入预处理模块，通过自适应帧压缩与反漂移采样，提升长时序一致性和生成质量，可无缝集成到主流视频扩散模型。
+  - meta:
+      name: keywords
+      content: FramePack, 视频生成, 输入预处理, 扩散模型, 论文精读, 张吕敏, Lvmin Zhang, Maneesh Agrawala
+  - meta:
+      name: description
+      content: FramePack是一种创新的视频生成输入预处理模块，通过自适应帧压缩与反漂移采样，提升长时序一致性和生成质量，可无缝集成到主流视频扩散模型。
 ---
 # 【论文精读】FramePack：在下一帧预测视频生成模型中打包输入帧上下文
 
@@ -29,7 +29,7 @@ head:
 
 ## 摘要
 
-FramePack 由斯坦福大学 Lvmin Zhang 和 Maneesh Agrawala 提出的一种输入预处理模块，创新性地解决了视频生成中"遗忘-漂移"两难问题。通过自适应帧压缩与反漂移采样，FramePack 兼顾长时序一致性与视觉质量，支持在有限算力下生成更长、更稳定的视频。该方法可无缝集成到现有主流视频扩散模型，极大提升了视频生成的实用性和可扩展性。
+FramePack由斯坦福大学张吕敏等提出，是一种输入预处理模块，可无缝集成到主流视频扩散模型（如混元视频模型），通过自适应帧压缩和反漂移采样，有效提升长时序一致性和生成质量，支持13B模型在6GB显存上流畅生成长视频，显著降低算力门槛。
 
 ---
 
@@ -72,17 +72,13 @@ FramePack 利用视频帧间冗余，对不同时间距离的帧采用不同压�
 </p>
 
 FramePack 通过对历史帧进行分级压缩，严格控制输入上下文长度。具体地，对第 $i$ 个历史帧，压缩后长度为：
-$$
-\phi(\bm{F}_i) = \frac{L_f}{\lambda^i}
-$$
+$\phi(F_i) = \frac{L_f}{\lambda^i}$
 其中 $L_f$ 为单帧 patch 数，$\lambda>1$ 为压缩率。总上下文长度为：
-$$
-L = S \cdot L_f + L_f \cdot \sum_{i=0}^{T-1} \frac{1}{\lambda^i} = S \cdot L_f + L_f \cdot \frac{1-1/\lambda^T}{1-1/\lambda}
-$$
+
+$L = S \cdot L_f + L_f \cdot \sum_{i=0}^{T-1} \frac{1}{\lambda^i} = S \cdot L_f + L_f \cdot \frac{1-1/\lambda^T}{1-1/\lambda}$
+
 当 $T\to\infty$ 时，上下文长度收敛到
-$$
-L = (S + \frac{\lambda}{\lambda-1}) L_f
-$$
+$L = (S + \frac{\lambda}{\lambda-1}) L_f$
 这保证了无论历史帧数多大，计算量都不会爆炸。
 
 不同帧可采用不同的压缩调度策略（FramePack Scheduling），如几何级压缩、均匀压缩等，灵活适配不同场景和任务需求。
@@ -132,9 +128,7 @@ FramePack 支持 vanilla、anti-drifting、inverted anti-drifting 三种采样�
 ### 漂移度量
 
 论文提出"start-end contrast"指标，度量视频首尾在各项指标上的差异，直接反映漂移严重程度。
-$$
-\Delta_{\text{drift}}^{M}(V) = |M(V_{\text{start}}) - M(V_{\text{end}})|
-$$
+$\Delta_{\text{drift}}^{M}(V) = |M(V_{\text{start}}) - M(V_{\text{end}})|$
 
 ### 与主流方法对比
 
@@ -156,11 +150,7 @@ FramePack 在与 anchor frame、causal attention、noisy history、history guida
 
 ## 结论与未来展望
 
-FramePack 有效打破了"遗忘-漂移"二难困境，为视频生成模型带来更长时序、更高一致性和更低算力门槛。其自适应帧压缩与创新采样策略为后续视频生成研究提供了新范式。
-
-FramePack 支持多种压缩调度和采样变体，适配不同场景和需求。其输入端插件式设计，便于集成到各类主流视频扩散模型，未来可与更高效注意力机制、长时序建模方法结合，进一步提升超长视频生成能力。
-
-未来，FramePack 有望在内容创作、虚拟现实等领域发挥更大作用。
+FramePack 有效打破了“遗忘-漂移”二难困境，为视频生成模型带来更长时序、更高一致性和更低算力门槛。其输入端插件式设计，支持多种压缩调度和采样变体，适配不同场景和需求，便于集成到各类主流视频扩散模型。未来，FramePack 可与更高效注意力机制、长时序建模方法结合，进一步提升超长视频生成能力，并有望在内容创作、虚拟现实等实际应用中发挥更大作用。
 
 ---
 
