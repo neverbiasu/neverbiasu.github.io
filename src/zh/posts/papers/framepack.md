@@ -14,12 +14,8 @@ tag:
   - 输入预处理
 author: Lvmin Zhang, Maneesh Agrawala
 head:
-  - meta:
-      name: keywords
-      content: FramePack, 视频生成, 输入预处理, 扩散模型, 论文精读, 张吕敏, Lvmin Zhang, Maneesh Agrawala
-  - meta:
-      name: description
-      content: FramePack是一种创新的视频生成输入预处理模块，通过自适应帧压缩与反漂移采样，提升长时序一致性和生成质量，可无缝集成到主流视频扩散模型。
+  - [meta, { name: "keywords", content: "FramePack, 视频生成, 输入预处理, 扩散模型, 论文精读, 张吕敏, Lvmin Zhang, Maneesh Agrawala" }]
+  - [meta, { name: "description", content: "FramePack是一种创新的视频生成输入预处理模块，通过自适应帧压缩与反漂移采样，提升长时序一致性和生成质量，可无缝集成到主流视频扩散模型。" }]
 ---
 # 【论文精读】FramePack：在下一帧预测视频生成模型中打包输入帧上下文
 
