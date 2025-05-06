@@ -55,19 +55,19 @@ For example, it does not understand any well-known characters.
 
 However, after training – we can see that the model understands shirakami fubuki, Misaka Mikoto, or some popular characters.
 
-![Image 4](https://illustrious-prod.s3.ap-northeast-2.amazonaws.com/blog/2025-04-18T09:43:42.451Z/2025-04-14(1,2).png)
+![Image 1,2](https://illustrious-prod.s3.ap-northeast-2.amazonaws.com/blog/2025-04-18T09:43:42.451Z/2025-04-14(1,2).png)
 
-![Image 5](https://illustrious-prod.s3.ap-northeast-2.amazonaws.com/blog/2025-04-18T09:41:47.722Z/2025-04-14(3,4).png)
+![Image 3,4](https://illustrious-prod.s3.ap-northeast-2.amazonaws.com/blog/2025-04-18T09:41:47.722Z/2025-04-14(3,4).png)
 
 Surprisingly, with just 22M images seen – it can understand 2.5k sample character, saten ruiko or shirai Kuroko too.
 
-![Image 6](https://illustrious-prod.s3.ap-northeast-2.amazonaws.com/blog/2025-04-18T09:41:55.453Z/2025-04-14(5,6).png)
+![Image 5,6](https://illustrious-prod.s3.ap-northeast-2.amazonaws.com/blog/2025-04-18T09:41:55.453Z/2025-04-14(5,6).png)
 
 Not accurate as previous ones, however distinctly fast.
 
 Finally, we can see that actually, three famous popular characters are also working-
 
-![Image 7](https://illustrious-prod.s3.ap-northeast-2.amazonaws.com/blog/2025-04-18T09:42:05.180Z/2025-04-14(7,8).png)
+![Image 7,8](https://illustrious-prod.s3.ap-northeast-2.amazonaws.com/blog/2025-04-18T09:42:05.180Z/2025-04-14(7,8).png)
 
 The 26500 step, 768 batch size training has shown the successful result – however, it is 15% of v0.1 – at least 8x of current compute amount, is expected to be required for training.
 

@@ -39,7 +39,7 @@ Flux和SD3等DiT模型与T5结合表现出更好的能力。特别是，已经�
 2. Lumina：一个带有LLM + DiT骨干的2B模型
 3. Flux：一个12B模型 – 非常标准且吸引人，但体积较大
 
-2025年1月，我决定将Flux的微调工作交给一位有才华的研究员，同时在准备Lumina的同时测试Infinity。因此，Flux-Chroma应运而生，这可能也是一个值得考虑的基础。Infinity实验表明"计算能力不足"。不幸的是，训练一个8B规模的模型至少需要数月的H100节点时间。事实上，在800万张图像上训练10个轮次需要数月时间才能完成模型训练。我肯定想训练那些 8B 模型，但也许不是现在。
+2025年1月，我决定将Flux的微调工作交给一位有才华的研究员，同时在准备Lumina的同时测试Infinity。结果，Flux-Chroma应运而生，这可能也是一个值得考虑的基础。Infinity实验表明"计算能力不足"。不幸的是，训练一个8B规模的模型至少需要数月的H100节点时间。事实上，在800万张图像上训练10个轮次需要数月时间才能完成模型训练。我肯定想训练那些 8B 模型，但也许不是现在。
 
 因此，Lumina为训练做好了准备--它有着大量的修复和测试。事实上，它很可能只接受过高质量照片的训练，这并不适合插图。但如果它训练不足，我们就有可能解决这个问题。我们可以检查它是否可以通过数据集进一步"训练"，以及它是否能够吸收新知识。然而，我们是否需要训练LLM部分需要测试。
 
@@ -55,21 +55,21 @@ Illustrious-Lumina是一个测试训练模型，具有以下目标：
 
 然而，经过训练后，我们可以看到该模型理解了白上吹雪(shirakami fubuki)、御坂美琴(Misaka Mikoto)或一些流行角色。
 
-![Image 4](https://illustrious-prod.s3.ap-northeast-2.amazonaws.com/blog/2025-04-18T09:43:42.451Z/2025-04-14(1,2).png)
+![Image 1,2](https://illustrious-prod.s3.ap-northeast-2.amazonaws.com/blog/2025-04-18T09:43:42.451Z/2025-04-14(1,2).png)
 
-![Image 5](https://illustrious-prod.s3.ap-northeast-2.amazonaws.com/blog/2025-04-18T09:41:47.722Z/2025-04-14(3,4).png)
+![Image 3,4](https://illustrious-prod.s3.ap-northeast-2.amazonaws.com/blog/2025-04-18T09:41:47.722Z/2025-04-14(3,4).png)
 
 令人惊讶的是，仅仅看过2200万张图像，它就能理解2.5k样本角色、佐天琉子(saten ruiko)或白井黑子(shirai Kuroko)。
 
-![Image 6](https://illustrious-prod.s3.ap-northeast-2.amazonaws.com/blog/2025-04-18T09:41:55.453Z/2025-04-14(5,6).png)
+![Image 5,6](https://illustrious-prod.s3.ap-northeast-2.amazonaws.com/blog/2025-04-18T09:41:55.453Z/2025-04-14(5,6).png)
 
 虽然没有以前的精确，但速度明显很快。
 
 最后，我们可以看到其实有三个著名的流行角色也能正常工作-
 
-![Image 7](https://illustrious-prod.s3.ap-northeast-2.amazonaws.com/blog/2025-04-18T09:42:05.180Z/2025-04-14(7,8).png)
+![Image 7,8](https://illustrious-prod.s3.ap-northeast-2.amazonaws.com/blog/2025-04-18T09:42:05.180Z/2025-04-14(7,8).png)
 
-经过26500步、768批量大小的训练已显示出成功的结果 - 然而，这只是v0.1的15% - 预计至少需要当前计算量的8倍来进行训练。
+经过26500步、768批量大小的训练已显示出成功的结果 - 然而，这只是v0.1的15% - 预计至少需要当前算力的8倍来进行训练。
 
 该模型有几个限制，需要改进。
 
