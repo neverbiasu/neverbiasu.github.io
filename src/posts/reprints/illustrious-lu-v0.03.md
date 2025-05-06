@@ -1,7 +1,7 @@
 ---
 title: "Illustrious-LU v0.03"
 icon: fa-solid:microscope
-cover: https://illustrious-prod.s3.ap-northeast-2.amazonaws.com/blog/2025-04-18T09:43:42.451Z/2025-04-14(1,2).png
+cover: https://illustrious-prod.s3.ap-northeast-2.amazonaws.com/blog/2025-04-11T07:16:56.712Z/2025-04-11%20Thumbnail.png
 date: 2025-04-18
 category:
   - Model Development
