@@ -1,7 +1,7 @@
 ---
 title: "Illustrious XL v2.0：1536分辨率时代最佳的训练基础模型"
 icon: mdi:paint-outline
-cover: /assets/images/reprints/illustrious/v2.0/thumbnail.webp
+cover: /assets/images/reprints/illustrious/v2.0-2.0a/thumbnail.webp
 date: 2025-03-15
 category:
   - 模型研发
@@ -38,26 +38,26 @@ Illustrious XL 1.0-2.0系列旨在稳定1536分辨率的原生生成，同时显
 
 为了解决这个问题，Illustrious XL v2.0需要大规模数据集和大规模训练——与原始v0.1训练相当——以消除各分辨率和数据集之间的偏差。
 
-![示例1](/assets/images/reprints/illustrious/v2.0/0.png)
+![示例1](/assets/images/reprints/illustrious/v2.0-2.0a/0.png)
 *prompt: "stylish, no humans, city light, black theme, dim lighting, high contrast, night sky, masterpiece, absurdres, depth of field, butterflies, extremely aesthetic, absurdres, wallpaper, panorama, city background, neon, milky way, photo background, 512x512 generation"*
 
-![示例2](/assets/images/reprints/illustrious/v2.0/1.png)
+![示例2](/assets/images/reprints/illustrious/v2.0-2.0a/1.png)
 "prompt: "The image features two characters,each with distinct black and white outfits,standing back-to-back. The character on the left wears a white coat with black accents,black pants,and boots,and is chained at the wrists and ankles. The character on the right is dressed in a black coat with white accents,black pants,and boots,also chained at the wrists and ankles. Both characters have spiked black hair and wield large key-shaped weapons. The background is white,and the text \"Wielder Of The Key\" and \"Controls Light & Darkness\" is displayed above and below the characters,respectively"
 Negative prompt: "worst quality, low quality, lowres, low details, bad quality, poorly drawn, bad anatomy, multiple views, bad hands, blurry, artist sign" 
 Steps: 28, Sampler: Euler a, Schedule type: Automatic, CFG scale: 7.5, Seed: 3420215296, Size: 1248x1824*
 
-![示例3](/assets/images/reprints/illustrious/v2.0/2.png)
+![示例3](/assets/images/reprints/illustrious/v2.0-2.0a/2.png)
 *prompt: "Generate a highly detailed anime-style illustration of a young man floating serenely above a sprawling, futuristic cityscape. The boy has dark, messy hair and piercing blue eyes. He's wearing a long, flowing white coat over dark, streamlined clothing – think a mix of traditional Japanese garments and futuristic techwear. His expression is calm and confident, almost detached. He is surrounded by a faint, glowing aura of light, possibly blue or white. Below him is a vast sci-fi city, filled with towering skyscrapers, holographic advertisements, and flying vehicles. The city should have a vibrant color palette – neon blues, purples, and pinks contrasting with darker metallic structures. There should be a sense of depth and scale, with buildings receding into the distance. The overall atmosphere should be epic and awe-inspiring, suggesting a powerful and mysterious character overlooking a technologically advanced world. Focus on dynamic lighting and detailed textures to create a visually stunning image. wlop, quasarcake, masterpiece"*
 
 ## 与其他模型的基准比较
 
 目标很简单：实现对自然语言的强健理解，同时支持高分辨率。希望Illustrious v2及以上版本能达到一定程度——与现有模型相比。将Illustrious XL v2.0与NoobAI-XL和Animagine XL 4.0进行比较，突显了在提示词符合度、风格保留和细节生成方面的关键改进。
 
-![与其他Anime模型的对比](/assets/images/reprints/illustrious/v2.0/3.png)
+![与其他Anime模型的对比](/assets/images/reprints/illustrious/v2.0-2.0a/3.png)
 
 然而，仅仅遵循提示还不够。看看FLUX Schnell的结果。它在提示词符合度方面表现良好，但缺乏表现力质量和风格。我们的目标是，更好的提示词符合度（对齐）以及与插画相关的功能。不仅仅是美学，也不仅仅是单纯的计算能力。
 
-![Flux Schnell示例](/assets/images/reprints/illustrious/v2.0/4.png)
+![Flux Schnell示例](/assets/images/reprints/illustrious/v2.0-2.0a/4.png)
 
 ## 指令调整与基础模型性能
 
@@ -69,29 +69,29 @@ Illustrious XL仍然是一个"可进一步微调的基础模型"，类似于未�
 
 我们推出了Illustrious XL v2.0的美学调整变体——v2.0 Aesthetic。该模型在保持与v0.1~v2.0训练的LoRA兼容的同时，平衡了泛化和美学优化。
 
-![v2.0和v2.0美学变体的KDE图](/assets/images/reprints/illustrious/v2.0/5.png)
+![v2.0和v2.0美学变体的KDE图](/assets/images/reprints/illustrious/v2.0-2.0a/5.png)
 
 美学调整增强了模型生成赏心悦目的图像的能力，如自动模型评估所示。核密度估计(KDE)图突显了v2.0 Aesthetic在6,000多张图像样本中对"分数优化"的关注。
 
 然而，由于美学调整，训练可能在美学模型上进展不顺利。**我们强烈建议使用v2-base作为训练起点，而不是美学调整变体。**在此，我们再次强调，美学模型确实很难训练。祝你好运。
 
-![无LoRA的v2.0和v2.0美学变体示例图1](/assets/images/reprints/illustrious/v2.0/6.png)
+![无LoRA的v2.0和v2.0美学变体示例图1](/assets/images/reprints/illustrious/v2.0-2.0a/6.png)
 
-![无LoRA的v2.0和v2.0美学变体的示例图2](/assets/images/reprints/illustrious/v2.0/7.png)
+![无LoRA的v2.0和v2.0美学变体的示例图2](/assets/images/reprints/illustrious/v2.0-2.0a/7.png)
 
 ## V2.0 Aesthetic生成图像示例
 
 最后，我们展示了与v2.0+模型兼容的LoRA生成示例。
 
-![有LoRA的v2.0和v2.0美学变体的示例图1](/assets/images/reprints/illustrious/v2.0/8.png)
+![有LoRA的v2.0和v2.0美学变体的示例图1](/assets/images/reprints/illustrious/v2.0-2.0a/8.png)
 
-![有LoRA的v2.0和v2.0美学变体的示例图2](/assets/images/reprints/illustrious/v2.0/9.png)
+![有LoRA的v2.0和v2.0美学变体的示例图2](/assets/images/reprints/illustrious/v2.0-2.0a/9.png)
 
-![有LoRA的v2.0和v2.0美学变体的示例图3](/assets/images/reprints/illustrious/v2.0/10.png)
+![有LoRA的v2.0和v2.0美学变体的示例图3](/assets/images/reprints/illustrious/v2.0-2.0a/10.png)
 
-![有LoRA的v2.0和v2.0美学变体的示例图4](/assets/images/reprints/illustrious/v2.0/11.png)
+![有LoRA的v2.0和v2.0美学变体的示例图4](/assets/images/reprints/illustrious/v2.0-2.0a/11.png)
 
-![有LoRA的v2.0美学变体的双人示例结果图](/assets/images/reprints/illustrious/v2.0/12.png)
+![有LoRA的v2.0美学变体的双人示例结果图](/assets/images/reprints/illustrious/v2.0-2.0a/12.png)
 
 "可控"功能允许酷炫效果，例如"2girls, standing, side-by-side, crazy mita (miside),yuitsuka inori, <lora:new_chars:1>, smiling, masterpiece, pixel art, masterpiece"。
 
