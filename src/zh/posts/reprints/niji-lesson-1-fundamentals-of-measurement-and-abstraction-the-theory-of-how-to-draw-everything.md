@@ -1,7 +1,7 @@
 ---
 title: "第一课：测量与抽象的基础：绘画的普遍理论"
 icon: palette
-cover: /assets/images/reprints/nijijourney/ffea0869-167e-410e-b047-a6c4ab75f428.jpeg
+cover: /assets/images/reprints/nijijourney/thumb.webp
 order: 1
 author: niji・journey
 date: 2023-07-21
@@ -108,31 +108,45 @@ midjourney: 一个女孩，油画风格
 
 [你对这些图片有什么看法？你会如何排序它们的抽象程度？]
 
-![图片9](https://nijijourney.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fniji-web-public%2F6fa63bcb-6c86-4ec1-99ed-01a37d5dcc96.jpg&w=3840&q=75)
-
-A)
-
-![图片10](https://nijijourney.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fniji-web-public%2F4c963e97-87cf-42be-b8dc-4ad997ac4ac4.jpg&w=3840&q=75)
-
-C)
-
-![图片11](https://nijijourney.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fniji-web-public%2Ffafea1de-66e0-4981-884f-27758f598e7b.jpg&w=3840&q=75)
-
-B)
-
-![图片12](https://nijijourney.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fniji-web-public%2Fae34cf63-9faf-4a79-a3f3-0004405fbbdf.jpg&w=3840&q=75)
-
-D)
+<div class="image-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+  <div class="image-card" style="border: 1px solid #eee; border-radius: 8px; overflow: hidden;">
+    <img src="/assets/images/reprints/nijijourney/6fa63bcb-6c86-4ec1-99ed-01a37d5dcc96.jpeg" alt="抽象图像A" style="width: 100%; object-fit: contain;">
+    <div style="padding: 0.5rem; border-top: 1px solid #eee; background: #f9f9f9;">
+      <p style="margin: 0;">A)</p>
+    </div>
+  </div>
+  
+  <div class="image-card" style="border: 1px solid #eee; border-radius: 8px; overflow: hidden;">
+    <img src="/assets/images/reprints/nijijourney/fafea1de-66e0-4981-884f-27758f598e7b.jpeg" alt="抽象图像B" style="width: 100%; object-fit: contain;">
+    <div style="padding: 0.5rem; border-top: 1px solid #eee; background: #f9f9f9;">
+      <p style="margin: 0;">B)</p>
+    </div>
+  </div>
+  
+  <div class="image-card" style="border: 1px solid #eee; border-radius: 8px; overflow: hidden;">
+    <img src="/assets/images/reprints/nijijourney/4c963e97-87cf-42be-b8dc-4ad997ac4ac4.jpeg" alt="抽象图像C" style="width: 100%; object-fit: contain;">
+    <div style="padding: 0.5rem; border-top: 1px solid #eee; background: #f9f9f9;">
+      <p style="margin: 0;">C)</p>
+    </div>
+  </div>
+  
+  <div class="image-card" style="border: 1px solid #eee; border-radius: 8px; overflow: hidden;">
+    <img src="/assets/images/reprints/nijijourney/ae34cf63-9faf-4a79-a3f3-0004405fbbdf.jpeg" alt="抽象图像D" style="width: 100%; object-fit: contain;">
+    <div style="padding: 0.5rem; border-top: 1px solid #eee; background: #f9f9f9;">
+      <p style="margin: 0;">D)</p>
+    </div>
+  </div>
+</div>
 
 你会注意到，这个量表上最抽象和最写实的两端都感觉奇怪。"真实"不一定是最逼真的。它是观众能够相信的事件版本。艺术家的伟大技巧在于给观众提供足够的信息，让他们的思维完成剩下的路程。
 
-![图片13](https://nijijourney.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fniji-web-public%2Fffea0869-167e-410e-b047-a6c4ab75f428.jpg&w=3840&q=75)
+![图片13](/assets/images/reprints/nijijourney/ffea0869-167e-410e-b047-a6c4ab75f428.jpeg)
 
 ## 说服观众相信真实
 
 写实与抽象是两种影响论点的方式
 
-![图片14](https://nijijourney.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fniji-web-public%2F5d8bc684-d113-4888-b4ce-1bb8e07449a3.jpg&w=3840&q=75)
+![图片14](/assets/images/reprints/nijijourney/5d8bc684-d113-4888-b4ce-1bb8e07449a3.jpeg)
 
 ## 写实主义：从外到内的论证
 
@@ -152,9 +166,9 @@ midjourney绘制的黑猫
 
 两者之间的空间是最难驾驭的：恐怖谷。观众可能不了解抽象与写实的区别，但他们有一种本能的感知，能察觉到当某物在这个量表上被错误定位时的不协调。
 
-![图片17](https://nijijourney.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fniji-web-public%2Ff80056ca-7bff-4b7c-912e-177cc29f8d18.jpg&w=3840&q=75)
+![图片17](/assets/images/reprints/nijijourney/f80056ca-7bff-4b7c-912e-177cc29f8d18.jpeg)
 
-![图片18](https://nijijourney.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fniji-web-public%2F59c989ce-bd76-45d1-8ae6-c05ae1ef030e.jpg&w=3840&q=75)
+![图片18](/assets/images/reprints/nijijourney/59c989ce-bd76-45d1-8ae6-c05ae1ef030e.jpeg)
 
 但当你精确把握这个边界时，回报是巨大的。在这里，她的夹克很写实，但她的脸是抽象的。结合在一起，这幅图同时利用了两者的优势。
 
@@ -180,15 +194,15 @@ niji的当前默认风格结合了抽象与写实
 
 事实证明，这样的模糊场景构成了赛博朋克类型的基础。多年来，在这部小说之后的艺术家们慢慢地将《神经漫游者》中这些抽象场景渲染成了每个人都能看到的"真相"。
 
-![图片20](https://nijijourney.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fniji-web-public%2Fc6c8f848-e9ec-4ef3-b4b8-15bcbd7fa831.jpg&w=3840&q=75)
+![图片20](/assets/images/reprints/nijijourney/c6c8f848-e9ec-4ef3-b4b8-15bcbd7fa831.jpeg)
 
 理由2：人们愿意花很多钱成为一个独特新想法的一部分，所以他们寻找那些有意排除其他人的创意。（这听起来像是一个有趣的概念，但在美术领域，这是一个被广泛接受的观点。）毕加索本人不仅是一位出色的艺术家，还以擅长销售而闻名。
 
 当然，这些只是边界上的例子；大多数艺术风格都是由其目的决定的。
 
-![图片21](https://nijijourney.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fniji-web-public%2Fc29877e4-4a5b-4bc8-a3ed-1b52b4e9b6b1.jpg&w=3840&q=75)
+![图片21](/assets/images/reprints/nijijourney/c29877e4-4a5b-4bc8-a3ed-1b52b4e9b6b1.jpeg)
 
-![图片22](https://nijijourney.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fniji-web-public%2Ff32c3aab-d4e4-4511-8449-26a6fb796f66.jpg&w=3840&q=75)
+![图片22](/assets/images/reprints/nijijourney/f32c3aab-d4e4-4511-8449-26a6fb796f66.jpeg)
 
 这是两个具有相同基本原则但表达完全不同内容的概念。
 

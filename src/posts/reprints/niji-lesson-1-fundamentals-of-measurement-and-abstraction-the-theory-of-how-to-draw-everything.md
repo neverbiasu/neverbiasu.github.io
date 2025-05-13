@@ -1,7 +1,7 @@
 ---
 title: "Lesson 1: Fundamentals of Measurement and Abstraction: The Theory of (How to Draw) Everything"
 icon: palette
-cover: /assets/images/reprints/nijijourney/ffea0869-167e-410e-b047-a6c4ab75f428.jpeg
+cover: /assets/images/reprints/nijijourney/thumb.webp
 order: 1
 author: niji・journey
 date: 2023-07-21
@@ -28,11 +28,11 @@ For the exercise attached to this lesson, see [📏 Study 1: Measuring With Your
 
 I spent the majority of my life stuck in the gap between these two types of pictures.
 
-![Image1](/assets/images/reprints/nijijourney/4942dc04-f4f6-415f-b85f-91ecf5703d9a.jpeg)
+![Anime-style girl with colorful elements](/assets/images/reprints/nijijourney/4942dc04-f4f6-415f-b85f-91ecf5703d9a.jpeg)
 
 niji・journey: a girl, colorful
 
-![Image2](/assets/images/reprints/nijijourney/5abec466-9b61-4f96-bcb6-3d796a089089.jpeg)
+![Oil painting style portrait of a girl](/assets/images/reprints/nijijourney/5abec466-9b61-4f96-bcb6-3d796a089089.jpeg)
 
 midjourney: a girl, oil painting
 
@@ -40,7 +40,7 @@ Why do my art teachers think that that left one is not "real art"? Why do my fri
 
 (Also, there's this stuff I really didn't understand, which everybody seemed to think was very good)
 
-![Image3](/assets/images/reprints/nijijourney/4d4a990b-fed0-4cb6-b296-b7cdaa6f32fe.jpeg)
+![Picasso's Guernica painting](/assets/images/reprints/nijijourney/4d4a990b-fed0-4cb6-b296-b7cdaa6f32fe.jpeg)
 
 picasso's Guernica
 
@@ -50,7 +50,7 @@ That's what we'll be teaching in this course. They're called the "fundamentals o
 
 ## Why Does it Belong in a Museum?
 
-![Image4](/assets/images/reprints/nijijourney/259b0ad2-b7d9-48d0-9dce-57b7dc700e36.jpeg)
+![A famous painting by Giotto](/assets/images/reprints/nijijourney/259b0ad2-b7d9-48d0-9dce-57b7dc700e36.jpeg)
 
 a certain famous painting by giotto
 
@@ -74,7 +74,7 @@ There is an entire subreddit dedicated to discovering a classical feeling, regar
 
 The fundamentals: Timeless organizational concepts, on even your camera phone!
 
-![Image5](/assets/images/reprints/nijijourney/ad054499-70d2-44be-9158-d7eca76c754e.jpeg)
+![A story told through a photo of a goose](/assets/images/reprints/nijijourney/ad054499-70d2-44be-9158-d7eca76c754e.jpeg)
 
 "Bedtime for Jeff the goose" by u/Soupmother from reddit
 
@@ -82,13 +82,13 @@ The photo above obscures information to tell a story. Leaving some things unsaid
 
 You can see the same technique being used here by Bouguereau. He didn't draw the arms of madonna. But he doesn't have to: there is enough information already from the rest of the painting that she has arms.
 
-![Image6](/assets/images/reprints/nijijourney/13339197-155a-45ad-b47a-907aa644040f.jpeg)
+![Bouguereau's The Virgin of the Lilies painting](/assets/images/reprints/nijijourney/13339197-155a-45ad-b47a-907aa644040f.jpeg)
 
 The Virgin of the Lilies, 1899 by William-Adolphe Bouguereau
 
 ## Visual Abstraction
 
-![Image7](/assets/images/reprints/nijijourney/82c47d39-a3c2-4d5e-ae0c-c26a12802291.jpeg)
+![Picasso's The Bull sculpture](/assets/images/reprints/nijijourney/82c47d39-a3c2-4d5e-ae0c-c26a12802291.jpeg)
 
 Picasso's The Bull
 
@@ -110,37 +110,51 @@ Consider this progression of sentences.
 
 \[what do you think about these pictures? how would you order their abstract-ness?\]
 
-![Image8](/assets/images/reprints/nijijourney/6fa63bcb-6c86-4ec1-99ed-01a37d5dcc96.jpeg)
-
-A)
-
-![Image9](/assets/images/reprints/nijijourney/4c963e97-87cf-42be-b8dc-4ad997ac4ac4.jpeg)
-
-C)
-
-![Image10](/assets/images/reprints/nijijourney/fafea1de-66e0-4981-884f-27758f598e7b.jpeg)
-
-B)
-
-![Image11](/assets/images/reprints/nijijourney/ae34cf63-9faf-4a79-a3f3-0004405fbbdf.jpeg)
-
-D)
+<div class="image-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+  <div class="image-card" style="border: 1px solid #eee; border-radius: 8px; overflow: hidden;">
+    <img src="/assets/images/reprints/nijijourney/6fa63bcb-6c86-4ec1-99ed-01a37d5dcc96.jpeg" alt="Abstracted image A" style="width: 100%; object-fit: contain;">
+    <div style="padding: 0.5rem; border-top: 1px solid #eee; background: #f9f9f9;">
+      <p style="margin: 0;">A)</p>
+    </div>
+  </div>
+  
+  <div class="image-card" style="border: 1px solid #eee; border-radius: 8px; overflow: hidden;">
+    <img src="/assets/images/reprints/nijijourney/fafea1de-66e0-4981-884f-27758f598e7b.jpeg" alt="Abstracted image B" style="width: 100%; object-fit: contain;">
+    <div style="padding: 0.5rem; border-top: 1px solid #eee; background: #f9f9f9;">
+      <p style="margin: 0;">B)</p>
+    </div>
+  </div>
+  
+  <div class="image-card" style="border: 1px solid #eee; border-radius: 8px; overflow: hidden;">
+    <img src="/assets/images/reprints/nijijourney/4c963e97-87cf-42be-b8dc-4ad997ac4ac4.jpeg" alt="Abstracted image C" style="width: 100%; object-fit: contain;">
+    <div style="padding: 0.5rem; border-top: 1px solid #eee; background: #f9f9f9;">
+      <p style="margin: 0;">C)</p>
+    </div>
+  </div>
+  
+  <div class="image-card" style="border: 1px solid #eee; border-radius: 8px; overflow: hidden;">
+    <img src="/assets/images/reprints/nijijourney/ae34cf63-9faf-4a79-a3f3-0004405fbbdf.jpeg" alt="Abstracted image D" style="width: 100%; object-fit: contain;">
+    <div style="padding: 0.5rem; border-top: 1px solid #eee; background: #f9f9f9;">
+      <p style="margin: 0;">D)</p>
+    </div>
+  </div>
+</div>
 
 You'll notice that both the most abstract and the most realistic sides of this scale feel odd. "Truth" is not necessarily what's most realistic. It's the version of events that the audience can believe in. The great skill of the artist is in giving the audience just enough information to work with, and letting their minds travel the rest of the way.
 
-![Image12](/assets/images/reprints/nijijourney/ffea0869-167e-410e-b047-a6c4ab75f428.jpeg)
+![Cover image for the lesson](/assets/images/reprints/nijijourney/ffea0869-167e-410e-b047-a6c4ab75f428.jpeg)
 
 ## Persuading the audience of the Truth
 
 Real vs. abstract are two ways to swing an argument
 
-![Image13](/assets/images/reprints/nijijourney/5d8bc684-d113-4888-b4ce-1bb8e07449a3.jpeg)
+![Image depicting realism and abstraction](/assets/images/reprints/nijijourney/5d8bc684-d113-4888-b4ce-1bb8e07449a3.jpeg)
 
 ## Realism: Argument from the outside in
 
 If it looks real, then it must be real. Realism is Truth through proof.
 
-![Image14](/assets/images/reprints/nijijourney/4b0fdad3-4c26-4455-8fe1-9fe2694a4c26.jpeg)
+![Black cat drawn by midjourney](/assets/images/reprints/nijijourney/4b0fdad3-4c26-4455-8fe1-9fe2694a4c26.jpeg)
 
 blk cat, as drawn by midjourney
 
@@ -148,19 +162,19 @@ blk cat, as drawn by midjourney
 
 If it stomps around like a human, then it must be loveable, like a human. Abstraction is Truth through induction.
 
-![Image15](/assets/images/reprints/nijijourney/a87d6bcd-22f1-4cbd-ab1b-1a1fd5105f0e.jpeg)
+![Character reference sheet of a black cat](/assets/images/reprints/nijijourney/a87d6bcd-22f1-4cbd-ab1b-1a1fd5105f0e.jpeg)
 
 blk cat, character reference sheet
 
 The space between the two is the hardest to navigate: uncanny valley. The audience doesn't know about abstraction vs. realism, but it has an instinctive sensor for when something is misplaced on the scale.
 
-![Image16](/assets/images/reprints/nijijourney/f80056ca-7bff-4b7c-912e-177cc29f8d18.jpeg)
+![Example of uncanny valley in art](/assets/images/reprints/nijijourney/f80056ca-7bff-4b7c-912e-177cc29f8d18.jpeg)
 
-![Image17](/assets/images/reprints/nijijourney/59c989ce-bd76-45d1-8ae6-c05ae1ef030e.jpeg)
+![Another example of uncanny valley in art](/assets/images/reprints/nijijourney/59c989ce-bd76-45d1-8ae6-c05ae1ef030e.jpeg)
 
 But when you nail the boundary look, the payoff is large. Here, her jacket is realistic, but her face is abstract. Combined together, this picture uses both to appeal.
 
-![Image18](/assets/images/reprints/nijijourney/917e9b7f-90f5-4d2b-87d6-2ff6620405fe.jpeg)
+![niji's current default style combines abstraction with realism](/assets/images/reprints/nijijourney/917e9b7f-90f5-4d2b-87d6-2ff6620405fe.jpeg)
 
 niji's current default style combines abstraction with realism
 
@@ -182,15 +196,15 @@ This is an excerpt from Neuromancer. I can only imagine how vague this sounded b
 
 It turns out, vague scenes like this form the basis of of the cyberpunk genre. Over the years, artisans after the novel have slowly rendered these abstract scenes in Neuromancer into a "Truth" everyone can see.
 
-![Image19](/assets/images/reprints/nijijourney/c6c8f848-e9ec-4ef3-b4b8-15bcbd7fa831.jpeg)
+![Cyberpunk art inspired by Neuromancer](/assets/images/reprints/nijijourney/c6c8f848-e9ec-4ef3-b4b8-15bcbd7fa831.jpeg)
 
 Reason 2: People pay a lot of money to be part of an exclusive, new idea, so they look for ideas that purposefully exclude other people. (This seems like a funny concept, but it's a well accepted idea when it comes to fine art.) Picasso himself was known to be a very good salesman, on top of being a good artist.
 
 Of course, these are examples at the liminal boundary; most art style is dictated by its purpose.
 
-![Image20](/assets/images/reprints/nijijourney/c29877e4-4a5b-4bc8-a3ed-1b52b4e9b6b1.jpeg)
+![Art with a purpose](/assets/images/reprints/nijijourney/c29877e4-4a5b-4bc8-a3ed-1b52b4e9b6b1.jpeg)
 
-![Image21](/assets/images/reprints/nijijourney/f32c3aab-d4e4-4511-8449-26a6fb796f66.jpeg)
+![Another example of purposeful art](/assets/images/reprints/nijijourney/f32c3aab-d4e4-4511-8449-26a6fb796f66.jpeg)
 
 These are two concepts that have the same underlying principles, but say two very different things.
 
