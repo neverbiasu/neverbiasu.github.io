@@ -1,7 +1,7 @@
 ---
 title: "第一课：测量与抽象的基础：绘画的普遍理论"
 icon: palette
-cover: /assets/images/reprints/nijijourney/thumb.webp
+cover: /assets/images/reprints/nijijourney/lesson1/thumb.webp
 order: 1
 author: niji・journey
 date: 2023-07-21
@@ -28,11 +28,11 @@ copyright: reprint
 
 我人生的大部分时间都困在这两类图像之间的鸿沟里。
 
-![动漫风格的女孩](/assets/images/reprints/nijijourney/4942dc04-f4f6-415f-b85f-91ecf5703d9a.jpeg)
+![动漫风格的女孩](/assets/images/reprints/nijijourney/lesson1/4942dc04-f4f6-415f-b85f-91ecf5703d9a.jpeg)
 
 niji・journey: 一个女孩，色彩丰富
 
-![油画风格的女孩](/assets/images/reprints/nijijourney/5abec466-9b61-4f96-bcb6-3d796a089089.jpeg)
+![油画风格的女孩](/assets/images/reprints/nijijourney/lesson1/5abec466-9b61-4f96-bcb6-3d796a089089.jpeg)
 
 midjourney: 一个女孩，油画风格
 
@@ -40,7 +40,7 @@ midjourney: 一个女孩，油画风格
 
 （还有一些我真的不理解的作品，但很多人似乎认为它们非常好）
 
-![毕加索的《格尔尼卡》](/assets/images/reprints/nijijourney/4d4a990b-fed0-4cb6-b296-b7cdaa6f32fe.jpeg)
+![毕加索的《格尔尼卡》](/assets/images/reprints/nijijourney/lesson1/4d4a990b-fed0-4cb6-b296-b7cdaa6f32fe.jpeg)
 
 毕加索的《格尔尼卡》
 
@@ -50,7 +50,7 @@ midjourney: 一个女孩，油画风格
 
 ## 为什么它属于博物馆？
 
-![乔托的一幅著名画作](/assets/images/reprints/nijijourney/259b0ad2-b7d9-48d0-9dce-57b7dc700e36.jpeg)
+![乔托的一幅著名画作](/assets/images/reprints/nijijourney/lesson1/259b0ad2-b7d9-48d0-9dce-57b7dc700e36.jpeg)
 
 乔托的一幅著名画作
 
@@ -64,9 +64,12 @@ midjourney: 一个女孩，油画风格
 
 但令人惊奇的是，我们能完全理解那个时代的画作，不是吗？
 
-::: tip
-语言是口头信息的组织。艺术是视觉信息的组织。当一个想法被很好地传达时，无论如何传达，美就会涌现。
-:::
+<div class="bg-nijiBlack px-4 py-2 rounded-lg border border-nijiBlack/20 flex gap-3 items-baseline text-nijiPaper">
+  <p>💡</p>
+  <p class="whitespace-pre-wrap">
+    <span>语言是口头信息的组织。艺术是视觉信息的组织。当一个想法被很好地传达时，无论如何传达，美就会涌现。</span>
+  </p>
+</div>
 
 ## 偶然的文艺复兴
 
@@ -74,7 +77,7 @@ midjourney: 一个女孩，油画风格
 
 基本原理：永恒的组织概念，甚至在你的手机相机上也能体现！
 
-![Jeff鹅的就寝时间](/assets/images/reprints/nijijourney/ad054499-70d2-44be-9158-d7eca76c754e.jpeg)
+![Jeff鹅的就寝时间](/assets/images/reprints/nijijourney/lesson1/ad054499-70d2-44be-9158-d7eca76c754e.jpeg)
 
 "Jeff鹅的就寝时间"，来自Reddit用户u/Soupmother
 
@@ -82,13 +85,13 @@ midjourney: 一个女孩，油画风格
 
 你可以在布格罗的作品中看到同样的技巧。他没有画出圣母的手臂，但他不需要这样做：画中的其他信息已经足够表明她有手臂。
 
-![布格罗的《百合圣母》，1899年](/assets/images/reprints/nijijourney/13339197-155a-45ad-b47a-907aa644040f.jpeg)
+![布格罗的《百合圣母》，1899年](/assets/images/reprints/nijijourney/lesson1/13339197-155a-45ad-b47a-907aa644040f.jpeg)
 
 布格罗的《百合圣母》，1899年
 
 ## 视觉抽象
 
-![毕加索的《公牛》](/assets/images/reprints/nijijourney/82c47d39-a3c2-4d5e-ae0c-c26a12802291.jpeg)
+![毕加索的《公牛》](/assets/images/reprints/nijijourney/lesson1/82c47d39-a3c2-4d5e-ae0c-c26a12802291.jpeg)
 
 毕加索的《公牛》
 
@@ -110,49 +113,49 @@ midjourney: 一个女孩，油画风格
 
 <div class="image-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
   <div class="image-card" style="border: 1px solid #eee; border-radius: 8px; overflow: hidden;">
-    <img src="/assets/images/reprints/nijijourney/6fa63bcb-6c86-4ec1-99ed-01a37d5dcc96.jpeg" alt="抽象图像A" style="width: 100%; object-fit: contain;">
+    <img src="/assets/images/reprints/nijijourney/lesson1/6fa63bcb-6c86-4ec1-99ed-01a37d5dcc96.jpeg" alt="抽象图像A" style="width: 100%; object-fit: contain;">
     <div style="padding: 0.5rem; border-top: 1px solid #eee; background: #f9f9f9;">
-      <p style="margin: 0;">A)</p>
+      <p style="margin: 0; color: #000;">A)</p>
     </div>
   </div>
   
   <div class="image-card" style="border: 1px solid #eee; border-radius: 8px; overflow: hidden;">
-    <img src="/assets/images/reprints/nijijourney/fafea1de-66e0-4981-884f-27758f598e7b.jpeg" alt="抽象图像B" style="width: 100%; object-fit: contain;">
+    <img src="/assets/images/reprints/nijijourney/lesson1/fafea1de-66e0-4981-884f-27758f598e7b.jpeg" alt="抽象图像B" style="width: 100%; object-fit: contain;">
     <div style="padding: 0.5rem; border-top: 1px solid #eee; background: #f9f9f9;">
-      <p style="margin: 0;">B)</p>
+      <p style="margin: 0; color: #000;">B)</p>
     </div>
   </div>
   
   <div class="image-card" style="border: 1px solid #eee; border-radius: 8px; overflow: hidden;">
-    <img src="/assets/images/reprints/nijijourney/4c963e97-87cf-42be-b8dc-4ad997ac4ac4.jpeg" alt="抽象图像C" style="width: 100%; object-fit: contain;">
+    <img src="/assets/images/reprints/nijijourney/lesson1/4c963e97-87cf-42be-b8dc-4ad997ac4ac4.jpeg" alt="抽象图像C" style="width: 100%; object-fit: contain;">
     <div style="padding: 0.5rem; border-top: 1px solid #eee; background: #f9f9f9;">
-      <p style="margin: 0;">C)</p>
+      <p style="margin: 0; color: #000;">C)</p>
     </div>
   </div>
   
   <div class="image-card" style="border: 1px solid #eee; border-radius: 8px; overflow: hidden;">
-    <img src="/assets/images/reprints/nijijourney/ae34cf63-9faf-4a79-a3f3-0004405fbbdf.jpeg" alt="抽象图像D" style="width: 100%; object-fit: contain;">
+    <img src="/assets/images/reprints/nijijourney/lesson1/ae34cf63-9faf-4a79-a3f3-0004405fbbdf.jpeg" alt="抽象图像D" style="width: 100%; object-fit: contain;">
     <div style="padding: 0.5rem; border-top: 1px solid #eee; background: #f9f9f9;">
-      <p style="margin: 0;">D)</p>
+      <p style="margin: 0; color: #000;">D)</p>
     </div>
   </div>
 </div>
 
 你会注意到，这个量表上最抽象和最写实的两端都感觉奇怪。"真实"不一定是最逼真的。它是观众能够相信的事件版本。艺术家的伟大技巧在于给观众提供足够的信息，让他们的思维完成剩下的路程。
 
-![图片13](/assets/images/reprints/nijijourney/ffea0869-167e-410e-b047-a6c4ab75f428.jpeg)
+![抽象-写实量表](/assets/images/reprints/nijijourney/lesson1/ffea0869-167e-410e-b047-a6c4ab75f428.jpeg)
 
 ## 说服观众相信真实
 
 写实与抽象是两种影响论点的方式
 
-![图片14](/assets/images/reprints/nijijourney/5d8bc684-d113-4888-b4ce-1bb8e07449a3.jpeg)
+![Blk Cat](/assets/images/reprints/nijijourney/lesson1/5d8bc684-d113-4888-b4ce-1bb8e07449a3.jpeg)
 
 ## 写实主义：从外到内的论证
 
 如果它看起来是真的，那么它一定是真的。写实主义是通过证明达到真实。
 
-![midjourney绘制的黑猫](/assets/images/reprints/nijijourney/4b0fdad3-4c26-4455-8fe1-9fe2694a4c26.jpeg)
+![midjourney绘制的黑猫](/assets/images/reprints/nijijourney/lesson1/4b0fdad3-4c26-4455-8fe1-9fe2694a4c26.jpeg)
 
 midjourney绘制的黑猫
 
@@ -160,19 +163,19 @@ midjourney绘制的黑猫
 
 如果它像人类一样走动，那么它一定像人类一样可爱。抽象是通过归纳达到真实。
 
-![黑猫角色参考图](/assets/images/reprints/nijijourney/a87d6bcd-22f1-4cbd-ab1b-1a1fd5105f0e.jpeg)
+![黑猫角色参考图](/assets/images/reprints/nijijourney/lesson1/a87d6bcd-22f1-4cbd-ab1b-1a1fd5105f0e.jpeg)
 
 黑猫角色参考图
 
 两者之间的空间是最难驾驭的：恐怖谷。观众可能不了解抽象与写实的区别，但他们有一种本能的感知，能察觉到当某物在这个量表上被错误定位时的不协调。
 
-![图片17](/assets/images/reprints/nijijourney/f80056ca-7bff-4b7c-912e-177cc29f8d18.jpeg)
+![](/assets/images/reprints/nijijourney/lesson1/f80056ca-7bff-4b7c-912e-177cc29f8d18.jpeg)
 
-![图片18](/assets/images/reprints/nijijourney/59c989ce-bd76-45d1-8ae6-c05ae1ef030e.jpeg)
+![](/assets/images/reprints/nijijourney/lesson1/59c989ce-bd76-45d1-8ae6-c05ae1ef030e.jpeg)
 
 但当你精确把握这个边界时，回报是巨大的。在这里，她的夹克很写实，但她的脸是抽象的。结合在一起，这幅图同时利用了两者的优势。
 
-![niji的当前默认风格结合了抽象与写实](/assets/images/reprints/nijijourney/917e9b7f-90f5-4d2b-87d6-2ff6620405fe.jpeg)
+![niji的当前默认风格结合了抽象与写实](/assets/images/reprints/nijijourney/lesson1/917e9b7f-90f5-4d2b-87d6-2ff6620405fe.jpeg)
 
 niji的当前默认风格结合了抽象与写实
 
@@ -194,15 +197,21 @@ niji的当前默认风格结合了抽象与写实
 
 事实证明，这样的模糊场景构成了赛博朋克类型的基础。多年来，在这部小说之后的艺术家们慢慢地将《神经漫游者》中这些抽象场景渲染成了每个人都能看到的"真相"。
 
-![图片20](/assets/images/reprints/nijijourney/c6c8f848-e9ec-4ef3-b4b8-15bcbd7fa831.jpeg)
+![赛博朋克初音](/assets/images/reprints/nijijourney/lesson1/c6c8f848-e9ec-4ef3-b4b8-15bcbd7fa831.jpeg)
 
 理由2：人们愿意花很多钱成为一个独特新想法的一部分，所以他们寻找那些有意排除其他人的创意。（这听起来像是一个有趣的概念，但在美术领域，这是一个被广泛接受的观点。）毕加索本人不仅是一位出色的艺术家，还以擅长销售而闻名。
 
 当然，这些只是边界上的例子；大多数艺术风格都是由其目的决定的。
 
-![图片21](/assets/images/reprints/nijijourney/c29877e4-4a5b-4bc8-a3ed-1b52b4e9b6b1.jpeg)
-
-![图片22](/assets/images/reprints/nijijourney/f32c3aab-d4e4-4511-8449-26a6fb796f66.jpeg)
+<div class="image-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+  <div class="image-card" style="border: 1px solid #eee; border-radius: 8px; overflow: hidden;">
+    <img src="/assets/images/reprints/nijijourney/lesson1/c29877e4-4a5b-4bc8-a3ed-1b52b4e9b6b1.jpeg" alt="艺术风格示例1" style="width: 100%; object-fit: contain;">
+  </div>
+  
+  <div class="image-card" style="border: 1px solid #eee; border-radius: 8px; overflow: hidden;">
+    <img src="/assets/images/reprints/nijijourney/lesson1/f32c3aab-d4e4-4511-8449-26a6fb796f66.jpeg" alt="艺术风格示例2" style="width: 100%; object-fit: contain;">
+  </div>
+</div>
 
 这是两个具有相同基本原则但表达完全不同内容的概念。
 
