@@ -1,18 +1,23 @@
 ---
-title: Study 2: Notan
+title: "Study 2: Notan"
+icon: contrast
+cover: /assets/images/reprints/nijijourney/study2/thumb.webp
+order: 3
+author: niji・journey
 date: 2023-07-25
+categories:
+  - Papers
 tags:
   - Art Lesson
   - Notan
+description: "Learn about Notan, the Japanese concept of light-dark harmony, and how to apply it in artistic compositions."
+sticky: false
+star: false
+footer: "Reprint from niji・journey"
+copyright: reprint
 ---
 
 # Study 2: Notan
-
----
-
-[Previous Study 1: Measuring With Your Eyes](https://nijijourney.com/blog/niji-study-1-measuring-with-your-eyes) | [Next Lesson 2: The Terminator (Line)](https://nijijourney.com/blog/niji-lesson-2-the-terminator-line)
-
----
 
 ## What Does "Notan" Mean in Art?
 

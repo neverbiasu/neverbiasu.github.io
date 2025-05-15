@@ -1,9 +1,20 @@
 ---
-title: Lesson 2: The Terminator (Line)
+title: "Lesson 2: The Terminator (Line)"
+icon: palette
+cover: /assets/images/reprints/nijijourney/lesson2/thumb.webp
+order: 2
+author: niji・journey
 date: 2023-07-25
+categories:
+  - Reprints
 tags:
   - Art Lesson
   - Visual Hierarchy
+description: "Explore the concept of the terminator line and its role in visual hierarchy and artistic composition."
+sticky: false
+star: false
+footer: "Reprint from niji・journey"
+copyright: reprint
 ---
 
 # Lesson 2: The Terminator (Line)
