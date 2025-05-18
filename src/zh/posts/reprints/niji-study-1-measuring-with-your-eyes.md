@@ -1,7 +1,7 @@
 ---
 title: "练习1：用眼睛测量"
 icon: ruler
-cover: /assets/images/reprints/nijijourney/study1/thumb.webp
+cover: https://neverbiasu.github.io/assets/images/reprints/nijijourney/study1/thumb.webp
 order: 2
 author: niji・journey
 date: 2023-07-21
@@ -26,43 +26,43 @@ copyright: reprint
 
 ## 步骤1：使用 niji --style cute 命令，选择一幅画
 
-![步骤1](/assets/images/reprints/nijijourney/study1/c01d0f47-388a-4e2e-923d-ee008205bdbb.jpeg)
+![步骤1](https://neverbiasu.github.io/assets/images/reprints/nijijourney/study1/c01d0f47-388a-4e2e-923d-ee008205bdbb.jpeg)
 
 ## 步骤2：仅使用直线，制作画作的低多边形轮廓
 
-![步骤2](/assets/images/reprints/nijijourney/study1/011c6ebd-206a-4085-a6fb-c7b41b009544.jpeg)
+![步骤2](https://neverbiasu.github.io/assets/images/reprints/nijijourney/study1/011c6ebd-206a-4085-a6fb-c7b41b009544.jpeg)
 
 ## 步骤3：将上一步设置为30%透明度，创建新图层，仅使用直线定义一般形状
 
-![步骤3](/assets/images/reprints/nijijourney/study1/9c17f638-1758-4ca3-bcd1-d118a54fee02.jpeg)
+![步骤3](https://neverbiasu.github.io/assets/images/reprints/nijijourney/study1/9c17f638-1758-4ca3-bcd1-d118a54fee02.jpeg)
 
 ## 步骤4：将上一步设置为30%透明度，创建新图层，用曲线优化线条
 
-![步骤4](/assets/images/reprints/nijijourney/study1/bbcac3a0-85f3-4cc7-95ec-b32e7cd1b2af.jpeg)
+![步骤4](https://neverbiasu.github.io/assets/images/reprints/nijijourney/study1/bbcac3a0-85f3-4cc7-95ec-b32e7cd1b2af.jpeg)
 
 ## 步骤5：关闭上一步，进一步细化线条细节
 
-![步骤5](/assets/images/reprints/nijijourney/study1/dec56fd9-c960-4f84-a4a1-d5d613c13d8e.jpeg)
+![步骤5](https://neverbiasu.github.io/assets/images/reprints/nijijourney/study1/dec56fd9-c960-4f84-a4a1-d5d613c13d8e.jpeg)
 
 ## 检查你的作品
 
 ### 步骤6：将你的作品叠加在原始绘画上，查看差异
 
-![步骤6](/assets/images/reprints/nijijourney/study1/597962da-e155-4ed5-8056-786e6ffa86a4.jpeg)
+![步骤6](https://neverbiasu.github.io/assets/images/reprints/nijijourney/study1/597962da-e155-4ed5-8056-786e6ffa86a4.jpeg)
 
 ### 步骤7：将3幅画并排放置，并使用原作和差异图调整你的学习成果
 
 （不要直接描绘差异图）重复此过程，直到你满意为止。
 
-![步骤7](/assets/images/reprints/nijijourney/study1/79424cad-395f-4e78-8cef-56aaf0ec6bc0.jpeg)
+![步骤7](https://neverbiasu.github.io/assets/images/reprints/nijijourney/study1/79424cad-395f-4e78-8cef-56aaf0ec6bc0.jpeg)
 
 ### 步骤8：完成！使用/submit命令将练习展示给 blk cat
 
 提交频道在这里：[https://discord.com/channels/1017943945214435438/1129477874823479387](https://discord.com/channels/1017943945214435438/1129477874823479387)
 
-![步骤8-1](/assets/images/reprints/nijijourney/study1/513a9409-1dc3-43a1-b708-ddd6020be9be.jpeg)
+![步骤8-1](https://neverbiasu.github.io/assets/images/reprints/nijijourney/study1/513a9409-1dc3-43a1-b708-ddd6020be9be.jpeg)
 
-![步骤8-2](/assets/images/reprints/nijijourney/study1/4b70d02f-1c00-4856-b1b8-19d53f8108b3.jpeg)
+![步骤8-2](https://neverbiasu.github.io/assets/images/reprints/nijijourney/study1/4b70d02f-1c00-4856-b1b8-19d53f8108b3.jpeg)
 
 ## 如何测量
 
@@ -74,7 +74,7 @@ copyright: reprint
 
 以其他区域的关系来衡量区域可能会有所帮助（Y的大小是X的多少倍）。一个常用的测量单位是"头部"。
 
-![大小测量](/assets/images/reprints/nijijourney/study1/1bf35835-635d-4168-9b93-06d97b1c2634.jpeg)
+![大小测量](https://neverbiasu.github.io/assets/images/reprints/nijijourney/study1/1bf35835-635d-4168-9b93-06d97b1c2634.jpeg)
 
 ### 斜度
 
@@ -84,7 +84,7 @@ copyright: reprint
 
 相对于垂直线或水平线来测量斜度可能会有所帮助。
 
-![斜度测量](/assets/images/reprints/nijijourney/study1/363be744-c22d-4035-86bf-8dee898fe5a1.jpeg)
+![斜度测量](https://neverbiasu.github.io/assets/images/reprints/nijijourney/study1/363be744-c22d-4035-86bf-8dee898fe5a1.jpeg)
 
 ### 长度
 
@@ -92,7 +92,7 @@ copyright: reprint
 
 就像大小测量一样，以相对术语思考会有所帮助。在测量外部长度时，考虑它们到图片边框的距离会很有帮助。
 
-![长度测量](/assets/images/reprints/nijijourney/study1/44a58e41-f10d-46e5-8a7d-83629b0fb1d9.jpeg)
+![长度测量](https://neverbiasu.github.io/assets/images/reprints/nijijourney/study1/44a58e41-f10d-46e5-8a7d-83629b0fb1d9.jpeg)
 
 ## 技巧
 
@@ -102,11 +102,11 @@ copyright: reprint
 
 ## 课堂演示
 
-![课堂演示1](/assets/images/reprints/nijijourney/study1/849ac454-dd14-405b-a715-7b65762dfe47.jpeg)
+![课堂演示1](https://neverbiasu.github.io/assets/images/reprints/nijijourney/study1/849ac454-dd14-405b-a715-7b65762dfe47.jpeg)
 
-![课堂演示2](/assets/images/reprints/nijijourney/study1/ca15a68a-ff7e-40e7-9bf6-5ef7d6d47456.jpeg)
+![课堂演示2](https://neverbiasu.github.io/assets/images/reprints/nijijourney/study1/ca15a68a-ff7e-40e7-9bf6-5ef7d6d47456.jpeg)
 
-![课堂演示3](/assets/images/reprints/nijijourney/study1/4382603b-8f89-413b-8828-de117411b3f9.jpeg)
+![课堂演示3](https://neverbiasu.github.io/assets/images/reprints/nijijourney/study1/4382603b-8f89-413b-8828-de117411b3f9.jpeg)
 
 ## 额外练习（高级）
 
@@ -114,15 +114,15 @@ copyright: reprint
 
 **步骤1**：尝试从记忆中绘制某物。
 
-![额外练习1](/assets/images/reprints/nijijourney/study1/34d992ac-6e22-4fa9-bd82-89946c713f26.jpeg)
+![额外练习1](https://neverbiasu.github.io/assets/images/reprints/nijijourney/study1/34d992ac-6e22-4fa9-bd82-89946c713f26.jpeg)
 
 **步骤2**：生成该物体的 niji 绘图，然后描绘该绘图（此处未显示描绘的线条）
 
-![额外练习2](/assets/images/reprints/nijijourney/study1/d414e923-3033-4be0-8f43-d86701eb788e.jpeg)
+![额外练习2](https://neverbiasu.github.io/assets/images/reprints/nijijourney/study1/d414e923-3033-4be0-8f43-d86701eb788e.jpeg)
 
 **步骤3**：再次从记忆中绘制该物体！
 
-![额外练习3](/assets/images/reprints/nijijourney/study1/7c11ff84-33c6-44ef-9abd-ab6e772dfb25.jpeg)
+![额外练习3](https://neverbiasu.github.io/assets/images/reprints/nijijourney/study1/7c11ff84-33c6-44ef-9abd-ab6e772dfb25.jpeg)
 
 虽然上述练习侧重于精确度和注重细节，但你可以尝试这第二个练习来提高你的回忆能力！通过尝试绘制某物，描绘 niji 图片，然后再次自己尝试，你可以建立视觉库，用于从想象中徒手绘制物体。
 
