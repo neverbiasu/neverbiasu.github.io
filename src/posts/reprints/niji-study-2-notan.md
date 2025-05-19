@@ -97,10 +97,14 @@ Show it to blk cat with the /submit command at [https://discord.com/channels/101
 
 ---
 
-## Related Articles
+## Demo from Class
 
-- [Final Lesson: Touch Grass!](https://nijijourney.com/blog/niji-final-lesson-touch-grass)
-- [Lesson 7: The Art (of Persuasion)](https://nijijourney.com/blog/niji-lesson-7-the-art-of-persuasion)
-- [Study 7: 5.5 Hour Drawing](https://nijijourney.com/blog/niji-study-7-5-5-hour-drawing)
-- [Study 6: Character Turnaround](https://nijijourney.com/blog/niji-study-6-character-turnaround)
-- [Lesson 6: Jesus (Fanart)](https://nijijourney.com/blog/niji-lesson-6-jesus-fanart)
+![Image 18](/assets/images/reprints/nijijourney/study2/632a45d0-4782-48da-9d90-3787fb74ea5f.jpeg)
+
+![Image 19](/assets/images/reprints/nijijourney/study2/e2b54623-8150-40e7-95a5-29e2e1db8159.jpeg)
+
+![Image 20](/assets/images/reprints/nijijourney/study2/a9930cd6-c31f-404c-b2d5-7fcc52810b86.jpeg)
+
+![Image 21](/assets/images/reprints/nijijourney/study2/ebbbfa7f-9ef3-4dfd-bd64-b8df195db17d.jpeg)
+
+I hope you have fun!

@@ -97,10 +97,14 @@ copyright: 转载
 
 ---
 
-## 相关文章
+## 本科案例
 
-- [最终课程：去接触自然！](https://nijijourney.com/blog/niji-final-lesson-touch-grass)
-- [课程 7：艺术（说服的艺术）](https://nijijourney.com/blog/niji-lesson-7-the-art-of-persuasion)
-- [研究 7：5.5 小时绘画](https://nijijourney.com/blog/niji-study-7-5-5-hour-drawing)
-- [研究 6：角色转面](https://nijijourney.com/blog/niji-study-6-character-turnaround)
-- [课程 6：耶稣（同人画）](https://nijijourney.com/blog/niji-lesson-6-jesus-fanart)
+![Image 18](/assets/images/reprints/nijijourney/study2/632a45d0-4782-48da-9d90-3787fb74ea5f.jpeg)
+
+![Image 19](/assets/images/reprints/nijijourney/study2/e2b54623-8150-40e7-95a5-29e2e1db8159.jpeg)
+
+![Image 20](/assets/images/reprints/nijijourney/study2/a9930cd6-c31f-404c-b2d5-7fcc52810b86.jpeg)
+
+![Image 21](/assets/images/reprints/nijijourney/study2/ebbbfa7f-9ef3-4dfd-bd64-b8df195db17d.jpeg)
+
+希望玩得开心！
