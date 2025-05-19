@@ -21,7 +21,7 @@ copyright: reprint
 
 ## Establishing Visual Hierarchy
 
-![Image 2](/assets/images/reprints/nijijourney/lesson2/f974b143-006e-4802-8202-20241b5104db.jpg)
+![Image 2](/assets/images/reprints/nijijourney/lesson2/f974b143-006e-4802-8202-20241b5104db.jpeg)
 
 School of Athens by Raphael
 
@@ -29,7 +29,7 @@ There’s a lot of people in this scene, but you know exactly where to look at. 
 
 They may look very different, but this painting shares the same concept:
 
-![Image 3](/assets/images/reprints/nijijourney/lesson2/0d45fb10-0ecd-4261-b80a-b320af3fa216.jpg)
+![Image 3](/assets/images/reprints/nijijourney/lesson2/0d45fb10-0ecd-4261-b80a-b320af3fa216.jpeg)
 
 Large simple areas of rest make your eyes want something complicated. Areas that are complicated make your eyes want to rest on something simple. By interleaving them together, we push and pull the eyes to follow invisible lines around the picture. The goal of the artist is to carefully craft the place where the gaze ends up.
 
@@ -41,11 +41,11 @@ As a child, I owned the puzzle set for School of Athens. I repeatedly took it ap
 
 When you have these two focal points, they compete for priority. Notice the jewelry and the face here, competing for your attention. This is caused by the visual complexity in the jewelry
 
-![Image 4](/assets/images/reprints/nijijourney/lesson2/933a6c6c-117f-46e6-bb8e-ecc976ed751e.jpg)
+![Image 4](/assets/images/reprints/nijijourney/lesson2/933a6c6c-117f-46e6-bb8e-ecc976ed751e.jpeg)
 
 If you continue ramping up the visual complexity of the jewelry, at some point, the subject of the painting will change, back to one focal point, on the hairpin. (Perhaps you could use this to sell a fancy hairpin)
 
-![Image 5](/assets/images/reprints/nijijourney/lesson2/a011ab6d-fee2-483d-92b2-8559ed204f40.jpg)
+![Image 5](/assets/images/reprints/nijijourney/lesson2/a011ab6d-fee2-483d-92b2-8559ed204f40.jpeg)
 
 It’s all about the relative hierarchy of the objects in the scene.In the end, it depends on the kind of story that you want to tell.
 
@@ -53,7 +53,7 @@ It’s all about the relative hierarchy of the objects in the scene.In the end, 
 
 Compared the picture below to the two pictures above. Curiously, it is organized in terms of rest areas and complex areas: it pushes and pulls our eyes, but since there’s no focal point, it’s hard to tell what is going on at a glance. There’s no location where our gaze rests.
 
-![Image 6](/assets/images/reprints/nijijourney/lesson2/20da8d04-2441-4238-8978-d38e2ae4cbe8.jpg)
+![Image 6](/assets/images/reprints/nijijourney/lesson2/20da8d04-2441-4238-8978-d38e2ae4cbe8.jpeg)
 
 The garden of earthly delights, Hieronymus Bosch
 
@@ -61,7 +61,7 @@ Why is this picture so strangely organized? It’s function is a clue to its pre
 
 Raphael’s organization methods have remained timeless. In contrast, you rarely see paintings organized like Hieronymus Bosch’s these days: the general modern principle is that the first read must convey a strong focal point: people simply don’t have the time for a second read.
 
-![Image 7](/assets/images/reprints/nijijourney/lesson2/a0b04940-2773-40d9-a513-1be780cd7609.jpg)
+![Image 7](/assets/images/reprints/nijijourney/lesson2/a0b04940-2773-40d9-a513-1be780cd7609.jpeg)
 
 I’ve always thought this picture was funny, because it is a list of all the things you ought not do, but listed in extreme detail: (“you definitely should not stick a bouquet of flowers into somebody’s butt, certainly not like the way I have demonstrated here.”) I’m sure whichever medieval family owned this piece had some amusement over this.
 
@@ -77,7 +77,7 @@ This first visual organization concept we will explore is value, which is to say
 
 To establish a value structure, we will sort the brightness into our picture into 2 buckets, either light or dark. The very important line which separates dark into light is called the terminator line.
 
-![Image 8](/assets/images/reprints/nijijourney/lesson2/aa7fdc0f-4042-4aff-856c-2c639f7170c6.jpg)
+![Image 8](/assets/images/reprints/nijijourney/lesson2/aa7fdc0f-4042-4aff-856c-2c639f7170c6.jpeg)
 
 ## Rimlight, the Ultimate Terminator Line
 
@@ -85,19 +85,19 @@ Rimlight is this form of organization, taken to the extreme.
 
 The elegance of rimlight
 
-![Image 17](/assets/images/reprints/nijijourney/lesson2/e7288cdc-7432-4e6c-80e8-0dff988d110a.jpg)
+![Image 17](/assets/images/reprints/nijijourney/lesson2/e7288cdc-7432-4e6c-80e8-0dff988d110a.jpeg)
 
 The majesty of rimlight
 
-![Image 18](/assets/images/reprints/nijijourney/lesson2/1a311c8b-e18c-493c-be9e-247594c3b7a3.jpg)
+![Image 18](/assets/images/reprints/nijijourney/lesson2/1a311c8b-e18c-493c-be9e-247594c3b7a3.jpeg)
 
 The power of rim light!
 
-![Image 19](/assets/images/reprints/nijijourney/lesson2/36429278-4ac9-40c2-bab8-4acdd44034d1.jpg)
+![Image 19](/assets/images/reprints/nijijourney/lesson2/36429278-4ac9-40c2-bab8-4acdd44034d1.jpeg)
 
 niji loves rim light
 
-![Image 20](/assets/images/reprints/nijijourney/lesson2/375191cf-d154-4b3a-9741-883419eaea0f.jpg)
+![Image 20](/assets/images/reprints/nijijourney/lesson2/375191cf-d154-4b3a-9741-883419eaea0f.jpeg)
 
 (I’m sorry, niji users)
 
@@ -107,21 +107,21 @@ Rimlight is a little bit overdone, I admit, but it is very convenient
 
 Complicated compositions like this rely on adhering to value organization in order to read well. By keeping the terminator line and the light side clean, the artists here can fill the rest of the picture with detail without overwhelming the audience.
 
-![Image 21](/assets/images/reprints/nijijourney/lesson2/7a317a98-7923-4856-8c47-2813ace83a67.jpg)
+![Image 21](/assets/images/reprints/nijijourney/lesson2/7a317a98-7923-4856-8c47-2813ace83a67.jpeg)
 
 It all starts from the division of light and shadow: You can see the entire painting from the terminator line:
 
-![Image 22](/assets/images/reprints/nijijourney/lesson2/e4974d19-cf65-4d33-b121-a6482e767d66.jpg)
+![Image 22](/assets/images/reprints/nijijourney/lesson2/e4974d19-cf65-4d33-b121-a6482e767d66.jpeg)
 
 The ultimate goal is to draw in a way that doesn’t move from the initial terminator line. Once you organize the hierarchy of a painting, you must not go tearing it back down.
 
-![Image 23](/assets/images/reprints/nijijourney/lesson2/e5264452-b9b9-4198-afb4-d1b490a92743.jpg)
+![Image 23](/assets/images/reprints/nijijourney/lesson2/e5264452-b9b9-4198-afb4-d1b490a92743.jpeg)
 
-![Image 24](/assets/images/reprints/nijijourney/lesson2/43c55025-1b60-4e26-ba5a-da33da80b620.jpg)
+![Image 24](/assets/images/reprints/nijijourney/lesson2/43c55025-1b60-4e26-ba5a-da33da80b620.jpeg)
 
-![Image 25](/assets/images/reprints/nijijourney/lesson2/d1cbe73b-4ecf-4d1d-ae86-05257a8c4742.jpg)
+![Image 25](/assets/images/reprints/nijijourney/lesson2/d1cbe73b-4ecf-4d1d-ae86-05257a8c4742.jpeg)
 
-![Image 26](/assets/images/reprints/nijijourney/lesson2/940c6284-3938-4f14-9960-d6d2a564c2d2.jpg)
+![Image 26](/assets/images/reprints/nijijourney/lesson2/940c6284-3938-4f14-9960-d6d2a564c2d2.jpeg)
 
 From: illustrator RDJlock
 
