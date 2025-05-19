@@ -20,15 +20,13 @@ copyright: 转载
 
 ## 建立视觉层次
 
-![图片 2](/assets/images/reprints/nijijourney/lesson2/f974b143-006e-4802-8202-20241b5104db.jpeg)
-
-拉斐尔的《雅典学院》
+![拉斐尔的《雅典学院》](/assets/images/reprints/nijijourney/lesson2/f974b143-006e-4802-8202-20241b5104db.jpeg)
 
 这幅画中有很多人物，但你知道该看哪里。为什么？
 
 虽然它们看起来非常不同，但这幅画与以下概念相同：
 
-![图片 3](/assets/images/reprints/nijijourney/lesson2/0d45fb10-0ecd-4261-b80a-b320af3fa216.jpeg)
+![展示休息区域和复杂区域的插图](/assets/images/reprints/nijijourney/lesson2/0d45fb10-0ecd-4261-b80a-b320af3fa216.jpeg)
 
 大面积的简单区域让你的眼睛渴望复杂的东西，而复杂的区域又让你的眼睛想停留在简单的地方。通过将它们交替排列，我们推动和拉动视线沿着画面中的隐形线条移动。艺术家的目标是精心设计视线最终停留的位置。
 
@@ -40,11 +38,11 @@ copyright: 转载
 
 当你有两个焦点时，它们会争夺优先级。注意这里的珠宝和面部，它们在争夺你的注意力。这是由珠宝的视觉复杂性引起的。
 
-![图片 4](/assets/images/reprints/nijijourney/lesson2/933a6c6c-117f-46e6-bb8e-ecc976ed751e.jpeg)
+![珠宝和面部争夺注意力的对比](/assets/images/reprints/nijijourney/lesson2/933a6c6c-117f-46e6-bb8e-ecc976ed751e.jpeg)
 
 如果你继续增加珠宝的视觉复杂性，在某个点上，画作的主题会改变，回到一个焦点上，即发簪。（也许你可以用这种方式来推销一个精美的发簪）
 
-![图片 5](/assets/images/reprints/nijijourney/lesson2/a011ab6d-fee2-483d-92b2-8559ed204f40.jpeg)
+![由于视觉复杂性焦点转移到发簪](/assets/images/reprints/nijijourney/lesson2/a011ab6d-fee2-483d-92b2-8559ed204f40.jpeg)
 
 这完全取决于场景中物体的相对层次。最终，这取决于你想讲述什么样的故事。
 
@@ -52,15 +50,13 @@ copyright: 转载
 
 将下图与上面两幅图进行比较。奇怪的是，它在休息区域和复杂区域之间进行了组织：它推动并拉动我们的视线，但由于没有焦点，很难一眼看出发生了什么。没有一个地方可以让我们的视线停留。
 
-![图片 6](/assets/images/reprints/nijijourney/lesson2/20da8d04-2441-4238-8978-d38e2ae4cbe8.jpeg)
-
-博斯的《人间乐园》
+![博斯的《人间乐园》](/assets/images/reprints/nijijourney/lesson2/20da8d04-2441-4238-8978-d38e2ae4cbe8.jpeg)
 
 为什么这幅画的组织方式如此奇怪？它的功能是其表现形式的线索。这幅画是一幅世俗的三联画。也就是说，它是一件家具，可以算是一种中世纪的家庭娱乐系统。它不依赖于第一眼的印象：它有许多只有靠近时才能看到的小细节，不像拉斐尔的画作，它挂在天花板上，或者 niji 生成的作品，旨在一眼抓住你的注意力。
 
 拉斐尔的组织方法经久不衰。相比之下，如博斯的画作那样组织的画作如今很少见：现代的一般原则是第一眼必须传达一个强烈的焦点：人们根本没有时间进行第二次阅读。
 
-![图片 7](/assets/images/reprints/nijijourney/lesson2/a0b04940-2773-40d9-a513-1be780cd7609.jpeg)
+![幽默的中世纪画作，详细列出禁忌](/assets/images/reprints/nijijourney/lesson2/a0b04940-2773-40d9-a513-1be780cd7609.jpeg)
 
 我一直觉得这幅画很有趣，因为它列出了所有你不应该做的事情，但却以极其详细的方式列出：（“你绝对不应该把一束花插到某人的屁股里，当然不能像我在这里演示的那样。”）我相信拥有这件作品的中世纪家庭对此一定感到有些娱乐。
 
@@ -76,27 +72,19 @@ copyright: 转载
 
 为了建立一个明暗值结构，我们将画面中的亮度分为两个桶，要么是亮的，要么是暗的。将暗与亮分开的非常重要的线被称为终结者线。
 
-![图片 8](/assets/images/reprints/nijijourney/lesson2/aa7fdc0f-4042-4aff-856c-2c639f7170c6.jpeg)
+![分隔明暗的终结者线插图](/assets/images/reprints/nijijourney/lesson2/aa7fdc0f-4042-4aff-856c-2c639f7170c6.jpeg)
 
 ## 边缘光，终极终结者线
 
 边缘光是这种组织形式的极致表现。
 
-边缘光的优雅
+![边缘光的优雅](/assets/images/reprints/nijijourney/lesson2/e7288cdc-7432-4e6c-80e8-0dff988d110a.jpeg)
 
-![图片 17](/assets/images/reprints/nijijourney/lesson2/e7288cdc-7432-4e6c-80e8-0dff988d110a.jpeg)
+![边缘光的庄严](/assets/images/reprints/nijijourney/lesson2/1a311c8b-e18c-493c-be9e-247594c3b7a3.jpeg)
 
-边缘光的庄严
+![边缘光的力量](/assets/images/reprints/nijijourney/lesson2/36429278-4ac9-40c2-bab8-4acdd44034d1.jpeg)
 
-![图片 18](/assets/images/reprints/nijijourney/lesson2/1a311c8b-e18c-493c-be9e-247594c3b7a3.jpeg)
-
-边缘光的力量！
-
-![图片 19](/assets/images/reprints/nijijourney/lesson2/36429278-4ac9-40c2-bab8-4acdd44034d1.jpeg)
-
-niji 热爱边缘光
-
-![图片 20](/assets/images/reprints/nijijourney/lesson2/375191cf-d154-4b3a-9741-883419eaea0f.jpeg)
+![niji 热爱边缘光](/assets/images/reprints/nijijourney/lesson2/375191cf-d154-4b3a-9741-883419eaea0f.jpeg)
 
 （抱歉，niji 用户们）
 
@@ -106,21 +94,21 @@ niji 热爱边缘光
 
 像这样的复杂构图依赖于遵守明暗值组织原则才能很好地阅读。通过保持终结者线和亮面整洁，这里的艺术家可以在画面的其他部分填充细节，而不会让观众感到不堪重负。
 
-![图片 21](/assets/images/reprints/nijijourney/lesson2/7a317a98-7923-4856-8c47-2813ace83a67.jpeg)
+![复杂构图遵循明暗值组织原则](/assets/images/reprints/nijijourney/lesson2/7a317a98-7923-4856-8c47-2813ace83a67.jpeg)
 
 一切都始于光影的分割：你可以从终结者线看到整幅画：
 
-![图片 22](/assets/images/reprints/nijijourney/lesson2/e4974d19-cf65-4d33-b121-a6482e767d66.jpeg)
+![通过终结者线分割的画作](/assets/images/reprints/nijijourney/lesson2/e4974d19-cf65-4d33-b121-a6482e767d66.jpeg)
 
 最终目标是以一种不会偏离初始终结者线的方式绘画。一旦你组织好了画面的层次结构，就不能再将其拆解。
 
-![图片 23](/assets/images/reprints/nijijourney/lesson2/e5264452-b9b9-4198-afb4-d1b490a92743.jpeg)
+![遵循初始终结者线的最终画作](/assets/images/reprints/nijijourney/lesson2/e5264452-b9b9-4198-afb4-d1b490a92743.jpeg)
 
-![图片 24](/assets/images/reprints/nijijourney/lesson2/43c55025-1b60-4e26-ba5a-da33da80b620.jpeg)
+![终结者线使用的额外示例](/assets/images/reprints/nijijourney/lesson2/43c55025-1b60-4e26-ba5a-da33da80b620.jpeg)
 
-![图片 25](/assets/images/reprints/nijijourney/lesson2/d1cbe73b-4ecf-4d1d-ae86-05257a8c4742.jpeg)
+![另一个终结者线使用示例](/assets/images/reprints/nijijourney/lesson2/d1cbe73b-4ecf-4d1d-ae86-05257a8c4742.jpeg)
 
-![图片 26](/assets/images/reprints/nijijourney/lesson2/940c6284-3938-4f14-9960-d6d2a564c2d2.jpeg)
+![展示终结者线原理的插图](/assets/images/reprints/nijijourney/lesson2/940c6284-3938-4f14-9960-d6d2a564c2d2.jpeg)
 
 来自：插画师 RDJlock
 
