@@ -97,12 +97,12 @@ copyright: 转载
 
 ## 本科案例
 
-![课堂演示示例 1](/assets/images/reprints/nijijourney/study2/632a45d0-4782-48da-9d90-3787fb74ea5f.jpeg)
+![课堂演示示例 1](/assets/images/reprints/nijijourney/study2/ebbbfa7f-9ef3-4dfd-bd64-b8df195db17d.jpeg)
 
 ![课堂演示示例 2](/assets/images/reprints/nijijourney/study2/e2b54623-8150-40e7-95a5-29e2e1db8159.jpeg)
 
 ![课堂演示示例 3](/assets/images/reprints/nijijourney/study2/a9930cd6-c31f-404c-b2d5-7fcc52810b86.jpeg)
 
-![课堂演示示例 4](/assets/images/reprints/nijijourney/study2/ebbbfa7f-9ef3-4dfd-bd64-b8df195db17d.jpeg)
+![课堂演示示例 4](/assets/images/reprints/nijijourney/study2/632a45d0-4782-48da-9d90-3787fb74ea5f.jpeg)
 
 希望玩得开心！

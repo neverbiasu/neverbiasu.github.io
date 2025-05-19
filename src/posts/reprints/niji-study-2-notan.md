@@ -63,12 +63,12 @@ These are examples of good references:
 
 ## Demo from Class
 
-![Demo example 1](/assets/images/reprints/nijijourney/study2/632a45d0-4782-48da-9d90-3787fb74ea5f.jpeg)
+![Demo example 1](/assets/images/reprints/nijijourney/study2/ebbbfa7f-9ef3-4dfd-bd64-b8df195db17d.jpeg)
 
 ![Demo example 2](/assets/images/reprints/nijijourney/study2/e2b54623-8150-40e7-95a5-29e2e1db8159.jpeg)
 
 ![Demo example 3](/assets/images/reprints/nijijourney/study2/a9930cd6-c31f-404c-b2d5-7fcc52810b86.jpeg)
 
-![Demo example 4](/assets/images/reprints/nijijourney/study2/ebbbfa7f-9ef3-4dfd-bd64-b8df195db17d.jpeg)
+![Demo example 4](/assets/images/reprints/nijijourney/study2/632a45d0-4782-48da-9d90-3787fb74ea5f.jpeg)
 
 I hope you have fun!
