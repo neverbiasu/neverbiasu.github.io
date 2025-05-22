@@ -11,7 +11,7 @@ heroFullScreen: true
 bgImage: https://raw.githubusercontent.com/neverbiasu/blog/refs/heads/main/src/.vuepress/public/assets/images/cover-light.jpg
 bgImageDark: https://raw.githubusercontent.com/neverbiasu/blog/refs/heads/main/src/.vuepress/public/assets/images/cover-dark.jpg
 projects:
-  - icon: 
+  - icon: line-md:moon-alt-to-sunny-outline-loop-transition
     name: IloveSummerDay
     desc: Game Developer, Web Developer and my friend.
     link: https://wukingkk.com/
