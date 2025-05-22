@@ -10,6 +10,11 @@ tagline: continues learning
 heroFullScreen: true
 bgImage: https://raw.githubusercontent.com/neverbiasu/blog/refs/heads/main/src/.vuepress/public/assets/images/cover-light.jpg
 bgImageDark: https://raw.githubusercontent.com/neverbiasu/blog/refs/heads/main/src/.vuepress/public/assets/images/cover-dark.jpg
+projects:
+  - icon: 
+    name: IloveSummerDay
+    desc: Game Developer, Web Developer and my friend.
+    link: https://wukingkk.com/
 # projects:
 #   - icon: project
 #     name: project name
