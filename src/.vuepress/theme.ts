@@ -58,12 +58,16 @@ export default hopeTheme(
           link: 'https://www.codewithgpu.com/u/fayche'
         },
         ModelScope: {
-          icon: 'https://raw.githubusercontent.com/neverbiasu/neverbiasu.github.io/d958df931a64984dbbd4c1700330e666ce91c1e3/src/.vuepress/public/assets/icon/modelscope.svg',
+          icon: 'https://avatars.githubusercontent.com/u/109945100?s=200&v=4',
           link: 'https://modelscope.cn/profile/ModelE'
         },
-        VuePressThemeHope: {
-          icon: 'https://theme-hope-assets.vuejs.press/logo.svg',
-          link: 'https://theme-hope.vuejs.press'
+        Civitai: {
+          icon: 'https://avatars.githubusercontent.com/u/117393426?s=200&v=4',
+          link: 'https://civitai.com/user/Fetch267'
+        },
+        HuggingFace: {
+          icon: 'https://avatars.githubusercontent.com/u/25720743?s=200&v=4',
+          link: 'https://huggingface.co/6chan'
         }
       }
     },
