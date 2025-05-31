@@ -1,1 +1,121 @@
-// you can change colors here
+// Catppuccin Mocha Palette
+$rosewater: #f5e0dc;
+$flamingo: #f2cdcd;
+$pink: #f5c2e7;
+$mauve: #cba6f7;
+$red: #f38ba8;
+$maroon: #eba0ac;
+$peach: #fab387;
+$yellow: #f9e2af;
+$green: #a6e3a1;
+$teal: #94e2d5;
+$sky: #89dceb;
+$sapphire: #74c7ec;
+$blue: #89b4fa;
+$lavender: #b4befe;
+$text: #cdd6f4;
+$subtext0: #a6adc8;
+$subtext1: #bac2de;
+$overlay0: #6c7086;
+$overlay1: #7f849c;
+$overlay2: #9399b2;
+$surface0: #313244;
+$surface1: #45475a;
+$surface2: #585b70;
+$base: #1e1e2e;
+$mantle: #181825;
+$crust: #11111b;
+
+// VuePress Hope Theme Color Overrides for Catppuccin Mocha
+// Background Colors
+$vp-c-bg: (
+  light: $base, // Or another light color from Catppuccin if you prefer for light mode
+  dark: $base
+);
+$vp-c-bg-alt: (
+  light: $mantle, // Or another light color
+  dark: $mantle
+);
+$vp-c-bg-mute: (
+  light: $surface0, // Or another light color
+  dark: $surface0
+);
+
+// Text Colors
+$vp-c-text-1: (
+  light: $text, // Or a darker text color for light mode if $text is too light
+  dark: $text
+);
+$vp-c-text-2: (
+  light: $subtext1, // Or a darker text color
+  dark: $subtext1
+);
+$vp-c-text-3: (
+  light: $subtext0, // Or a darker text color
+  dark: $subtext0
+);
+
+// Border Colors
+$vp-c-divider: (
+  light: $surface1, // Or a suitable light mode border
+  dark: $surface1
+);
+$vp-c-border: (
+  light: $surface2, // Or a suitable light mode border
+  dark: $surface2
+);
+
+// Brand Colors (already set in config.scss, but can be here too if preferred for light/dark variations)
+// $vp-c-brand-1: $blue;
+// $vp-c-brand-2: $sapphire; 
+// $vp-c-brand-3: $sky;
+
+// Accent Colors - Derived from $theme-color (Catppuccin Blue by default)
+// You can customize these if the automatic generation isn't perfect.
+// $vp-c-accent: $blue; // Already effectively handled by $theme-color in config.scss
+// $vp-c-accent-hover: darken($blue, 10%); // Example: darken blue for hover
+// $vp-c-accent-bg: $blue;
+// $vp-c-accent-text: $crust; // Example: crust text on blue background
+// $vp-c-accent-soft: rgba($blue, 0.15); // Example: soft blue background
+
+// Control Colors
+$vp-c-control: (
+  light: $surface1,
+  dark: $surface1
+);
+$vp-c-control-hover: (
+  light: $surface2,
+  dark: $surface2
+);
+$vp-c-control-disabled: (
+  light: $overlay0,
+  dark: $overlay0
+);
+
+// Elevated Background (e.g., dialogs)
+$vp-c-bg-elv: (
+  light: $mantle, // Or $surface0, $surface1 depending on desired elevation
+  dark: $mantle  // Or $surface0, $surface1
+);
+
+// Shadows (optional, can be subtle with dark themes)
+$vp-c-shadow: (
+  light: rgba($crust, 0.1), // Softer shadow for light mode
+  dark: rgba($crust, 0.3)  // Darker shadow for dark mode, if needed
+);
+
+// Harder border (e.g., tables, kbd)
+$vp-c-border-hard: (
+  light: $surface0,
+  dark: $surface0
+);
+
+// Muted and Subtle text colors (if auto-generation needs override)
+// $vp-c-text-mute: (
+//   light: $subtext0,
+//   dark: $subtext0
+// );
+// $vp-c-text-subtle: (
+//   light: $overlay1,
+//   dark: $overlay1
+// );
