@@ -251,7 +251,7 @@ These are important prompts in illustration generation. The better you are able 
 
 This is a prompt for expressing facial expressions. This one is also a major factor in the quality of generation. It is roughly divided by Robert Plutchick's [8 primary emotions](https://en.wikipedia.org/wiki/Emotion_classification#Plutchik's_wheel_of_emotions).
 
-![Plutchik Emotion Wheel](../../../../assets/images/reprints/digitalcreativeai/plutchik-wheel_en.png)
+![Plutchik Emotion Wheel](/assets/images/reprints/digitalcreativeai/plutchik-wheel_en.png)
 
 ### Joy Relationship
 

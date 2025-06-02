@@ -205,7 +205,7 @@ cover: /eye_catch_introduction-of-prompts-ai-illustration-composition-facial-exp
 
 这是用于表达面部表情的提示。这也是生成质量的主要因素之一。它大致按照Robert Plutchick的[8种基本情绪](https://en.wikipedia.org/wiki/Emotion_classification#Plutchik's_wheel_of_emotions)进行分类。
 
-![Plutchik情绪轮](../../../../assets/images/reprints/digitalcreativeai/plutchik-wheel_en.png)
+![Plutchik情绪轮](/assets/images/reprints/digitalcreativeai/plutchik-wheel_en.png)
 
 ### 喜悦关系
 
