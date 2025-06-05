@@ -1,6 +1,6 @@
 ---
-title: 发布 Illustrious Text‑Enhancer：Tag Booster 和 Mood Enhancer
-cover: /assets/images/reprints/illustrious/tag-enhancer/cover.jpg
+title: "发布 Illustrious Text‑Enhancer：Tag Booster 和 Mood Enhancer"
+cover: https://neverbiasu.github.io/assets/images/reprints/illustrious/tag-enhancer/cover.jpg
 date: 2025-05-23
 author: LivBigStar
 ---
@@ -22,7 +22,7 @@ Together, Tag Booster 和 Mood Enhancer **减轻了创作者**手工制作冗长
 
 从一行 prompt 创建生动的图像是具有挑战性的——像 Illustrious XL 这样的扩散模型是在 prompt/说明具有一定丰富性和多样性的数据集上训练的。**Tag Booster** 通过**自动扩展和优化您的 prompt** 使其更像训练分布中的那些来弥补这一差距。它由我们内部的 **TIPO 框架**提供支持，这是一个专为 prompt 优化而构建的轻量级多任务语言模型。
 
-![Image: TIPO Architecture](/assets/images/reprints/illustrious/tag-enhancer/tipo-architecture.png)
+![Image: TIPO Architecture](https://neverbiasu.github.io/assets/images/reprints/illustrious/tag-enhancer/tipo-architecture.png)
 
 ### 什么是 TIPO？
 
@@ -40,7 +40,7 @@ Tag Booster 的 TIPO 模型的一个关键创新是它是**联合任务**的—�
 1. **输入：** 秋天的森林
 2. **Tag Booster 输出：** 秋天的森林，金色阳光，落叶，高细节，杰作，暖色调
 
-![Tag Booster 示例比较](/assets/images/reprints/illustrious/tag-enhancer/tag-booster-compare.jpg)
+![Tag Booster 示例比较](https://neverbiasu.github.io/assets/images/reprints/illustrious/tag-enhancer/tag-booster-compare.jpg)
 
 通过添加细节（"金色阳光"、"落叶"）和风格标签（"高细节，杰作"），prompt 现在更好地匹配我们模型的训练内容。这些额外的提示帮助扩散模型**专注于预期的场景和美学**。在内部测试中，这种方法在**图像质量方面取得了显著提升**——我们的评估者看到了_更生动的色彩、更少的伪影，以及与 prompt 意图更紧密对齐的构图_。这与 TIPO 研究的发现相呼应，该研究报告了使用此类 prompt 优化时"_美学质量的显著改善、视觉伪影的显著减少，以及与目标分布的增强对齐_"。
 
@@ -62,7 +62,7 @@ Tag Booster 的 TIPO 模型的一个关键创新是它是**联合任务**的—�
 
 注意稀疏的想法如何变成**迷你故事**：它保留了核心（"夜晚的未来主义城市"），但添加了具体的视觉元素（霓虹灯、摩天大楼、全息广告牌）和氛围（雨天、赛博朋克氛围）。这种丰富的 prompt 可以引导扩散模型生成感觉像科幻电影画面的图像，而不是普通的城市。**氛围的天赋**和**具体细节**正是 Mood Enhancer 设计注入的。
 
-![Image: Mood Enhancer Comparison](/assets/images/reprints/illustrious/tag-enhancer/mood-enhancer-compare.jpg)
+![Image: Mood Enhancer Comparison](https://neverbiasu.github.io/assets/images/reprints/illustrious/tag-enhancer/mood-enhancer-compare.jpg)
 
 ---
 
@@ -70,7 +70,7 @@ Tag Booster 的 TIPO 模型的一个关键创新是它是**联合任务**的—�
 
 使用 LLM 扩展 prompt 引起了一个担忧：**成本和速度**。高质量的 LLM（具有大参数数量）运行可能缓慢或昂贵，特别是如果每次都要提供长系统 prompt 和示例。我们通过一个巧妙的优化解决了这个挑战：**Key-Value 缓存重用**用于 LLM 的 prompt。这种技术受到 LLM 部署的最新进展启发（甚至 Anthropic 的 Claude API 也引入了类似的 _prompt 缓存_ 功能来减少多达 90% 的成本）。
 
-![KV Caching Efficiency](/assets/images/reprints/illustrious/tag-enhancer/kv-caching2.jpg)
+![KV Caching Efficiency](https://neverbiasu.github.io/assets/images/reprints/illustrious/tag-enhancer/kv-caching2.jpg)
 
 ### 什么是 KV 缓存？
 在自回归生成期间，LLM 构建内部 **Key** 和 **Value** 张量（自注意力机制的"记忆"），当它们消费 prompt token 时。通常，如果每次都重新生成，您需要为每个请求支付所有 prompt token 的计算成本。但是如果 prompt 的大部分**总是相同的**（在我们的情况下，Mood Enhancer 的系统消息和少样本示例是固定的），我们可以**缓存其 KV 状态**一次并重复使用。在实践中，我们通过静态 prompt 部分运行 LLM **一次**（每会话或服务器预热），并存储每个 transformer 层的结果键值对。然后对于每个新用户输入，我们_用这个缓存的 KV 初始化 LLM 的状态_并从前缀末尾开始生成，就好像模型"已经看到了"系统 prompt 和示例。
@@ -105,7 +105,7 @@ Tag Booster 的 TIPO 模型的一个关键创新是它是**联合任务**的—�
 1. 没有 Text‑Enhancer，prompt"山丘上的孤独城堡"产生了一个非常普通的城堡图像，天空平淡。
 2. **使用 Text‑Enhancer，生成的图像要戏剧性和详细得多**——城堡有复杂的建筑，天空充满被日落照亮的阴郁云彩，整体构图匹配我们追求的**"雄伟氛围"**。
 
-![TagBooster Comparison](/assets/images/reprints/illustrious/tag-enhancer/compare-tag-booster.png)
+![TagBooster Comparison](https://neverbiasu.github.io/assets/images/reprints/illustrious/tag-enhancer/compare-tag-booster.png)
 
 <center><em>左侧显示从原始 prompt 生成的图像，右侧显示 Text-Enhancer 增强后的图像。氛围和细节的改善是显而易见的</em></center>
 <br>

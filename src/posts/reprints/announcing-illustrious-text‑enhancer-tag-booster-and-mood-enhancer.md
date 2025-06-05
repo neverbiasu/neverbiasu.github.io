@@ -1,5 +1,5 @@
 ---
-title: Announcing Illustrious Text‑Enhancer: Tag Booster & Mood Enhancer
+title: "Announcing Illustrious Text‑Enhancer: Tag Booster & Mood Enhancer"
 cover: /assets/images/reprints/illustrious/tag-enhancer/cover.jpg
 date: 2025-05-23
 author: LivBigStar
