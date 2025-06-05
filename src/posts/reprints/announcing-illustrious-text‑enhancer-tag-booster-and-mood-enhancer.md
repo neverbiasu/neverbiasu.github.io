@@ -1,8 +1,13 @@
+---
+title: Announcing Illustrious Text‑Enhancer: Tag Booster & Mood Enhancer
+cover: /assets/images/reprints/illustrious/tag-enhancer/cover.jpg
+date: 2025-05-23
+author: LivBigStar
+---
+
 # Announcing Illustrious Text‑Enhancer: Tag Booster & Mood Enhancer
 
-![Image: userImage](https://illustrious-prod.s3.ap-northeast-2.amazonaws.com/profile/2025-05-14T01:50:52.158Z/angel&devil.png)
-
-**LivBigStar** | May 23, 2025
+![Image: userImage](/assets/images/reprints/illustrious/tag-enhancer/compare-tag-booster.png)
 
 Illustrious users often ask: _“How can I get better results without writing long prompts?”_ Today, we’re excited to answer that with **Text‑Enhancer**, a new system that dramatically **enriches user prompts** for our image generation platform.
 
@@ -15,17 +20,17 @@ Together, Tag Booster and Mood Enhancer **reduce the burden on creators** to han
 
 ---
 
-## **From Sparse to Rich: How Tag Booster Enriches Prompts with TIPO**
+## From Sparse to Rich: How Tag Booster Enriches Prompts with TIPO
 
 Creating a vivid image from a one-liner prompt is challenging – diffusion models like Illustrious XL were trained on datasets where prompts/captions have a certain richness and variety. **Tag Booster** bridges this gap by **automatically expanding and refining your prompt** to look more like those in the training distribution. It’s powered by our in-house **TIPO framework**, a lightweight multi-task language model purpose-built for prompt optimization.
 
-![Image: TIPO Architecture](https://illustrious-prod.s3.ap-northeast-2.amazonaws.com/blog/2025-05-26T05:38:52.406Z/tipo%20architecture.png)
+![Image: TIPO Architecture](/assets/images/reprints/illustrious/tag-enhancer/tipo-architecture.png)
 
-### **What is TIPO?**
+### What is TIPO?
 
 TIPO stands for **Text-to-Image Prompt Optimization** – a novel approach that uses a **small, efficient model** trained on prompt pairs. It learned to take a simple prompt and output a richer one, adding details while preserving the original intent. This yields _significantly improved visual quality, coherence, and detail_ compared to using the raw prompt.
 
-### **Joint-task Training (Tags ↔ Text)**
+### Joint-task Training (Tags ↔ Text)
 
 TIPO handles both **tag lists and natural language** and converts one to the other. For example:
 
@@ -36,11 +41,11 @@ By adding details and stylistic tags, the enriched prompt better matches the tra
 
 ---
 
-## **Vivid Narratives with Less Effort: Mood Enhancer and LLM-Powered Expansion**
+## Vivid Narratives with Less Effort: Mood Enhancer and LLM-Powered Expansion
 
 While Tag Booster excels at **adding relevant keywords and tags**, **Mood Enhancer** transforms brief ideas into rich, atmospheric prompts using a **custom Large Language Model (LLM) pipeline**.
 
-### **How it Works**
+### How it Works
 
 Mood Enhancer uses a fixed system prompt and few-shot examples to generate elaborated prompts. For instance:
 
@@ -49,17 +54,19 @@ Mood Enhancer uses a fixed system prompt and few-shot examples to generate elabo
 
 This transformation preserves the core idea while adding imaginative details and atmosphere.
 
-![Image: Mood Enhancer Comparison](https://illustrious-prod.s3.ap-northeast-2.amazonaws.com/blog/2025-05-26T05:36:09.376Z/mood%20enhancer%20compare.jpg)
+![Image: Mood Enhancer Comparison](/assets/images/reprints/illustrious/tag-enhancer/mood-enhancer-compare.jpg)
 
 ---
 
-## **KV Caching: Supercharging LLM Efficiency**
+## KV Caching: Supercharging LLM Efficiency
 
 Using an LLM raises concerns about **cost and speed**, but Mood Enhancer employs **Key-Value cache reuse** to optimize efficiency. This technique reduces inference costs by up to 80% without sacrificing quality.
 
+![Image: KV Caching Efficiency](/assets/images/reprints/illustrious/tag-enhancer/kv-caching2.jpg)
+
 ---
 
-## **Text‑Enhancer in Action**
+## Text‑Enhancer in Action
 
 By combining Tag Booster and Mood Enhancer, Illustrious’s Text‑Enhancer system ensures that **any user input evolves into a powerful prompt** for image generation. For example:
 
@@ -69,11 +76,11 @@ By combining Tag Booster and Mood Enhancer, Illustrious’s Text‑Enhancer syst
 
 The enriched prompt yields **dramatic and detailed images** that align with the user’s vision.
 
-![Image: Comparison](https://illustrious-prod.s3.ap-northeast-2.amazonaws.com/blog/2025-05-23T09:32:49.058Z/compare%20tag%20booster.png)
+![Image: Comparison](/assets/images/reprints/illustrious/tag-enhancer/compare-tag-booster.png)
 
 ---
 
-## **Conclusion**
+## Conclusion
 
 Illustrious Text‑Enhancer (Tag Booster + Mood Enhancer) bridges natural human input and optimal prompts for high‑quality image generation. By leveraging advanced NLP techniques, our system handles prompt engineering in real‑time, empowering creators to focus on their vision.
 
