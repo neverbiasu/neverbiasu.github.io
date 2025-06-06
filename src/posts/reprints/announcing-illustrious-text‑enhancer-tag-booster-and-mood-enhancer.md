@@ -7,7 +7,7 @@ author: LivBigStar
 
 # Announcing Illustrious Text‑Enhancer: Tag Booster & Mood Enhancer
 
-Illustrious users often ask: _“How can I get better results without writing long prompts?”_ Today, we’re excited to answer that with **Text‑Enhancer**, a new system that dramatically **enriches user prompts** for our image generation platform.
+Illustrious users often ask: *“How can I get better results without writing long prompts?”* Today, we’re excited to answer that with **Text‑Enhancer**, a new system that dramatically **enriches user prompts** for our image generation platform.
 
 Text‑Enhancer actually comprises **two intelligent components** working together:
 
@@ -26,7 +26,7 @@ Creating a vivid image from a one-liner prompt is challenging – diffusion mode
 
 ### What is TIPO?
 
-TIPO stands for **Text-to-Image Prompt Optimization** – a novel approach that was co-developed by collaborating with a bright external researcher of multimodal model. Unlike brute-force prompt engineering or expensive large language model methods, TIPO uses a **small, efficient model** (hundreds of millions of parameters, rather than tens of billions) that was **trained on prompt pairs**. Essentially, it learned to take a simple prompt and output a richer one. Conceptually, it “**samples refined prompts from a targeted sub-distribution**” of the prompt space, which means it adds the kinds of details our diffusion model expects, **while preserving the original intent**. This yields _significantly improved visual quality, coherence, and detail_ compared to using the raw prompt.
+TIPO stands for **Text-to-Image Prompt Optimization** – a novel approach that was co-developed by collaborating with a bright external researcher of multimodal model. Unlike brute-force prompt engineering or expensive large language model methods, TIPO uses a **small, efficient model** (hundreds of millions of parameters, rather than tens of billions) that was **trained on prompt pairs**. Essentially, it learned to take a simple prompt and output a richer one. Conceptually, it “**samples refined prompts from a targeted sub-distribution**” of the prompt space, which means it adds the kinds of details our diffusion model expects, **while preserving the original intent**. This yields *significantly improved visual quality, coherence, and detail* compared to using the raw prompt.
 
 ### Joint-task Training (Tags ↔ Text)
 
@@ -42,7 +42,7 @@ For example, imagine you input just **“an autumn forest”**. This is short an
 
 ![Tag Booster Example Comparison](/assets/images/reprints/illustrious/tag-enhancer/tag-booster-compare.jpg)
 
-By adding details (“golden sunlight”, “falling leaves”) and style tags (“high detail, masterpiece”), the prompt now better matches what our model was trained on. These extra cues help the diffusion model **focus on the intended scene and aesthetic**. In internal tests, this approach yielded **notable gains in image quality** – our evaluators saw _more vivid colors, fewer artifacts, and compositions that aligned more closely with the prompt intention_. This echoes findings from the TIPO research, which reported _“substantial improvements in aesthetic quality, significant reduction of visual artifacts, and enhanced alignment with target distributions”_ when using such prompt optimization.
+By adding details (“golden sunlight”, “falling leaves”) and style tags (“high detail, masterpiece”), the prompt now better matches what our model was trained on. These extra cues help the diffusion model **focus on the intended scene and aesthetic**. In internal tests, this approach yielded **notable gains in image quality** – our evaluators saw *more vivid colors, fewer artifacts, and compositions that aligned more closely with the prompt intention*. This echoes findings from the TIPO research, which reported *“substantial improvements in aesthetic quality, significant reduction of visual artifacts, and enhanced alignment with target distributions”* when using such prompt optimization.
 
 More importantly, Tag Booster operates **lightning-fast**. Because TIPO is so lightweight, adding this step doesn’t slow down generation in any noticeable way – it’s a fraction of a second to enrich the prompt. And unlike heuristics that simply append a fixed set of “magic keywords”, Tag Booster is **context-aware**: it tailors the additions to **your specific prompt** content. The enriched prompt still feels like a natural extension of what you wanted, just with more detail and clarity. The end result is that **users get higher-fidelity images with minimal extra effort**, allowing even one-word prompts to shine as if they were carefully engineered.
 
@@ -50,15 +50,15 @@ More importantly, Tag Booster operates **lightning-fast**. Because TIPO is so li
 
 ## Vivid Narratives with Less Effort: Mood Enhancer and LLM-Powered Expansion
 
-While Tag Booster excels at **adding relevant keywords and tags**, we also wanted to help users who prefer **natural language prompts** or who have a certain _mood or story_ in mind for their image. This is where **Mood Enhancer** comes into play. Mood Enhancer uses a **custom Large Language Model (LLM) pipeline** to **transform a brief idea into a rich, atmospheric prompt**. If Tag Booster is about **precision and fidelity**, Mood Enhancer is about **creativity and storytelling** infusing prompts with vivid scene descriptions, context, and emotional tone.
+While Tag Booster excels at **adding relevant keywords and tags**, we also wanted to help users who prefer **natural language prompts** or who have a certain *mood or story* in mind for their image. This is where **Mood Enhancer** comes into play. Mood Enhancer uses a **custom Large Language Model (LLM) pipeline** to **transform a brief idea into a rich, atmospheric prompt**. If Tag Booster is about **precision and fidelity**, Mood Enhancer is about **creativity and storytelling** infusing prompts with vivid scene descriptions, context, and emotional tone.
 
 ### How it Works
 
-We crafted a special **system prompt** for an LLM along with a set of **few-shot examples** so that it learns the style of an ideal Illustrious prompt. For instance, the system prompt might say something like _“You are an artist assistant that turns short prompts into detailed visual descriptions. Include imaginative details and set the mood.”_ Then we provide a few examples of transformations (just like showing the model a before-and-after of prompts). With this fixed prompt template, when the user provides their input, the LLM will generate an **elaborated prompt** following those examples.
+We crafted a special **system prompt** for an LLM along with a set of **few-shot examples** so that it learns the style of an ideal Illustrious prompt. For instance, the system prompt might say something like *“You are an artist assistant that turns short prompts into detailed visual descriptions. Include imaginative details and set the mood.”* Then we provide a few examples of transformations (just like showing the model a before-and-after of prompts). With this fixed prompt template, when the user provides their input, the LLM will generate an **elaborated prompt** following those examples.
 
 Consider a user input: **“futuristic city at night”**. That’s a cool concept but fairly high-level. Mood Enhancer would turn this into something like:
 
-> _“A sprawling_**_futuristic city_**_skyline at night, with_**_neon-lit skyscrapers_**_and flying vehicles weaving between the buildings. The streets below glow with_**_holographic billboards_**_and reflected lights. A sense of_**_rainy ambiance_**_with puddles reflecting the vibrant neon signs adds a_**_cyberpunk_**_mood.”_
+> *“A sprawling****futuristic city****skyline at night, with****neon-lit skyscrapers****and flying vehicles weaving between the buildings. The streets below glow with****holographic billboards****and reflected lights. A sense of****rainy ambiance****with puddles reflecting the vibrant neon signs adds a****cyberpunk****mood.”*
 
 Notice how the sparse idea became a **mini story**: it preserved the core (“futuristic city at night”) but added concrete visual elements (neon lights, skyscrapers, holographic billboards) and mood (rainy, cyberpunk vibe). This kind of rich prompt can guide the diffusion model to generate an image that feels like a frame from a sci-fi film, rather than a generic city. The **atmospheric flair** and **specific details** are exactly what Mood Enhancer is designed to inject.
 
@@ -68,14 +68,14 @@ Notice how the sparse idea became a **mini story**: it preserved the core (“fu
 
 ## KV Caching: Supercharging LLM Efficiency Under the Hood
 
-Using an LLM to expand prompts raises a concern: **cost and speed**. High-quality LLMs (with large parameter counts) can be slow or expensive to run, especially if you feed a long system prompt and examples each time. We tackled this challenge with a clever optimization: **Key-Value cache reuse** for the LLM’s prompts. This technique is inspired by recent advances in LLM deployment (even Anthropic’s Claude API introduced a similar _prompt caching_ feature to cut costs by up to 90%).
+Using an LLM to expand prompts raises a concern: **cost and speed**. High-quality LLMs (with large parameter counts) can be slow or expensive to run, especially if you feed a long system prompt and examples each time. We tackled this challenge with a clever optimization: **Key-Value cache reuse** for the LLM’s prompts. This technique is inspired by recent advances in LLM deployment (even Anthropic’s Claude API introduced a similar *prompt caching* feature to cut costs by up to 90%).
 
 ![KV Caching Efficiency](/assets/images/reprints/illustrious/tag-enhancer/kv-caching2.jpg)
 
 ### What is KV caching?
-During autoregressive generation, LLMs build up internal **Key** and **Value** tensors (the “memory” of the self-attention mechanism) as they consume the prompt tokens. Normally, if you generate fresh each time, you pay the compute cost for all prompt tokens for each request. But if a large portion of the prompt is **always the same** (in our case, the system message and few-shot examples are fixed for Mood Enhancer), we can **cache its KV state** once and reuse it. In practice, we run the LLM through the static prompt portion **one time** (per session or server warm-up), and store the resulting key-value pairs from each transformer layer. Then for each new user input, we _initialize the LLM’s state with this cached KV_ and start generation from the end of the prefix, as if the model had “already seen” the system prompt and examples.
+During autoregressive generation, LLMs build up internal **Key** and **Value** tensors (the “memory” of the self-attention mechanism) as they consume the prompt tokens. Normally, if you generate fresh each time, you pay the compute cost for all prompt tokens for each request. But if a large portion of the prompt is **always the same** (in our case, the system message and few-shot examples are fixed for Mood Enhancer), we can **cache its KV state** once and reuse it. In practice, we run the LLM through the static prompt portion **one time** (per session or server warm-up), and store the resulting key-value pairs from each transformer layer. Then for each new user input, we *initialize the LLM’s state with this cached KV* and start generation from the end of the prefix, as if the model had “already seen” the system prompt and examples.
 
-This yields **massive efficiency gains**. The **fixed prompt** for Mood Enhancer can be quite lengthy (it might be, say, 500 tokens of instructions and examples to ensure high-quality output). With KV caching, those 500 tokens are processed just once; subsequent prompts only incur compute for the new user input (maybe 5–50 tokens) plus the output tokens. In our tests, this brought the **LLM inference cost down to ~20%** of the naïve cost per generation – effectively an 80% reduction in cost and a significant speedup, without any loss in output quality. These numbers line up with industry reports that prompt caching can reduce input costs by _up to 90%_ in some scenarios.
+This yields **massive efficiency gains**. The **fixed prompt** for Mood Enhancer can be quite lengthy (it might be, say, 500 tokens of instructions and examples to ensure high-quality output). With KV caching, those 500 tokens are processed just once; subsequent prompts only incur compute for the new user input (maybe 5–50 tokens) plus the output tokens. In our tests, this brought the **LLM inference cost down to ~20%** of the naïve cost per generation – effectively an 80% reduction in cost and a significant speedup, without any loss in output quality. These numbers line up with industry reports that prompt caching can reduce input costs by *up to 90%* in some scenarios.
 
 ### Technical insight - making it work
 Implementing KV caching in a robust way required navigating some **LLM internals**. Modern transformer models (including the one we use for Mood Enhancer) often employ **rotary positional embeddings** for tokens. This relative positioning scheme is great for handling long contexts, but we had to ensure that our caching mechanism **preserves positional consistency**. In simple terms, when we cache the prefix, the model has assigned certain positional phases to those tokens; when we later append the user’s tokens, we must **continue the positional encoding seamlessly** so that the model treats it as one continuous sequence. We addressed this by carefully managing the position indices during generation – essentially, the model is never “reset” between the prefix and user input, so there’s no chance for misalignment.
@@ -93,19 +93,19 @@ By combining Tag Booster and Mood Enhancer, Illustrious’s Text‑Enhancer syst
 Let’s walk through a hypothetical example to see the end-to-end effect:
 
 1.  **User Input:** a lone castle on a hill
-    _Just a simple description — evocative, but sparse. The user hasn’t specified style, lighting, or surrounding details._
+    *Just a simple description — evocative, but sparse. The user hasn’t specified style, lighting, or surrounding details.*
 2.  **After Tag Booster:** lone castle on a hill, medieval fortress, cloudy sky, twilight, high-resolution, epic scale
-    _Tag Booster recognized the theme and added key visual tags: the castle is identified as a medieval fortress, a likely setting (cloudy sky at twilight) is added for mood, and stylistic tags like “high-resolution, epic scale” align with our training data for dramatic scenery._
+    *Tag Booster recognized the theme and added key visual tags: the castle is identified as a medieval fortress, a likely setting (cloudy sky at twilight) is added for mood, and stylistic tags like “high-resolution, epic scale” align with our training data for dramatic scenery.*
 3.  **After Mood Enhancer:**
-    _“A_**_lone medieval castle_**_stands atop a misty hill under a_**_cloud-laden twilight sky_**_. The ancient stone fortress is illuminated by the last light of dusk, its silhouette towering with_**_epic scale_**_over the darkening valley._**_Dramatic clouds_**_swirl above, and a faint mist clings to the ground, evoking a_**_mysterious, majestic atmosphere_**_.”_
-    _Mood Enhancer wove the tags into a rich narrative. It preserved all the key elements (castle, hill, cloudy twilight) and enhanced them: we can now_**_feel the atmosphere_**_and see the scene in our mind’s eye._
+    *“A****lone medieval castle****stands atop a misty hill under a****cloud-laden twilight sky****. The ancient stone fortress is illuminated by the last light of dusk, its silhouette towering with****epic scale****over the darkening valley.****Dramatic clouds****swirl above, and a faint mist clings to the ground, evoking a****mysterious, majestic atmosphere****.”*
+    *Mood Enhancer wove the tags into a rich narrative. It preserved all the key elements (castle, hill, cloudy twilight) and enhanced them: we can now****feel the atmosphere****and see the scene in our mind’s eye.*
 
 Now imagine feeding the final enhanced prompt into Illustrious XL. The difference in the output is night and day. In fact, we tested this internally:
 
 1.  Without Text‑Enhancer, the prompt “a lone castle on a hill” yielded a very generic castle image with a plain sky.
 2.  **With Text‑Enhancer, the generated image was far more dramatic and detailed** – the castle had intricate architecture, the sky was filled with brooding clouds lit by the sunset, and the overall composition matched that **“majestic atmosphere”** we were aiming for.
 
-![TagBooster Comparison](/assets/images/reprints/illustrious/tag-enhancer/compare-tag-booster.png)
+![TagBooster MoodBooster Comparison](https://neverbiasu.github.io/assets/images/reprints/illustrious/tag-enhancer/compare-tag-booster.png)
 
 <center><em>the left side shows the image generated from the original prompt, and the right side shows the image after Text-Enhancer enrichment. The improvement in mood and detail is evident</em></center>
 <br>
