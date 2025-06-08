@@ -69,7 +69,7 @@ ComfyMind是一个构建在ComfyUI平台上的协作式AI系统，旨在通过�
 
 ### 1. 克隆仓库
 
-![克隆ComfyMind仓库](/assets/images/repos/comfy-mind/comfymind-clone.png)
+![克隆ComfyMind仓库](/assets/images/repos/comfy-mind/git-clone.png)
 
 ```bash
 git clone https://github.com/EnVision-Research/ComfyMind.git
@@ -132,7 +132,7 @@ cd path/to/ComfyMind
 
 ### 4. 下载必要模型
 
-![下载模型](/assets/images/repos/comfy-mind/comfymind-download-models.png)
+![下载模型](/assets/images/repos/comfy-mind/download-models.png)
 
 通过ComfyUI-Manager或手动下载以下模型:
 - SDXL基础模型
@@ -182,8 +182,6 @@ python main_gradio.py
 
 ### 定制与扩展
 
-![ComfyMind工作流程](/assets/images/repos/comfy-mind/comfymind-workflow.png)
-
 ComfyMind基于ComfyUI的节点式工作流，支持自定义扩展：
 
 1. 通过ComfyUI界面设计自定义工作流
@@ -206,3 +204,4 @@ ComfyMind通过结合树状规划和反馈机制，为通用型AI生成提供了
 2. [ComfyMind论文](https://arxiv.org/abs/2505.17908)
 3. [ComfyUI官方文档](https://github.com/comfyanonymous/ComfyUI)
 4. [DeepWiki技术解读](https://deepwiki.com/EnVision-Research/ComfyMind)
+5. [ComfyMind在线演示](https://envision-research.hkust-gz.edu.cn/ComfyMind/)
