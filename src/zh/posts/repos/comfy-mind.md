@@ -178,7 +178,33 @@ python main_gradio.py
 |------|-----------|------|
 | 图像生成 | `--instruction "描述文本"` | 根据文本生成高质量图像 |
 | 图像编辑 | `--instruction "编辑指令" --resource1 "原图路径"` | 智能编辑现有图像 |
-| 视频生成 | 通过工作流组合使用 | 创建短视频或动画序列 |
+| 视频生成 | `--instruction "视频描述" --task_modality "t2v"` | 创建短视频或动画序列 |
+
+### 重要参数详解
+
+ComfyMind 提供了多种参数，让您可以精确控制生成过程：
+
+| 参数 | 用法 | 说明 |
+|------|------|------|
+| `--instruction` | `--instruction "生成一幅夏日黄昏的森林湖泊"` | 定义生成任务，可以是简单描述或复杂指令 |
+| `--resource1` | `--resource1 "./resources/reference.jpg"` | 指定第一个参考图像或视频路径 |
+| `--resource2` | `--resource2 "./resources/style.jpg"` | 指定第二个参考素材，用于复合参考生成 |
+| `--output_path` | `--output_path "./my_output"` | 指定生成结果保存位置 |
+| `--task_modality` | `--task_modality "i2i"` | 设置任务模式: t2i(文本到图像), i2i(图像编辑), t2v(文本到视频) |
+| `--preprocessing` | `--preprocessing "prompt_optimization"` | 指令预处理方式，优化生成提示 |
+
+#### 组合示例
+
+```bash
+# 基于参考图像进行风格迁移
+python main.py --instruction "将照片转换为梵高风格油画" --resource1 "./resources/photo.jpg" --task_modality "i2i" --output_path "./output"
+
+# 视频生成示例
+python main.py --instruction "创建一段海浪冲击岩石的短视频，慢动作，高清晰度" --task_modality "t2v" --output_path "./videos"
+
+# 复杂编辑案例
+python main.py --instruction "保持人物姿势不变，将背景改为城市夜景" --resource1 "./resources/portrait.jpg" --preprocessing "instruction_analysis" --output_path "./edits"
+```
 
 ### 定制与扩展
 
