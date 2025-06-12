@@ -9,7 +9,7 @@ tags:
   - 开源项目
 categories:
   - 创造者工坊
-cover: /assets/images/repos/comfy-mind/comfymind-cover.jpg
+cover: https://neverbiasu.github.io/assets/images/repos/comfy-mind/comfymind-cover.jpg
 ---
 
 # 创造者工坊：ComfyMind跑通教程
@@ -18,7 +18,7 @@ cover: /assets/images/repos/comfy-mind/comfymind-cover.jpg
 
 ## 摘要
 
-ComfyMind是一个基于ComfyUI平台的协作式AI系统，通过树状规划与反馈机制实现通用型AI生成功能。本教程将带你从零开始搭建并运行ComfyMind，体验其在图像生成、编辑和推理任务上的强大能力，适合对AI生成技术、ComfyUI扩展开发感兴趣的读者。
+ComfyMind是一个基于ComfyUI平台的协作式AI系统，通过树状规划与反馈机制实现通用型AI图像、视频生成功能。本教程将带你从零开始搭建并运行ComfyMind，体验其在图像生成、编辑和推理任务上的强大能力。
 
 ---
 
@@ -38,13 +38,10 @@ ComfyMind是一个基于ComfyUI平台的协作式AI系统，通过树状规划�
 
 ## 项目简介
 
-> 🔗 GitHub仓库：[链接](https://github.com/EnVision-Research/ComfyMind)  
-> 📚 官方文档：[链接](https://github.com/EnVision-Research/ComfyMind#readme)
-
 ComfyMind是一个构建在ComfyUI平台上的协作式AI系统，旨在通过树状规划和反馈机制实现通用型AI生成功能。它能够处理生成、编辑和推理等多种任务，表现优于现有开源基线，达到与GPT-Image-1相当的性能水平。
 
-**技术栈**：Python、ComfyUI、深度学习、LLM  
-**适用场景**：AI图像生成、图像编辑、视频生成、智能创作助手  
+**技术栈**：Python、ComfyUI、websocket、LLM、Agent
+**适用场景**：图像生成、图像编辑、视频生成、智能创作助手  
 **许可证**：MIT
 
 ## 环境准备
@@ -54,7 +51,7 @@ ComfyMind是一个构建在ComfyUI平台上的协作式AI系统，旨在通过�
 | 需求类型 | 详情 |
 |---------|------|
 | 操作系统 | Windows 10/11、macOS、Linux |
-| 硬件要求 | 8GB+ RAM、NVIDIA GPU (推荐8GB+显存)、20GB存储空间 |
+| 硬件要求 | 8GB+ RAM、NVIDIA GPU (推荐8GB+显存)、30GB + 存储空间 |
 
 ### 前置软件
 
@@ -69,7 +66,7 @@ ComfyMind是一个构建在ComfyUI平台上的协作式AI系统，旨在通过�
 
 ### 1. 克隆仓库
 
-![克隆ComfyMind仓库](/assets/images/repos/comfy-mind/git-clone.png)
+![克隆ComfyMind仓库](https://neverbiasu.github.io/assets/images/repos/comfy-mind/git-clone.png)
 
 ```bash
 git clone https://github.com/EnVision-Research/ComfyMind.git
@@ -78,7 +75,7 @@ cd ComfyMind
 
 ### 2. 安装依赖
 
-![安装依赖包](/assets/images/repos/comfy-mind/install-deps.png)
+![安装依赖包](https://neverbiasu.github.io/assets/images/repos/comfy-mind/install-deps.png)
 
 ```bash
 # 创建并激活conda环境
@@ -97,7 +94,7 @@ pip install -r requirements.txt
 
 1. 安装ComfyUI:
 
-![安装ComfyUI](/assets/images/repos/comfy-mind/install-comfyui.png)
+![安装ComfyUI](https://neverbiasu.github.io/assets/images/repos/comfy-mind/install-comfyui.png)
 
 ```bash
 git clone https://github.com/comfyanonymous/ComfyUI
@@ -107,7 +104,7 @@ pip install -r requirements.txt
 
 2. 安装ComfyUI-Manager:
 
-![安装ComfyUI-Manager](/assets/images/repos/comfy-mind/install-manager.png)
+![安装ComfyUI-Manager](https://neverbiasu.github.io/assets/images/repos/comfy-mind/install-manager.png)
 
 在ComfyUI的custom_nodes目录下:
 ```bash
@@ -118,7 +115,7 @@ pip install -r requirements.txt
 
 3. 修改ComfyMind配置文件:
 
-![配置ComfyMind](/assets/images/repos/comfy-mind/config.png)
+![配置ComfyMind](https://neverbiasu.github.io/assets/images/repos/comfy-mind/config.png)
 
 ```bash
 # 返回ComfyMind目录
@@ -132,7 +129,7 @@ cd path/to/ComfyMind
 
 ### 4. 下载必要模型
 
-![下载模型](/assets/images/repos/comfy-mind/download-models.png)
+![下载模型](https://neverbiasu.github.io/assets/images/repos/comfy-mind/download-models.png)
 
 通过ComfyUI-Manager或手动下载以下模型:
 - SDXL基础模型
@@ -143,7 +140,7 @@ cd path/to/ComfyMind
 
 ### 5. 启动应用
 
-![ComfyMind界面](/assets/images/repos/comfy-mind/ui.png)
+![ComfyMind界面](https://neverbiasu.github.io/assets/images/repos/comfy-mind/ui.png)
 
 可使用命令行交互
 ```bash
