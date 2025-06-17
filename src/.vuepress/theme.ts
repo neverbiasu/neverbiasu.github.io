@@ -59,14 +59,14 @@ export default hopeTheme(
         },
         ModelScope: {
           icon: 'https://avatars.githubusercontent.com/u/109945100?s=200&v=4',
-          link: 'https://modelscope.cn/profile/ModelE'
+          link: 'https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/modelscope-color.png'
         },
         Civitai: {
           icon: 'https://avatars.githubusercontent.com/u/117393426?s=200&v=4',
           link: 'https://civitai.com/user/Fetch267'
         },
         HuggingFace: {
-          icon: 'https://avatars.githubusercontent.com/u/25720743?s=200&v=4',
+          icon: 'https://huggingface.co/front/assets/huggingface_logo.svg',
           link: 'https://huggingface.co/6chan'
         }
       }
