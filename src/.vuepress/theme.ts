@@ -58,11 +58,11 @@ export default hopeTheme(
           link: 'https://www.codewithgpu.com/u/fayche'
         },
         ModelScope: {
-          icon: 'https://avatars.githubusercontent.com/u/109945100?s=200&v=4',
-          link: 'https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/modelscope-color.png'
+          icon: 'https://raw.githubusercontent.com/lobehub/lobe-icons/7dabb828beb43f56512b054447753491366a4197/packages/static-svg/icons/modelscope-color.svg',
+          link: 'https://modelscope.cn/profile/ModelE'
         },
         Civitai: {
-          icon: 'https://avatars.githubusercontent.com/u/117393426?s=200&v=4',
+          icon: 'https://raw.githubusercontent.com/lobehub/lobe-icons/7dabb828beb43f56512b054447753491366a4197/packages/static-svg/icons/civitai-color.svg',
           link: 'https://civitai.com/user/Fetch267'
         },
         HuggingFace: {
