@@ -1,1 +1,1 @@
-请根据papers的模板（template），撰写流程（workflow），检查表（checklist）以及这篇文章的的所有参考资料（blog、paper和readme）主要参考blog。以及papers文件夹中的优秀论文精读博文，去写这篇文章的论文精读
+请根据papers的模板（template），撰写流程（workflow），检查表（checklist）以及这篇文章的的所有参考材料（blog、paper和readme）并主要参考blog。以及参考papers文件夹中的优秀论文精读博文，去写这篇文章的论文精读
