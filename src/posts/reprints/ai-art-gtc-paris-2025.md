@@ -16,8 +16,6 @@ categories:
 
 The conference, taking place in one of Europe's iconic art capitals, will feature a curated gallery that showcases how AI helps bring creative visions to life.
 
-*Imagery courtesy of Linda Dounia Rebeiz, Jeroen van der Most, aurèce vettier, Entangled Others Studio, fuse\*, Noemi Finel.*
-
 ## A Poetic Counterpart in Creation
 
 When Paul Mouginot first brought AI into his art practice, he knew he'd tapped an exciting new tool for creative expression. But only through its continued use did he come to appreciate AI's versatility as an introspective entity — what he calls "a poetic counterpart in the act of creation."
