@@ -35,9 +35,9 @@ Some people believe that unpaid community service should be a compulsory part of
 
 提纲： 题干关键词-community service for all teenagers我的答案-三种： (完全)同意； (完全不)不同意；折中(如有必要;一般情况不要去写)  
 
-It is sometimes argued that high students should be made to do some work in their local communities. 『完全同意』 Icompletely agree that this 中圈笛字  
+It is sometimes argued that high students should be made to do some work in their local communities. 『完全同意』 Icompletely agree that this kind of would be a good idea.  
 
-It is sometimes argued that high students should be made to do some work in their local communities.『完全不同意』In my opinion,it would be wrong to force teenagers to do any kind of unsalaried work.  
+It is sometimes argued that high students should be made to do some work in their local communities. In my opinion, it would be wrong to teenagers to do any kind of work.  
 
 It is sometimes argued that high students should be made to do some work in their local communities. 『折中观点』 While I disagree with the idea of making such programmes compulsory, l do believe that voluntary community service would benefit young people.  
 
@@ -108,7 +108,18 @@ Work plays a in our lives， and we would all like to feel professionally.While 
 
 ![](https://cdn-mineru.openxlab.org.cn/extract/74c105a2-a568-42d4-8dc3-52b145096ef9/cb430bce2c1aaf966f12fb2e781c470dd5dc0821ed3aeb0961b817dd3a12c18f.jpg)  
 
-<html><body><table><tr><td>Firstly,Secondly,Finally</td><td>比较利弊题型；问题与对策题型</td></tr><tr><td>观点，解释，举例</td><td>一个观点、一个理由</td></tr></table></body></html>  
+<table>
+  <tbody>
+    <tr>
+      <td>Firstly, Secondly, Finally</td>
+      <td>比较利弊题型；问题与对策题型</td>
+    </tr>
+    <tr>
+      <td>观点，解释，举例</td>
+      <td>一个观点、一个理由</td>
+    </tr>
+  </tbody>
+</table>
 
 #   
 
@@ -168,7 +179,7 @@ On the other hand, the to do voluntary community service could be extremely posi
 
 2.学习《跟雅思考官 Simon学写作》中电视，网络与手机 动物 犯罪三节，并完成课后练习及词伙句伙练习  
 
-3.背单词 《鸭圈雅思核心词》中 大作文部分  
+3.背单词 《鸭圈雅思核心词》中大作文部分  
 
 4.在微信群中汇报自己今天的学习情况，晒作业，并打卡；如果有问题，请在为微信群内提问  
 
@@ -222,7 +233,7 @@ It is true that people in industrialised nations can expect to live longer than 
 
 There are many different types of music in the world today.Why do we  
 
-# need music?ls there traditional music of a country more important than the international music that is heard everywhere nowadays?  
+# need music?Ls there traditional music of a country more important than the international music that is heard everywhere nowadays?  
 
 # 开头段  
 
@@ -467,7 +478,7 @@ On the other hand,(1)it is perhaps even more important to prepare children for t
 
 开头段：改写题目 $^ +$ 给出答案  
 
-Some people think that α sense of competition in children should be encouraged.Others believe that children who are taught to co-operate rather than complete become more useful adults.Discuss both these  
+Some people think that a sense of competition in children should be encouraged.Others believe that children who are taught to co-operate rather than complete become more useful adults.Discuss both these  
 
 # views and give your own opinion.  
 
@@ -506,13 +517,11 @@ In conclusion, I can understand why people might want to encourage competitivene
 
 # 作业胞罔叨学  
 
-1.阅读《完全指南》 大作文中双边讨论类题型解析  
+1.阅读《跟雅思考官Simon学写作》中 枪支 全球化 水资源 三节，并完成课后练习及词伙句伙练习  
 
-2.学习《跟雅思考官 Simon学写作》中 枪支 全球化 水资源 三节，并完成课后练习及词伙句伙练习  
+2.背单词 《鸭圈雅思核心词》中大作文部分  
 
-3.背单词 《鸭圈雅思核心词》中大作文部分  
-
-4.在微信群中汇报自己今天的学习情况，晒作业，并打卡；如果有问题，请在为微信群内提问  
+3.在微信群中汇报自己今天的学习情况，晒作业，并打卡；如果有问题，请在为微信群内提问  
 
 # 第八课 问题与对策题型  
 
@@ -574,9 +583,7 @@ Student behaviour can certainly be improved. I believe that the change must star
 In conclusion, schools will continue to face discipline problems unless parents, teachers and public figures set clear rules and demonstrate the right behaviour themselves.   
 (270 words, band 9)  
 
-上面这篇essay就是我们刚刚写出来的完整范文了，请按照下面的步  
-
-骤进行范文分析：  
+上面这篇essay就是我们刚刚写出来的完整范文了，请按照下面的步骤进行范文分析：  
 
 7.看看每段有几个句子？我是不是按照开头段2句话，主体段5句话，总结段1句话这个结构来写的？  
 
@@ -621,7 +628,7 @@ News editors decide what to broadcast on television and what to do print in news
 (1)accustomedtobad news,(2)war,crime,natural desasters,human   
 suffering  
 
-(3)desenstitisesus,cynicalabouttheworld (4)prefer positive news,e.g. medical workers,volunteers,kindness  
+(3)desensitisesus,cynicalabouttheworld (4)prefer positive news,e.g. medical workers,volunteers,kindness  
 
 # (5)news to inspire us  
 
@@ -733,4 +740,4 @@ It is often argued that the act of sending a man to the moon has been of no bene
 
 TOEFL/IELTS/PTE/DET合作伙伴  
 
-考试·一站式搞定  
+考试·一站式搞定
