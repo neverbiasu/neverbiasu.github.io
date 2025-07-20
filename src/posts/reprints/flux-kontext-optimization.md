@@ -3,9 +3,9 @@ title: How we optimized FLUX.1 Kontext [dev]
 date: 2025-07-15
 authors:
     - name: shridharathi
-        link: https://replicate.com/shridharathi
+      link: https://replicate.com/shridharathi
     - name: alexarmbr
-        link: https://replicate.com/alexarmbr
+      link: https://replicate.com/alexarmbr
 tags:
     - FLUX.1
     - Optimization
