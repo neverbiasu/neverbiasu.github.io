@@ -1,6 +1,10 @@
-# FLUX.1 Kontext 入门教程：从零开始的 ComfyUI 图像编辑之旅
+# 【ComfyUI 实战指南】FLUX.1 Kontext 入门教程：从零开始的图像编辑之旅
 
-![Hello Kontext](/assets/images/tutorials/comfyui/flux-kontext/beginner/flux-kontext-teaser.png)
+![Hello Kontext](https://neverbiasu.github.io/assets/images/tutorials/comfyui/flux-kontext/beginner/flux-kontext-teaser.png)
+
+## 摘要
+
+本教程介绍FLUX.1 Kontext的核心功能，包括局部编辑、角色一致性、风格参考和迭代编辑。通过ComfyUI实现环境搭建，提供硬件需求、模型下载及工作流配置指南。适用于设计创作、摄影后期及电商营销等场景，附提示词技巧和参数优化建议。
 
 ## 目录
 
@@ -15,6 +19,8 @@
 ## 基础认知
 
 ### 1.1 FLUX.1 Kontext 是什么
+
+![FLUX.1 Kontext Example 图](https://cdn.sanity.io/images/gsvmb6gz/production/c438678197139914bb6f7a3d77b815f325bbfdfb-2380x1024.png?rect=0,2,2380,1021&w=960&h=412&fit=max&auto=format)
 
 **FLUX.1 Kontext** 是 Black Forest Labs 开发的新一代图像编辑模型，专门用于基于上下文的图像修改和编辑。
 
@@ -46,54 +52,62 @@
 
 ## 环境搭建
 
-FLUX.1 Kontext [dev] 有 ComfyUI 原生支持，搭建比较简单。
+FLUX.1 Kontext [dev] 有 ComfyUI 原生支持，因此环境比较简单。
 
 ### 2.1 硬件要求
 
 | 模型版本 | GPU显存需求 | 推荐配置 | 备注 |
 |----------|------------|----------|------|
 | **Full Version** | 32GB VRAM | RTX 6000 Ada/A6000 | 完整精度，质量最佳 |
-| **FP8 精度版本** | 16GB VRAM | RTX 4090/RTX 4080 | 推荐选择，性价比高 |
+| **FP8 量化版本** | 16GB VRAM | RTX 4090/RTX 4080 | 推荐选择，性价比高 |
 | **GGUF (Q4_K_M)** | 12GB VRAM | RTX 4070 Ti/RTX 3090 | 量化版本，入门首选 |
 
 **系统内存建议**：至少 16GB RAM，推荐 32GB 以上
 
 ### 2.2 模型文件下载
 
-**推荐方法**：手动下载模型文件
+![HuggingFace下载界面](https://neverbiasu.github.io/assets/images/tutorials/comfyui/flux-kontext/beginner/huggingface-download.png)
 
-**GGUF 量化版本**（入门推荐，12GB 显存）：
+**FLUX Kontext 模型**：
 ```bash
-# Q4_K_M 量化版本，显存占用最少
-wget https://huggingface.co/bullerwins/FLUX.1-Kontext-dev-GGUF/resolve/main/flux1-kontext-dev-Q4_K_M.gguf
-```
-下载后放入 `ComfyUI/models/unet/` 目录。
-
-![HuggingFace下载界面](/assets/images/tutorials/comfyui/flux-kontext/beginner/huggingface-download.png)
-
-**FP8 精度版本**（性价比推荐，16GB 显存）：
-```bash
-wget https://huggingface.co/6chan/flux1-kontext-dev-fp8/resolve/main/flux1-kontext-dev-fp8-e4m3fn.safetensors
-```
-下载后放入 `ComfyUI/models/unet/` 目录，使用 `fp8_e4m3fn` 精度加载。
-
-**ComfyOrg 官方版本**（标准版本）：
-```bash
+# 进入 diffusion_models 目录
+cd ComfyUI/models/diffusion_models
+# 下载 FLUX Kontext 模型
 wget https://huggingface.co/Comfy-Org/flux1-kontext-dev_ComfyUI/resolve/main/split_files/diffusion_models/flux1-dev-kontext_fp8_scaled.safetensors
 ```
-下载后放入 `ComfyUI/models/unet/` 目录，使用 `default` 精度加载。
 
-![模型文件目录结构](/assets/images/tutorials/comfyui/flux-kontext/beginner/model-directory.png)
+**CLIP L 模型**：
+```bash
+# 进入 clip 目录
+cd ComfyUI/models/clip
+# 下载 CLIP L 模型
+wget https://huggingface.co/comfyanonymous/flux_text_encoders/blob/main/clip_l.safetensors
+```
 
-**直接下载**：也可以直接访问 HuggingFace 页面点击下载按钮
+**T5 模型**：
+```bash
+# 进入 t5 目录
+cd ComfyUI/models/t5
+# 下载 T5 模型
+wget https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors
+```
+
+**AE 模型**：
+```bash
+# 进入 vae 目录
+cd ComfyUI/models/vae
+# 下载 AE 模型
+wget https://huggingface.co/Comfy-Org/Lumina_Image_2.0_Repackaged/blob/main/split_files/vae/ae.safetensors
+```
 
 ### 2.3 工作流准备
 
-**获取工作流**：
-- 下载本教程第一张图到本地（包含工作流元数据）。
-- ComfyUI 官方模板：`Workflow` → `Browse Templates` → `Flux.1 Kontext Dev`
-- OpenArt.ai：搜索 "FLUX Kontext" 工作流，或者直接到我主页浏览：https://openart.ai/workflows/@elephant_substantial_15。
-- 社区分享：Reddit r/comfyui、GitHub
+工作流可以通过以下两种方式获取：
+
+1. 下载教程顶部的"Hello Kontext"图。
+2. 下载ComfyOrg的工作流图片：https://github.com/Comfy-Org/example_workflows/blob/main/flux/kontext/flux1_kontext.png?raw=true。
+
+下载完成后，将工作流文件拖入 ComfyUI 界面，即可自动读取其元数据并加载工作流。
 
 ## 实战入门
 
@@ -101,7 +115,7 @@ wget https://huggingface.co/Comfy-Org/flux1-kontext-dev_ComfyUI/resolve/main/spl
 
 **第一个任务：加载工作流和基础设置**
 
-![FLUX Kontext工作流预览](/assets/images/tutorials/comfyui/flux-kontext/beginner/flux-kontext-workflow.png)
+![FLUX Kontext工作流预览](https://neverbiasu.github.io/assets/images/tutorials/comfyui/flux-kontext/beginner/flux-kontext-workflow.png)
 
 1. **打开 ComfyUI，加载 Flux.1 Kontext Dev 工作流**
 2. **确认模型文件已正确加载**
@@ -182,7 +196,7 @@ Prompt："Change the yellow car to red"
 
 **重要说明**：以下参数为基于社区经验的建议值，具体参数名称和范围请以实际工作流为准。
 
-![参数调节界面](/assets/images/tutorials/comfyui/flux-kontext/beginner/parameter-adjustment-panel.png)
+![参数调节界面](https://neverbiasu.github.io/assets/images/tutorials/comfyui/flux-kontext/beginner/parameter-adjustment-panel.png)
 
 **常见参数类型**：
 
@@ -214,7 +228,7 @@ Prompt："Change the yellow car to red"
 | **图片质量下降**   | 1. 检查去噪强度是否过高<br>2. 确认原图分辨率足够<br>3. 检查 VAE 加载是否正确         |
 | **编辑指令不生效** | 1. 提示词更具体<br>2. 调整相关强度参数<br>3. 确保编辑对象清晰可见                   |
 | **显存不足**       | 1. 降低图片分辨率<br>2. 使用量化版本模型<br>3. 关闭其他GPU程序                      |
-| **速度优化**       | 1. 使用 TensorRT 优化版本（如可用）<br>2. 启用 xFormers 加速（如可用）<br>3. 降低不必要的 Steps |
+| **速度优化**       | 1. 使用 GGUF 或  Nunchaku 量化版本<br>2. 使用 FLUX 的4步和8步 LoRA<br>3. 降低 Steps |
 
 ## 学习资源
 
@@ -241,10 +255,6 @@ Prompt："Change the yellow car to red"
 - 练习角色一致性编辑
 - 学会自定义工作流
 - 尝试批量处理任务
-
-**推荐教程**：
-- pixaroma - Master Flux Kontext 完整指南
-- ComfyUI-Wiki 的高级教程
 
 ### 5.3 技术支持渠道
 
