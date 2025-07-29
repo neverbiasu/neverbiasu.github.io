@@ -3,7 +3,7 @@ title: Generate consistent characters – Replicate blog
 date: 2025-07-21
 author:
     - name: fofr
-        url: https://replicate.com/fofr
+      url: https://replicate.com/fofr
 ---
 
 # Generate consistent characters
