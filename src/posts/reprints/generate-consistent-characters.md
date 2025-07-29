@@ -8,7 +8,7 @@ author:
 
 # Generate consistent characters
 
-![Image 1: A grid of 8 images showing the same character in different scenes](/assets/image/reprints/replicate/cover.D2ypzJcL_Z91s9c.webp)
+![Image 1: A grid of 8 images showing the same character in different scenes](/assets/images/reprints/replicate/cover.D2ypzJcL_Z91s9c.webp)
 
 Until recently, the best way to generate images of a consistent character was from a trained lora. You would need to create a dataset of images and then [train a FLUX lora on them](https://replicate.com/blog/fine-tune-flux).
 
@@ -18,11 +18,11 @@ Today we have a choice of state of the art image models that can do this accurat
 
 > she is wearing a pink t-shirt with the text “Replicate” on it
 
-![Image 2: Original reference image](/assets/image/reprints/replicate/0_1%20copy.jpg)
+![Image 2: Original reference image](/assets/images/reprints/replicate/0_1%20copy.jpg)
 
 Original
 
-[![Image 3: A grid of 4 outputs](/assets/image/reprints/replicate/tmp67fsa60i.png)](/assets/image/reprints/replicate/tmp67fsa60i.png)
+[![Image 3: A grid of 4 outputs](/assets/images/reprints/replicate/tmp67fsa60i.png)](/assets/images/reprints/replicate/tmp67fsa60i.png)
 
 “she is wearing a pink t-shirt with the text “Replicate” on it”
 
@@ -72,21 +72,21 @@ In these two examples, we can see the strengths of Gen-4 coming through. The com
 
 > she is playing the piano
 
-![Image 4: Original reference image](/assets/image/reprints/replicate/output.png)
+![Image 4: Original reference image](/assets/images/reprints/replicate/output.png)
 
 Original
 
-[![Image 5: A grid of 4 outputs](/assets/image/reprints/replicate/tmpkp9hl6w3.png)](/assets/image/reprints/replicate/tmpkp9hl6w3.png)
+[![Image 5: A grid of 4 outputs](/assets/images/reprints/replicate/tmpkp9hl6w3.png)](/assets/images/reprints/replicate/tmpkp9hl6w3.png)
 
 “she is playing the piano”
 
 > he is playing the guitar
 
-![Image 6: Original reference image](/assets/image/reprints/replicate/output-1.png)
+![Image 6: Original reference image](/assets/images/reprints/replicate/output-1.png)
 
 Original
 
-[![Image 7: A grid of 4 outputs](/assets/image/reprints/replicate/tmphyqs_vms.png)](/assets/image/reprints/replicate/tmphyqs_vms.png)
+[![Image 7: A grid of 4 outputs](/assets/images/reprints/replicate/tmphyqs_vms.png)](/assets/images/reprints/replicate/tmphyqs_vms.png)
 
 “he is playing the guitar”
 
@@ -96,11 +96,11 @@ If you want to keep most of the original composition, and change just a small pa
 
 > remove the glass of drink
 
-![Image 8: Original reference image](/assets/image/reprints/replicate/output(1).png)
+![Image 8: Original reference image](/assets/images/reprints/replicate/output(1).png)
 
 Original
 
-[![Image 9: A grid of 4 outputs](/assets/image/reprints/replicate/tmp5pclzys5.png)](/assets/image/reprints/replicate/tmp5pclzys5.png)
+[![Image 9: A grid of 4 outputs](/assets/images/reprints/replicate/tmp5pclzys5.png)](/assets/images/reprints/replicate/tmp5pclzys5.png)
 
 “remove the glass of drink”
 
@@ -108,15 +108,15 @@ Original
 
 A more challenging comparison, here is a character with heterochromia and hair with two colors, as well as some facial marks.
 
-We can see that every model is capable of handling the hair and eyes. ([Some needed a few retries](/assets/image/reprints/replicate/image(1).png) to get this right.)
+We can see that every model is capable of handling the hair and eyes. ([Some needed a few retries](/assets/images/reprints/replicate/image(1).png) to get this right.)
 
 > a half-length portrait photo of her in a summer forest
 
-![Image 10: Original reference image](/assets/image/reprints/replicate/image.png)
+![Image 10: Original reference image](/assets/images/reprints/replicate/image.png)
 
 Original
 
-[![Image 11: A grid of 4 outputs](/assets/image/reprints/replicate/tmpw54nxtoe.png)](/assets/image/reprints/replicate/tmpw54nxtoe.png)
+[![Image 11: A grid of 4 outputs](/assets/images/reprints/replicate/tmpw54nxtoe.png)](/assets/images/reprints/replicate/tmpw54nxtoe.png)
 
 “a half-length portrait photo of her in a summer forest”
 
@@ -128,11 +128,11 @@ It’s a bit of a mixed bag here, only SeedEdit 3 and gpt-image-1 can handle the
 
 > remove his beard, put him in a raincoat, it is raining
 
-![Image 12: Original reference image](/assets/image/reprints/replicate/output(2).png)
+![Image 12: Original reference image](/assets/images/reprints/replicate/output(2).png)
 
 Original
 
-[![Image 13: A grid of 4 outputs](/assets/image/reprints/replicate/tmp8138t1_6.png)](/assets/image/reprints/replicate/tmp8138t1_6.png)
+[![Image 13: A grid of 4 outputs](/assets/images/reprints/replicate/tmp8138t1_6.png)](/assets/images/reprints/replicate/tmp8138t1_6.png)
 
 “remove his beard, put him in a raincoat, it is raining”
 
@@ -142,11 +142,11 @@ Here we try a character with many distinct tattoos to see how well each model ha
 
 > he is a chef cooking a meal in a restaurant kitchen
 
-![Image 14: Original reference image](/assets/image/reprints/replicate/XU793vzcsCZ9Btcg4NKu4xbLfIU24e7vKrXGR2MFp01X8fFqA/output.png)
+![Image 14: Original reference image](/assets/images/reprints/replicate/XU793vzcsCZ9Btcg4NKu4xbLfIU24e7vKrXGR2MFp01X8fFqA/output.png)
 
 Original
 
-[![Image 15: A grid of 4 outputs](/assets/image/reprints/replicate/tmpc4vpr23u.png)](/assets/image/reprints/replicate/tmpc4vpr23u.png)
+[![Image 15: A grid of 4 outputs](/assets/images/reprints/replicate/tmpc4vpr23u.png)](/assets/images/reprints/replicate/tmpc4vpr23u.png)
 
 “he is a chef cooking a meal in a restaurant kitchen”
 
@@ -160,21 +160,21 @@ With these simple style changes, we can see quickly that Gen-4 should not be use
 
 > restyle this person as anime
 
-![Image 16: Original reference image](/assets/image/reprints/replicate/tmpys9tsu4e.jpg)
+![Image 16: Original reference image](/assets/images/reprints/replicate/tmpys9tsu4e.jpg)
 
 Original
 
-[![Image 17: A grid of 4 outputs](/assets/image/reprints/replicate/tmpqcxmufc8.png)](/assets/image/reprints/replicate/tmpqcxmufc8.png)
+[![Image 17: A grid of 4 outputs](/assets/images/reprints/replicate/tmpqcxmufc8.png)](/assets/images/reprints/replicate/tmpqcxmufc8.png)
 
 “restyle this person as anime”
 
 > make this a watercolor painting
 
-![Image 18: Original reference image](/assets/image/reprints/replicate/tmpys9tsu4e.jpg)
+![Image 18: Original reference image](/assets/images/reprints/replicate/tmpys9tsu4e.jpg)
 
 Original
 
-[![Image 19: A grid of 4 outputs](/assets/image/reprints/replicate/tmperfbtwsy.png)](/assets/image/reprints/replicate/tmperfbtwsy.png)
+[![Image 19: A grid of 4 outputs](/assets/images/reprints/replicate/tmperfbtwsy.png)](/assets/images/reprints/replicate/tmperfbtwsy.png)
 
 “make this a watercolor painting”
 
@@ -184,21 +184,21 @@ It’s halloween. We turn her into a witch, and him into an ogre, and someone el
 
 > make her a witch
 
-![Image 20: Original reference image](/assets/image/reprints/replicate/tmprsz0v41u.jpg)
+![Image 20: Original reference image](/assets/images/reprints/replicate/tmprsz0v41u.jpg)
 
 Original
 
-[![Image 21: A grid of 4 outputs](/assets/image/reprints/replicate/tmpkr6n5gt5.png)](/assets/image/reprints/replicate/tmpkr6n5gt5.png)
+[![Image 21: A grid of 4 outputs](/assets/images/reprints/replicate/tmpkr6n5gt5.png)](/assets/images/reprints/replicate/tmpkr6n5gt5.png)
 
 “make her a witch”
 
 > turn him into a green skinned ogre
 
-![Image 22: Original reference image](/assets/image/reprints/replicate/tmp62yelaf9.jpg)
+![Image 22: Original reference image](/assets/images/reprints/replicate/tmp62yelaf9.jpg)
 
 Original
 
-[![Image 23: A grid of 4 outputs](/assets/image/reprints/replicate/tmpex69w8bk.png)](/assets/image/reprints/replicate/tmpex69w8bk.png)
+[![Image 23: A grid of 4 outputs](/assets/images/reprints/replicate/tmpex69w8bk.png)](/assets/images/reprints/replicate/tmpex69w8bk.png)
 
 “turn him into a green skinned ogre”
 
@@ -206,11 +206,11 @@ For this example, Kontext Pro didn’t want to create an image of a blue na’vi
 
 > turn him into a blue na’vi from pandora (avatar)
 
-![Image 24: Original reference image](/assets/image/reprints/replicate/tmpc081yqvt.jpg)
+![Image 24: Original reference image](/assets/images/reprints/replicate/tmpc081yqvt.jpg)
 
 Original
 
-[![Image 25: A grid of 4 outputs](/assets/image/reprints/replicate/tmpc2ahjf14.png)](/assets/image/reprints/replicate/tmpc2ahjf14.png)
+[![Image 25: A grid of 4 outputs](/assets/images/reprints/replicate/tmpc2ahjf14.png)](/assets/images/reprints/replicate/tmpc2ahjf14.png)
 
 “turn him into a blue na’vi from pandora (avatar)“
 
