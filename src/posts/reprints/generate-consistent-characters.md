@@ -128,7 +128,7 @@ It’s a bit of a mixed bag here, only SeedEdit 3 and gpt-image-1 can handle the
 
 > remove his beard, put him in a raincoat, it is raining
 
-![Image 12: Original reference image](/assets/images/reprints/replicate/output(2).png)
+![Image 12: Original reference image](/assets/images/reprints/replicate/image(1).png)
 
 Original
 
@@ -142,7 +142,7 @@ Here we try a character with many distinct tattoos to see how well each model ha
 
 > he is a chef cooking a meal in a restaurant kitchen
 
-![Image 14: Original reference image](/assets/images/reprints/replicate/XU793vzcsCZ9Btcg4NKu4xbLfIU24e7vKrXGR2MFp01X8fFqA/output.png)
+![Image 14: Original reference image](/assets/images/reprints/replicate/output(2).png)
 
 Original
 

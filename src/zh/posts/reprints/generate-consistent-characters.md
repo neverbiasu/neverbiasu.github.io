@@ -9,7 +9,7 @@ author:
 
 # 生成一致角色
 
-![图1：同一角色在不同场景下的8张图片网格](/assets/images/reprints/replicate/cover.D2ypzJcL_Z91s9c.webp)
+![图1：同一角色在不同场景下的8张图片网格](https://neverbiasu.github.io/assets/images/reprints/replicate/cover.D2ypzJcL_Z91s9c.webp)
 
 直到最近，生成一致角色图像的最佳方式还是训练一个lora。你需要准备一组图片数据集，然后[用它们训练FLUX lora](https://replicate.com/blog/fine-tune-flux)。
 
@@ -19,11 +19,9 @@ author:
 
 > 她穿着一件印有“Replicate”字样的粉色T恤
 
-![图2：原始参考图](/assets/images/reprints/replicate/0_1%20copy.jpg)
-
-原图
-
-[![图3：4张输出图网格](/assets/images/reprints/replicate/tmp67fsa60i.png)](/assets/images/reprints/replicate/tmp67fsa60i.png)
+| 参考图 | 输出图 |
+|--------|--------|
+| ![图2](https://neverbiasu.github.io/assets/images/reprints/replicate/0_1%20copy.jpg) | ![图3](https://neverbiasu.github.io/assets/images/reprints/replicate/tmp67fsa60i.png) |
 
 “她穿着一件印有‘Replicate’字样的粉色T恤”
 
@@ -73,21 +71,17 @@ FLUX.1 Kontext 有多个版本：[pro](https://replicate.com/black-forest-labs/f
 
 > 她在弹钢琴
 
-![图4：原始参考图](/assets/images/reprints/replicate/output.png)
-
-原图
-
-[![图5：4张输出图网格](/assets/images/reprints/replicate/tmpkp9hl6w3.png)](/assets/images/reprints/replicate/tmpkp9hl6w3.png)
+| 参考图 | 输出图 |
+|--------|--------|
+| ![图4](https://neverbiasu.github.io/assets/images/reprints/replicate/output.png) | ![图5](https://neverbiasu.github.io/assets/images/reprints/replicate/tmpkp9hl6w3.png) |
 
 “她在弹钢琴”
 
 > 他在弹吉他
 
-![图6：原始参考图](/assets/images/reprints/replicate/output-1.png)
-
-原图
-
-[![图7：4张输出图网格](/assets/images/reprints/replicate/tmphyqs_vms.png)](/assets/images/reprints/replicate/tmphyqs_vms.png)
+| 参考图 | 输出图 |
+|--------|--------|
+| ![图6](https://neverbiasu.github.io/assets/images/reprints/replicate/output-1.png) | ![图7](https://neverbiasu.github.io/assets/images/reprints/replicate/tmphyqs_vms.png) |
 
 “他在弹吉他”
 
@@ -97,11 +91,9 @@ FLUX.1 Kontext 有多个版本：[pro](https://replicate.com/black-forest-labs/f
 
 > 移除饮料杯
 
-![图8：原始参考图](/assets/images/reprints/replicate/output(1).png)
-
-原图
-
-[![图9：4张输出图网格](/assets/images/reprints/replicate/tmp5pclzys5.png)](/assets/images/reprints/replicate/tmp5pclzys5.png)
+| 参考图 | 输出图 |
+|--------|--------|
+| ![图8](https://neverbiasu.github.io/assets/images/reprints/replicate/output(1).png) | ![图9](https://neverbiasu.github.io/assets/images/reprints/replicate/tmp5pclzys5.png) |
 
 “移除饮料杯”
 
@@ -113,11 +105,9 @@ FLUX.1 Kontext 有多个版本：[pro](https://replicate.com/black-forest-labs/f
 
 > 夏日森林中的她，半身像照片
 
-![图10：原始参考图](/assets/images/reprints/replicate/image.png)
-
-原图
-
-[![图11：4张输出图网格](/assets/images/reprints/replicate/tmpw54nxtoe.png)](/assets/images/reprints/replicate/tmpw54nxtoe.png)
+| 参考图 | 输出图 |
+|--------|--------|
+| ![图10](https://neverbiasu.github.io/assets/images/reprints/replicate/image.png) | ![图11](https://neverbiasu.github.io/assets/images/reprints/replicate/tmpw54nxtoe.png) |
 
 “夏日森林中的她，半身像照片”
 
@@ -129,11 +119,9 @@ FLUX.1 Kontext 有多个版本：[pro](https://replicate.com/black-forest-labs/f
 
 > 移除胡须，穿雨衣，下雨
 
-![图12：原始参考图](/assets/images/reprints/replicate/output(2).png)
-
-原图
-
-[![图13：4张输出图网格](/assets/images/reprints/replicate/tmp8138t1_6.png)](/assets/images/reprints/replicate/tmp8138t1_6.png)
+| 参考图 | 输出图 |
+|--------|--------|
+| ![图12](https://neverbiasu.github.io/assets/images/reprints/replicate/image(1).png) | ![图13](https://neverbiasu.github.io/assets/images/reprints/replicate/tmp8138t1_6.png) |
 
 “移除胡须，穿雨衣，下雨”
 
@@ -143,11 +131,9 @@ FLUX.1 Kontext 有多个版本：[pro](https://replicate.com/black-forest-labs/f
 
 > 他是餐厅厨房里做饭的厨师
 
-![图14：原始参考图](/assets/images/reprints/replicate/XU793vzcsCZ9Btcg4NKu4xbLfIU24e7vKrXGR2MFp01X8fFqA/output.png)
-
-原图
-
-[![图15：4张输出图网格](/assets/images/reprints/replicate/tmpc4vpr23u.png)](/assets/images/reprints/replicate/tmpc4vpr23u.png)
+| 参考图 | 输出图 |
+|--------|--------|
+| ![图14](https://neverbiasu.github.io/assets/images/reprints/replicate/output(2).png) | ![图15](https://neverbiasu.github.io/assets/images/reprints/replicate/tmpc4vpr23u.png) |
 
 “他是餐厅厨房里做饭的厨师”
 
@@ -161,21 +147,17 @@ FLUX.1 Kontext 有多个版本：[pro](https://replicate.com/black-forest-labs/f
 
 > 将此人变为动漫风
 
-![图16：原始参考图](/assets/images/reprints/replicate/tmpys9tsu4e.jpg)
-
-原图
-
-[![图17：4张输出图网格](/assets/images/reprints/replicate/tmpqcxmufc8.png)](/assets/images/reprints/replicate/tmpqcxmufc8.png)
+| 参考图 | 输出图 |
+|--------|--------|
+| ![图16](https://neverbiasu.github.io/assets/images/reprints/replicate/tmpys9tsu4e.jpg) | ![图17](https://neverbiasu.github.io/assets/images/reprints/replicate/tmpqcxmufc8.png) |
 
 “将此人变为动漫风”
 
 > 水彩画风格
 
-![图18：原始参考图](/assets/images/reprints/replicate/tmpys9tsu4e.jpg)
-
-原图
-
-[![图19：4张输出图网格](/assets/images/reprints/replicate/tmperfbtwsy.png)](/assets/images/reprints/replicate/tmperfbtwsy.png)
+| 参考图 | 输出图 |
+|--------|--------|
+| ![图18](https://neverbiasu.github.io/assets/images/reprints/replicate/tmpys9tsu4e.jpg) | ![图19](https://neverbiasu.github.io/assets/images/reprints/replicate/tmperfbtwsy.png) |
 
 “水彩画风格”
 
@@ -185,21 +167,17 @@ FLUX.1 Kontext 有多个版本：[pro](https://replicate.com/black-forest-labs/f
 
 > 让她变成女巫
 
-![图20：原始参考图](/assets/images/reprints/replicate/tmprsz0v41u.jpg)
-
-原图
-
-[![图21：4张输出图网格](/assets/images/reprints/replicate/tmpkr6n5gt5.png)](/assets/images/reprints/replicate/tmpkr6n5gt5.png)
+| 参考图 | 输出图 |
+|--------|--------|
+| ![图20](https://neverbiasu.github.io/assets/images/reprints/replicate/tmprsz0v41u.jpg) | ![图21](https://neverbiasu.github.io/assets/images/reprints/replicate/tmpkr6n5gt5.png) |
 
 “让她变成女巫”
 
 > 让他变成绿色皮肤的食人魔
 
-![图22：原始参考图](/assets/images/reprints/replicate/tmp62yelaf9.jpg)
-
-原图
-
-[![图23：4张输出图网格](/assets/images/reprints/replicate/tmpex69w8bk.png)](/assets/images/reprints/replicate/tmpex69w8bk.png)
+| 参考图 | 输出图 |
+|--------|--------|
+| ![图22](https://neverbiasu.github.io/assets/images/reprints/replicate/tmp62yelaf9.jpg) | ![图23](https://neverbiasu.github.io/assets/images/reprints/replicate/tmpex69w8bk.png) |
 
 “让他变成绿色皮肤的食人魔”
 
@@ -207,11 +185,9 @@ FLUX.1 Kontext 有多个版本：[pro](https://replicate.com/black-forest-labs/f
 
 > 让他变成潘多拉的蓝色纳美人（阿凡达）
 
-![图24：原始参考图](/assets/images/reprints/replicate/tmpc081yqvt.jpg)
-
-原图
-
-[![图25：4张输出图网格](/assets/images/reprints/replicate/tmpc2ahjf14.png)](/assets/images/reprints/replicate/tmpc2ahjf14.png)
+| 参考图 | 输出图 |
+|--------|--------|
+| ![图24](https://neverbiasu.github.io/assets/images/reprints/replicate/tmpc081yqvt.jpg) | ![图25](https://neverbiasu.github.io/assets/images/reprints/replicate/tmpc2ahjf14.png) |
 
 “让他变成潘多拉的蓝色纳美人（阿凡达）”
 
