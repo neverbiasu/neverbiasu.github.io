@@ -1,5 +1,5 @@
 ---
-title: FLUX.1 Krea [dev]: An ‘Opinionated’ Text-to-Image Model
+title: "FLUX.1 Krea [dev]: An ‘Opinionated’ Text-to-Image Model"
 date: 2025-07-31
 author: Black Forest Labs
 categories:
