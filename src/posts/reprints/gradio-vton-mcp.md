@@ -1,5 +1,5 @@
 ---
-title: Implementing MCP Servers in Python: An AI Shopping Assistant with Gradio
+title: "Implementing MCP Servers in Python: An AI Shopping Assistant with Gradio"
 date: 2025-07-31
 author: Freddy Boulton
 sidebar: auto

@@ -1,5 +1,5 @@
 ---
-title: 在 Python 中实现 MCP 服务器：使用 Gradio 构建 AI 购物助手
+title: "在 Python 中实现 MCP 服务器：使用 Gradio 构建 AI 购物助手"
 date: 2025-07-31
 author: Freddy Boulton
 sidebar: auto
