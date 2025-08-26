@@ -72,9 +72,9 @@ GPT-5 是我们迄今最强的写作协作伙伴，能帮助你将粗糙想法�
 
 GPT-5 是我们在健康相关问题上表现最好的模型，帮助用户了解并维护自身健康。该模型在 [**HealthBench**](https://openai.com/index/healthbench/)（我们今年早些时候发布的一项基于真实场景和医生定义标准的评测）上得分显著高于任何先前模型。与先前模型相比，它更像一个积极的思考伙伴，会主动提示潜在问题并提出问题以给出更有帮助的答案。该模型现在还能提供更精准可靠的回应，适应用户的语境、知识水平和地理位置，使其能在多种场景下提供更安全、更有帮助的回应。重要提示：ChatGPT 不能替代医疗专业人士——应将其视为一个帮助你理解结果、在与医疗服务提供者交流时提出正确问题、并在做决定时权衡选择的伙伴。
 
-![HealthBench](/assets/images/reprints/openai/health-bench.png)
-![HealthBench Hard Hallucinations](/assets/images/reprints/openai/healthBench-hard-hallucinations.png)
-![HealthBench Hard](/assets/images/reprints/openai/health-bench-hard.png)
+![HealthBench](https://neverbiasu.github.io/assets/images/reprints/openai/health-bench.png)
+![HealthBench Hard Hallucinations](https://neverbiasu.github.io/assets/images/reprints/openai/health-bench-hard-hallucinations.png)
+![HealthBench Hard](https://neverbiasu.github.io/assets/images/reprints/openai/health-bench-hard.png)
 
 在以下示例中，你可以看到 GPT-5 在不同领域比我们先前模型更出色的一些方面——更丰富、更详细、更有用：
 - 诗歌
@@ -136,16 +136,16 @@ GPT-5 的回应以更强的结尾、清晰的意象和引人注目的隐喻（�
 
 GPT-5 全面更智能，这体现在其在学术和人工评测基准上的表现，尤其是在数学、编程、视觉感知和健康领域。它在**数学（AIME 2025 无工具达到 94.6%）、真实世界编程（SWE-bench Verified 达到 74.9%，Aider Polyglot 达到 88%）、多模态理解（MMMU 达到 84.2%）和健康（HealthBench Hard 达到 46.2%）**方面均创下新的技术水平——这些进步在日常使用中显而易见。借助 GPT-5 pro 的扩展推理，该模型还在 **GPQA** 上创下新的 SOTA，无工具得分达到 88.4%。
 
-![AIME 2025 benchmark](/assets/images/reprints/openai/aime2025.png)
-![SWE-bench Verified benchmark](/assets/images/reprints/openai/swe-bench-verified-software-engineering.png)
-![SWE benchmark](/assets/images/reprints/openai/swe.png)
-![Aider benchmark](/assets/images/reprints/openai/aider.png)
-![GPQA benchmark](/assets/images/reprints/openai/gpqa.png)
-![GPQA Diamond PhD-level science questions benchmark](/assets/images/reprints/openai/gpqa-diamond-phd-level-science-questions.png)
-![Frontier Math benchmark](/assets/images/reprints/openai/frontier-math.png)
-![HMMT benchmark](/assets/images/reprints/openai/hmmt.png)
-![TAU2 benchmark](/assets/images/reprints/openai/tau2.png)
-![Humanity benchmark](/assets/images/reprints/openai/humanity.png)
+![AIME 2025 benchmark](https://neverbiasu.github.io/assets/images/reprints/openai/aime2025.png)
+![SWE-bench Verified benchmark](https://neverbiasu.github.io/assets/images/reprints/openai/swe-bench-verified-software-engineering.png)
+![SWE benchmark](https://neverbiasu.github.io/assets/images/reprints/openai/swe.png)
+![Aider benchmark](https://neverbiasu.github.io/assets/images/reprints/openai/aider.png)
+![GPQA benchmark](https://neverbiasu.github.io/assets/images/reprints/openai/gpqa.png)
+![GPQA Diamond PhD-level science questions benchmark](https://neverbiasu.github.io/assets/images/reprints/openai/gpqa-diamond-phd-level-science-questions.png)
+![Frontier Math benchmark](https://neverbiasu.github.io/assets/images/reprints/openai/frontier-math.png)
+![HMMT benchmark](https://neverbiasu.github.io/assets/images/reprints/openai/hmmt.png)
+![TAU2 benchmark](https://neverbiasu.github.io/assets/images/reprints/openai/tau2.png)
+![Humanity benchmark](https://neverbiasu.github.io/assets/images/reprints/openai/humanity.png)
 
 > _*带工具的 AIME 结果不应直接与无工具访问权限的模型的性能进行比较；它们是 GPT-5 如何有效利用可用工具的一个例子。*
 
@@ -155,27 +155,25 @@ GPT-5 全面更智能，这体现在其在学术和人工评测基准上的表�
 
 GPT-5 在测试指令遵循和代理工具使用的基准测试中表现出显著的进步，这些能力使其能够可靠地执行多步骤请求、协调不同工具并适应环境变化。在实践中，这意味着它更擅长处理复杂、不断变化的任务；GPT-5 可以更忠实地遵循您的指令，并利用其可用的工具端到端地完成更多工作。
 
-![Scale MultiChallenge Multi-turn instruction following](/assets/images/reprints/openai/scale-multi-challenge.png)
-![Collie](/assets/images/reprints/openai/collie.png)
-![Browse Comp](/assets/images/reprints/openai/browse-comp.png)
+![Scale MultiChallenge Multi-turn instruction following](https://neverbiasu.github.io/assets/images/reprints/openai/scale-multi-challenge.png)
+![Collie](https://neverbiasu.github.io/assets/images/reprints/openai/collie.png)
+![Browse Comp](https://neverbiasu.github.io/assets/images/reprints/openai/browse-comp.png)
 
 ### 多模态
 
 该模型在一系列多模态基准测试中表现出色，涵盖视觉、视频、空间和科学推理。更强的多模态性能意味着 ChatGPT 可以更准确地对图像和其他非文本输入进行推理——无论是解释图表、总结演示文稿的照片，还是回答有关图表的问题。
 
-![MMMU benchmark](/assets/images/reprints/openai/mmmu.png)
-![MMMU Pro benchmark](/assets/images/reprints/openai/mmmu-pro.png)
-![CharXiv reasoning scientific figure reasoning](/assets/images/reprints/openai/charxiv-reasoning-scientific-figure-reasoning.png)
-![Video MMMU](/assets/images/reprints/openai/video-mmmu.png)
-![ERQA benchmark](/assets/images/reprints/openai/erqa.png)
-
-### 健康
+![MMMU benchmark](https://neverbiasu.github.io/assets/images/reprints/openai/mmmu.png)
+![MMMU Pro benchmark](https://neverbiasu.github.io/assets/images/reprints/openai/mmmu-pro.png)
+![CharXiv reasoning scientific figure reasoning](https://neverbiasu.github.io/assets/images/reprints/openai/charxiv-reasoning-scientific-figure-reasoning.png)
+![Video MMMU](https://neverbiasu.github.io/assets/images/reprints/openai/video-mmmu.png)
+![ERQA benchmark](https://neverbiasu.github.io/assets/images/reprints/openai/erqa.png)
 
 ### 经济重要任务
 
 GPT-5 在衡量模型在复杂、具有经济价值的知识工作方面表现的内部基准测试中也是我们表现最好的模型。在使用推理时，GPT-5 在大约一半的情况下与专家相当或更优，同时在涵盖法律、物流、销售和工程等 40 多个职业的任务中优于 o3 和 ChatGPT Agent。
 
-![Economically important tasks benchmark](/assets/images/reprints/openai/economically-important-tasks.png)
+![Economically important tasks benchmark](https://neverbiasu.github.io/assets/images/reprints/openai/economically-important-tasks.png)
 
 > _上述评测方法：GPT-4o 的结果反映了截至 2025 年 8 月 ChatGPT 中最新版本的模型。所有模型均在高“推理努力”设置下进行评测。ChatGPT 中的推理努力可能会有所不同，高代表用户在使用模型时可能体验到的上限。_
 
@@ -197,18 +195,18 @@ GPT-5 的幻觉率显著低于前代模型。在启用网页搜索的匿名 Chat
 
 我们特别加强了模型在复杂、开放性问题推理时的可靠性，并新增了开放性事实性压力测试。我们测量了 GPT-5 在思考来自两个公共事实性基准 [LongFact](https://arxiv.org/abs/2403.18802)（概念和对象）和 [FActScore](https://arxiv.org/abs/2305.14251) 的开放性事实寻求提示时的幻觉率。在所有这些基准中，“GPT-5 思考”的幻觉率大幅下降——约为 o3 的六分之一——标志着长篇内容准确性的一次明显飞跃。有关我们在这些基准上的评测的实现和评分详情，请参见[系统卡](https://openai.com/index/gpt-5-system-card/)。
 
-![Hallucination rate on open source prompts](/assets/images/reprints/openai/hallucination-rate-on-open-source-prompts.png)
-![Response-level error rate on de-identified ChatGPT traffic](/assets/images/reprints/openai/response-level-error-rate-onde-identified-chatgpt-traffic.png)
+![Hallucination rate on open source prompts](https://neverbiasu.github.io/assets/images/reprints/openai/hallucination-rate-on-open-source-prompts.png)
+![Response-level error rate on de-identified ChatGPT traffic](https://neverbiasu.github.io/assets/images/reprints/openai/response-level-error-rate-onde-identified-chatgpt-traffic.png)
 
 ### 更诚实的回应
 
 除了事实性提高外，GPT-5（含思考）在与用户沟通自身能力和操作时更为诚实——尤其在任务不可能、条件不足或缺少关键工具时。为了在训练中获得高奖励，推理模型可能会学会在无法完成任务时撒谎，或对不确定的答案过于自信。例如，为了测试这一点，我们从多模态基准 CharXiv 的提示中移除了所有图像，发现 OpenAI o3 仍然有 86.7% 的时间对不存在的图像给出自信的答案，而 GPT-5 仅为 9%。
 
-![CharXiv missing image](/assets/images/reprints/openai/char-xiv.png)
+![CharXiv missing image](https://neverbiasu.github.io/assets/images/reprints/openai/char-xiv.png)
 
 在推理时，GPT-5 更准确地识别无法完成的任务，并清晰地传达其局限性。我们评估了在涉及不可能的编码任务和缺失的多模态资产的设置下的欺骗率，发现 GPT-5（含思考）在所有方面都比 o3 更少欺骗。在一个代表真实生产 ChatGPT 流量的大型对话集中，我们将欺骗率从 o3 的 4.8% 降低到 GPT-5 推理回应的 2.1%。虽然这对用户来说是一个有意义的改进，但仍有更多工作要做，我们将继续研究提高模型的真实性和诚实性。更多详情请参见[系统卡](https://openai.com/index/gpt-5-system-card/)。
 
-![Deception evals across models](/assets/images/reprints/openai/deception-evals-across-models.png)
+![Deception evals across models](https://neverbiasu.github.io/assets/images/reprints/openai/deception-evals-across-models.png)
 
 ---
 

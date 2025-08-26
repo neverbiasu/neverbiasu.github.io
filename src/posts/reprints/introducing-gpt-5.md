@@ -144,10 +144,18 @@ GPT‑5 is much smarter across the board, as reflected by its performance on aca
 
 ![AIME 2025 benchmark](/assets/images/reprints/openai/aime2025.png)
 ![SWE-bench Verified benchmark](/assets/images/reprints/openai/swe-bench-verified-software-engineering.png)
+![SWE benchmark](/assets/images/reprints/openai/swe.png)
 ![Aider benchmark](/assets/images/reprints/openai/aider.png)
 ![MMMU benchmark](/assets/images/reprints/openai/mmmu.png)
+![MMMU Pro benchmark](/assets/images/reprints/openai/mmmu-pro.png)
 ![HealthBench Hard benchmark](/assets/images/reprints/openai/health-bench-hard.png)
 ![GPQA benchmark](/assets/images/reprints/openai/gpqa.png)
+![GPQA Diamond PhD-level science questions benchmark](/assets/images/reprints/openai/gpqa-diamond-phd-level-science-questions.png)
+![Frontier Math benchmark](/assets/images/reprints/openai/frontier-math.png)
+![HMMT benchmark](/assets/images/reprints/openai/hmmt.png)
+![TAU2 benchmark](/assets/images/reprints/openai/tau2.png)
+![ERQA benchmark](/assets/images/reprints/openai/erqa.png)
+![Humanity benchmark](/assets/images/reprints/openai/humanity.png)
 
 > _*AIME results with tools should not be compared directly to the performance of models without tool access; they are an example of how effectively GPT‑5 leverages available tools._
 
@@ -156,6 +164,10 @@ GPT‑5 is much smarter across the board, as reflected by its performance on aca
 ### Instruction following and agentic tool use
 
 GPT‑5 shows significant gains in benchmarks that test instruction following and agentic tool use, the kinds of capabilities that let it reliably carry out multi-step requests, coordinate across different tools, and adapt to changes in context. In practice, this means it’s better at handling complex, evolving tasks; GPT‑5 can follow your instructions more faithfully and get more of the work done end-to-end using the tools at its disposal.
+
+![Scale MultiChallenge Multi-turn instruction following](/assets/images/reprints/openai/scale-multi-challenge.png)
+![Collie](/assets/images/reprints/openai/collie.png)
+![Browse Comp](/assets/images/reprints/openai/browse-comp.png)
 
 ### Multimodal
 
@@ -193,6 +205,7 @@ GPT‑5 is significantly less likely to hallucinate than our previous models. Wi
 We’ve particularly invested in making our models more reliable when reasoning on complex, open-ended questions. Accordingly, we’ve added new evaluations to stress‑test open-ended factuality. We measured GPT‑5’s hallucination rate when thinking on open-ended fact-seeking prompts from two public factuality benchmarks: [LongFact](https://arxiv.org/abs/2403.18802) (concepts and objects) and [FActScore](https://arxiv.org/abs/2305.14251). Across all of these benchmarks, “GPT‑5 thinking” shows a sharp drop in hallucinations—about six times fewer than o3—marking a clear leap forward in producing consistently accurate long-form content. Implementation and grading details for our evaluations on these benchmarks can be found in the [system card](https://openai.com/index/gpt-5-system-card/).
 
 ![Hallucination rate on open source prompts](/assets/images/reprints/openai/hallucination-rate-on-open-source-prompts.png)
+![Response-level error rate on de-identified ChatGPT traffic](/assets/images/reprints/openai/response-level-error-rate-onde-identified-chatgpt-traffic.png)
 
 ### More honest responses
 
